@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  /* background: wheat; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerNav {
+  width: 100%;
+  /* background: wheat; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navMenu {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.menuItem {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+.bookJack {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #93b0df;
+}
+.login {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.login:hover {
+  background: #4b4b4b;
+  color: #fff;
+}

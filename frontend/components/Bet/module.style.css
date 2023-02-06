@@ -1,0 +1,69 @@
+.betContainer {
+  user-select: text;
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+  overflow: visible;
+  flex-direction: column;
+}
+
+.containerQuestion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  margin-bottom: 30px;
+}
+.counter {
+  display: flex;
+}
+
+.counterHeader {
+  text-align: center;
+  white-space: pre-wrap;
+  font-size: 25px;
+  margin: 25px;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  background: rgba(75, 75, 75, 1);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  font-size: 30px;
+  transition: transform 0.3s;
+}
+
+.count {
+  width: 100px;
+  display: FLEX;
+  justify-content: center;
+  align-items: center;
+}
+
+.betButton {
+  width: 100px;
+  height: 40px;
+  background: rgba(75, 75, 75, 1);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: transform 0.1s;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+.warn {
+  font-size: 10px;
+  color: red;
+}
