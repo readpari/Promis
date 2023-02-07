@@ -4,12 +4,14 @@ import 'regenerator-runtime/runtime';
 import React, {useCallback, useMemo, useRef} from 'react';
 import { useState, useEffect } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
+import BookInput from '../BookInput/BookInput'
 
 // import { publicRoutes, privateRoutes } from '../router';
 
 export default function Read({ isSignedIn, guestBook, wallet }) {
   const [readOn, setReadOn] = useState(false);
   const [readTimer, setReadTimer] = useState(0);
+  const [bookBytes, setBook] = useState(null)
   const startButtonRef = useRef();
 
   const read = async () => {
@@ -31,17 +33,25 @@ export default function Read({ isSignedIn, guestBook, wallet }) {
   }, [startButtonRef])
 
   const createBookInstance = useCallback(() => {
-    const book = ePub('https://s3.amazonaws.com/moby-dick/OPS/package.opf');
+
+    const book = ePub(bookBytes);
+
     const rendition = book.renderTo('area', {
       height: "75vh",
       manager: "continuous",
       flow: "scrolled",
       width: '100vw',
       allowScriptedContent: true });
+
     const displayed = rendition.display("epubcfi(/6/14[xchapter_001]!4/2/24/2[c001p0011]/1:799)");
-  }, [startButtonRef])
+
+  }, [startButtonRef, bookBytes])
 
   useEffect(() => {
+    if(!bookBytes){
+      return;
+    }
+
     createBookElementInPage()
     createBookInstance()
   }, [createBookElementInPage, createBookInstance]);
@@ -60,6 +70,7 @@ export default function Read({ isSignedIn, guestBook, wallet }) {
 
   return (
     <>
+      <BookInput onBookLoaded={setBook} />
       <button ref={startButtonRef} onClick={() => setReadOn(!readOn)}>{readOn ? 'stop' : 'start'}</button>
     </>
   );

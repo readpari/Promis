@@ -38575,11 +38575,14 @@ var _runtime = require("regenerator-runtime/runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
+var _bookInput = require("../BookInput/BookInput");
+var _bookInputDefault = parcelHelpers.interopDefault(_bookInput);
 var _s = $RefreshSig$();
 function Read({ isSignedIn , guestBook , wallet  }) {
     _s();
     const [readOn, setReadOn] = (0, _react.useState)(false);
     const [readTimer, setReadTimer] = (0, _react.useState)(0);
+    const [bookBytes, setBook] = (0, _react.useState)(null);
     const startButtonRef = (0, _react.useRef)();
     const read = async ()=>{
         setReadTimer((readTimer)=>readTimer + 1);
@@ -38594,7 +38597,7 @@ function Read({ isSignedIn , guestBook , wallet  }) {
         startButtonRef
     ]);
     const createBookInstance = (0, _react.useCallback)(()=>{
-        const book = ePub("https://s3.amazonaws.com/moby-dick/OPS/package.opf");
+        const book = ePub(bookBytes);
         const rendition = book.renderTo("area", {
             height: "75vh",
             manager: "continuous",
@@ -38604,9 +38607,11 @@ function Read({ isSignedIn , guestBook , wallet  }) {
         });
         const displayed = rendition.display("epubcfi(/6/14[xchapter_001]!4/2/24/2[c001p0011]/1:799)");
     }, [
-        startButtonRef
+        startButtonRef,
+        bookBytes
     ]);
     (0, _react.useEffect)(()=>{
+        if (!bookBytes) return;
         createBookElementInPage();
         createBookInstance();
     }, [
@@ -38626,19 +38631,28 @@ function Read({ isSignedIn , guestBook , wallet  }) {
         readOn
     ]);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-            ref: startButtonRef,
-            onClick: ()=>setReadOn(!readOn),
-            children: readOn ? "stop" : "start"
-        }, void 0, false, {
-            fileName: "components/Read/index.jsx",
-            lineNumber: 63,
-            columnNumber: 7
-        }, this)
-    }, void 0, false);
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bookInputDefault.default), {
+                onBookLoaded: setBook
+            }, void 0, false, {
+                fileName: "components/Read/index.jsx",
+                lineNumber: 73,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                ref: startButtonRef,
+                onClick: ()=>setReadOn(!readOn),
+                children: readOn ? "stop" : "start"
+            }, void 0, false, {
+                fileName: "components/Read/index.jsx",
+                lineNumber: 74,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true);
 }
 exports.default = Read;
-_s(Read, "0Gv806wwVb345SbIgCqwfQSybVk=");
+_s(Read, "XqcaEzVYlzMNlA9pLGbsFSXx92s=");
 _c = Read;
 var _c;
 $RefreshReg$(_c, "Read");
@@ -38648,7 +38662,59 @@ $RefreshReg$(_c, "Read");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime":"dXNgZ","console":"8kdFB","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"f6lkS":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime":"dXNgZ","console":"8kdFB","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../BookInput/BookInput":"i8ycF"}],"i8ycF":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$cfb6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$cfb6.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const BookInput = ({ onBookLoaded  })=>{
+    _s();
+    /**
+     * @type {React.MutableRefObject<HTMLInputElement>}
+     */ const inputRef = (0, _react.useRef)();
+    const changeFile = (0, _react.useCallback)(async ()=>{
+        if (!inputRef.current) return;
+        /**
+         * @type {File}
+         */ const file = inputRef.current.files[0];
+        const reader = new FileReader();
+        reader.readAsArrayBuffer(file);
+        reader.addEventListener("load", (e)=>{
+            onBookLoaded?.(e.target.result);
+        });
+    }, [
+        inputRef
+    ]);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+        ref: inputRef,
+        onChange: changeFile,
+        type: "file"
+    }, void 0, false, {
+        fileName: "components/BookInput/BookInput.jsx",
+        lineNumber: 35,
+        columnNumber: 12
+    }, undefined);
+};
+_s(BookInput, "hUD4mcucC7MfO5aYzmzhbTuPu90=");
+_c = BookInput;
+exports.default = BookInput;
+var _c;
+$RefreshReg$(_c, "BookInput");
+
+  $parcel$ReactRefreshHelpers$cfb6.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"f6lkS":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$6da1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -52231,8 +52297,8 @@ async function signTransaction(...args) {
 exports.signTransaction = signTransaction;
 
 },{"88af146db84b4bc":"fCgem","794efc13d3438613":"ahVaM","fd60e1a9eee46df1":"kjmPo","4963b8580f17783d":"4JCmN","43d371ec8f5e88f6":"kBQFP"}],"ahVaM":[function(require,module,exports) {
-var global = arguments[3];
 var process = require("27ca99f9b442c1d8");
+var global = arguments[3];
 /**
  * [js-sha256]{@link https://github.com/emn178/js-sha256}
  *
@@ -69577,8 +69643,8 @@ var _core = require("@near-wallet-selector/core");
 var _hwTransportWebhid = require("@ledgerhq/hw-transport-webhid");
 var _hwTransportWebhidDefault = parcelHelpers.interopDefault(_hwTransportWebhid);
 var _nearApiJs = require("near-api-js");
-var global = arguments[3];
 var Buffer = require("10b999dc2e315801").Buffer;
+var global = arguments[3];
 /******************************************************************************
 Copyright (c) Microsoft Corporation.
 
