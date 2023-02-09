@@ -1,25 +1,60 @@
 import { async } from 'regenerator-runtime';
 import { clear } from 'console';
 import 'regenerator-runtime/runtime';
-import React from 'react';
+import React, {useCallback, useMemo, useRef} from 'react';
 import { useState, useEffect } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
+import BookInput from '../BookInput/BookInput'
 
 // import { publicRoutes, privateRoutes } from '../router';
 
 export default function Read({ isSignedIn, guestBook, wallet }) {
   const [readOn, setReadOn] = useState(false);
   const [readTimer, setReadTimer] = useState(0);
+  const [bookBytes, setBook] = useState(null)
+  const startButtonRef = useRef();
+
   const read = async () => {
     setReadTimer((readTimer) => readTimer + 1);
     await guestBook.timer();
   };
 
+  const createBookElementInPage = useCallback(() => {
+    const div = document.createElement('div' )
+    div.id = 'area'
+
+    if(!startButtonRef.current){
+      return;
+    }
+
+    document.querySelector('.container').insertAdjacentElement('beforeend', div);
+
+
+  }, [startButtonRef])
+
+  const createBookInstance = useCallback(() => {
+
+    const book = ePub(bookBytes);
+
+    const rendition = book.renderTo('area', {
+      height: "75vh",
+      manager: "continuous",
+      flow: "scrolled",
+      width: '100vw',
+      allowScriptedContent: true });
+
+    const displayed = rendition.display("epubcfi(/6/14[xchapter_001]!4/2/24/2[c001p0011]/1:799)");
+
+  }, [startButtonRef, bookBytes])
+
   useEffect(() => {
-    // var book = ePub('alice.epub');
-    // var rendition = book.renderTo('area', { width: 600, height: 400 });
-    // var displayed = rendition.display();
-  }, []);
+    if(!bookBytes){
+      return;
+    }
+
+    createBookElementInPage()
+    createBookInstance()
+  }, [createBookElementInPage, createBookInstance]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -33,13 +68,10 @@ export default function Read({ isSignedIn, guestBook, wallet }) {
     };
   }, [readOn]);
 
-  var book = ePub('alice.epub');
-  var rendition = book.renderTo('area', { width: 600, height: 400 });
-  var displayed = rendition.display();
-  console.log(ePub);
   return (
     <>
-      <button onClick={() => setReadOn(!readOn)}>{readOn ? 'stop' : 'start'}</button>
+      <BookInput onBookLoaded={setBook} />
+      <button ref={startButtonRef} onClick={() => setReadOn(!readOn)}>{readOn ? 'stop' : 'start'}</button>
     </>
   );
 }

@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("c8a0669d9d91b58c");
-var ErrorOverlay = require("68d50bdefd594d42");
+var Refresh = require("599d457240e037d0");
+var ErrorOverlay = require("4f112d52da6d736f");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"c8a0669d9d91b58c":"786KC","68d50bdefd594d42":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"599d457240e037d0":"786KC","4f112d52da6d736f":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("555e910ea9043ea4");
+module.exports = require("6e17f2a99e6b42b1");
 
-},{"555e910ea9043ea4":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"6e17f2a99e6b42b1":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("555e910ea9043ea4");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("7d3f18c6a02472f");
+var process = require("b9ff66f34eca20c4");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("7d3f18c6a02472f");
     ]);
 });
 
-},{"7d3f18c6a02472f":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"b9ff66f34eca20c4":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2939,11 +2939,11 @@ var _nearWallet = require("./near-wallet");
 // When creating the wallet you can choose to create an access key, so the user
 // can skip signing non-payable methods when talking wth the  contract
 const wallet = new (0, _nearWallet.Wallet)({
-    createAccessKeyFor: "dev-1675356775260-22549722545596"
+    createAccessKeyFor: "dev-1675771517442-51764161069193"
 });
 // Abstract the logic of interacting with the contract to simplify your flow
 const guestBook = new (0, _nearInterface.GuestBook)({
-    contractId: "dev-1675356775260-22549722545596",
+    contractId: "dev-1675771517442-51764161069193",
     walletToUse: wallet
 });
 // Setup on page load
@@ -2967,9 +2967,9 @@ window.onload = async ()=>{
 }
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./App":"2Ew96","./near-interface":"aahG8","./near-wallet":"dg9wB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
-module.exports = require("53e9bf9d4ef2828e");
+module.exports = require("67fa564d13d5ea8e");
 
-},{"53e9bf9d4ef2828e":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"67fa564d13d5ea8e":"48uCM"}],"48uCM":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -2981,7 +2981,7 @@ module.exports = require("53e9bf9d4ef2828e");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("db6c8d59eab8bd5");
+    var React = require("2134b0c19cf38ce0");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -3800,11 +3800,11 @@ module.exports = require("53e9bf9d4ef2828e");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"db6c8d59eab8bd5":"21dqq"}],"21dqq":[function(require,module,exports) {
+},{"2134b0c19cf38ce0":"21dqq"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("44d9201f78ee1195");
+module.exports = require("2959bc6b9be7e24e");
 
-},{"44d9201f78ee1195":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"2959bc6b9be7e24e":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5684,9 +5684,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("7f9f274f90688925");
+module.exports = require("53615702def98c8");
 
-},{"7f9f274f90688925":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"53615702def98c8":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -5699,8 +5699,8 @@ module.exports = require("7f9f274f90688925");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("e2903e4c3b55e256");
-    var Scheduler = require("ce4b08bb790503a9");
+    var React = require("b559ab394aa19510");
+    var Scheduler = require("cd64b9d39291c3b6");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -26671,11 +26671,11 @@ module.exports = require("7f9f274f90688925");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"e2903e4c3b55e256":"21dqq","ce4b08bb790503a9":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"b559ab394aa19510":"21dqq","cd64b9d39291c3b6":"juvHo"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("856dddb31f777232");
+module.exports = require("723eed9c24e277a2");
 
-},{"856dddb31f777232":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"723eed9c24e277a2":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -27239,7 +27239,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","./components/Form":"kLvDP","./components/SignIn":"dXcMu","./components/Messages":"if42I","regenerator-runtime":"dXNgZ","console":"kQ29C","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Bet":"4siKv","react-router-dom":"9xmpe","./components/About":"e7Dcc","./components/Layout":"47ufS","./components/Read":"ciamW","./components/NotFound":"f6lkS"}],"dXNgZ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","./components/Form":"kLvDP","./components/SignIn":"dXcMu","./components/Messages":"if42I","regenerator-runtime":"dXNgZ","console":"8kdFB","react-router-dom":"9xmpe","./components/Layout":"47ufS","./components/About":"e7Dcc","./components/Bet":"4siKv","./components/Read":"ciamW","./components/NotFound":"f6lkS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dXNgZ":[function(require,module,exports) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -28011,17 +28011,17 @@ $RefreshReg$(_c, "Form");
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ var ReactIs = require("b58ecb47b57bafc3");
+ */ var ReactIs = require("e7273b60b220e012");
 // By explicitly using `prop-types` you are opting into new development behavior.
 // http://fb.me/prop-types-in-prod
 var throwOnDirectAccess = true;
-module.exports = require("c6f6faa85b09b53c")(ReactIs.isElement, throwOnDirectAccess);
+module.exports = require("5bce3171b4c6c8de")(ReactIs.isElement, throwOnDirectAccess);
 
-},{"b58ecb47b57bafc3":"7EuwB","c6f6faa85b09b53c":"bBUgD"}],"7EuwB":[function(require,module,exports) {
+},{"e7273b60b220e012":"7EuwB","5bce3171b4c6c8de":"bBUgD"}],"7EuwB":[function(require,module,exports) {
 "use strict";
-module.exports = require("d3b1282a75e4afa7");
+module.exports = require("997e46fcb41337b5");
 
-},{"d3b1282a75e4afa7":"5DsXl"}],"5DsXl":[function(require,module,exports) {
+},{"997e46fcb41337b5":"5DsXl"}],"5DsXl":[function(require,module,exports) {
 /** @license React v16.13.1
  * react-is.development.js
  *
@@ -28185,11 +28185,11 @@ module.exports = require("d3b1282a75e4afa7");
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */ "use strict";
-var ReactIs = require("f2f38d66834423e5");
-var assign = require("7919dccb073f9e4f");
-var ReactPropTypesSecret = require("ca55fa64c2a7e585");
-var has = require("814873ff28ea1712");
-var checkPropTypes = require("3521a7811d7e0a46");
+var ReactIs = require("e65c70d4ca72f001");
+var assign = require("67307cf73fc1b24");
+var ReactPropTypesSecret = require("650efbe25c226d46");
+var has = require("5679e8cba9dd0ce4");
+var checkPropTypes = require("851393778b1d1b39");
 var printWarning = function() {};
 printWarning = function(text) {
     var message = "Warning: " + text;
@@ -28616,7 +28616,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
     return ReactPropTypes;
 };
 
-},{"f2f38d66834423e5":"7EuwB","7919dccb073f9e4f":"7OXxh","ca55fa64c2a7e585":"jZTZJ","814873ff28ea1712":"fqKuf","3521a7811d7e0a46":"5VwyJ"}],"7OXxh":[function(require,module,exports) {
+},{"e65c70d4ca72f001":"7EuwB","67307cf73fc1b24":"7OXxh","650efbe25c226d46":"jZTZJ","5679e8cba9dd0ce4":"fqKuf","851393778b1d1b39":"5VwyJ"}],"7OXxh":[function(require,module,exports) {
 /*
 object-assign
 (c) Sindre Sorhus
@@ -28692,9 +28692,9 @@ module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
  * LICENSE file in the root directory of this source tree.
  */ "use strict";
 var printWarning = function() {};
-var ReactPropTypesSecret = require("9623279bbac9bc8a");
+var ReactPropTypesSecret = require("8ed2cf5c0789a4f8");
 var loggedTypeFailures = {};
-var has = require("3581b1bc1826212f");
+var has = require("b8df91108ed156fe");
 printWarning = function(text) {
     var message = "Warning: " + text;
     if (typeof console !== "undefined") console.error(message);
@@ -28752,7 +28752,7 @@ printWarning = function(text) {
 };
 module.exports = checkPropTypes;
 
-},{"9623279bbac9bc8a":"jZTZJ","3581b1bc1826212f":"fqKuf"}],"gkKU3":[function(require,module,exports) {
+},{"8ed2cf5c0789a4f8":"jZTZJ","b8df91108ed156fe":"fqKuf"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -28784,7 +28784,7 @@ exports.export = function(dest, destName, get) {
 
 },{}],"km3Ru":[function(require,module,exports) {
 "use strict";
-var Refresh = require("cc9ce8922798efdb");
+var Refresh = require("3c097c329d150144");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -28915,7 +28915,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"cc9ce8922798efdb":"786KC"}],"dXcMu":[function(require,module,exports) {
+},{"3c097c329d150144":"786KC"}],"dXcMu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$e277 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -29022,10 +29022,10 @@ $RefreshReg$(_c, "Messages");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kQ29C":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8kdFB":[function(require,module,exports) {
 /*global window, global*/ var global = arguments[3];
-var util = require("fae0a15632697a03");
-var assert = require("df87c99e86fe5dbd");
+var util = require("b811ecefdaa480f9");
+var assert = require("759e47c71b94b655");
 function now() {
     return new Date().getTime();
 }
@@ -29116,7 +29116,7 @@ function consoleAssert(expression) {
     }
 }
 
-},{"fae0a15632697a03":"cxohQ","df87c99e86fe5dbd":"f3tT4"}],"cxohQ":[function(require,module,exports) {
+},{"b811ecefdaa480f9":"cxohQ","759e47c71b94b655":"f3tT4"}],"cxohQ":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -29137,7 +29137,7 @@ function consoleAssert(expression) {
 // DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
-var process = require("a036965008037e89");
+var process = require("a68fd9f3b005e9a4");
 var getOwnPropertyDescriptors = Object.getOwnPropertyDescriptors || function getOwnPropertyDescriptors(obj) {
     var keys = Object.keys(obj);
     var descriptors = {};
@@ -29462,7 +29462,7 @@ function reduceToSingleString(output, base, braces) {
 }
 // NOTE: These type checking functions intentionally don't use `instanceof`
 // because it is fragile and can be easily faked with `Object.create()`.
-exports.types = require("9c0a07e120420b");
+exports.types = require("b407e696b5ab6835");
 function isArray(ar) {
     return Array.isArray(ar);
 }
@@ -29523,7 +29523,7 @@ function isPrimitive(arg) {
     typeof arg === "undefined";
 }
 exports.isPrimitive = isPrimitive;
-exports.isBuffer = require("6c8ae646d9ba5065");
+exports.isBuffer = require("a1e6768e681df801");
 function objectToString(o) {
     return Object.prototype.toString.call(o);
 }
@@ -29574,7 +29574,7 @@ exports.log = function() {
  * @param {function} ctor Constructor function which needs to inherit the
  *     prototype.
  * @param {function} superCtor Constructor function to inherit prototype from.
- */ exports.inherits = require("52ddc2d3ef4d3752");
+ */ exports.inherits = require("c3773504b8ff9283");
 exports._extend = function(origin, add) {
     // Don't do anything if add isn't an object
     if (!add || !isObject(add)) return origin;
@@ -29669,14 +29669,14 @@ function callbackify(original) {
 }
 exports.callbackify = callbackify;
 
-},{"a036965008037e89":"d5jf4","9c0a07e120420b":"bnQvf","6c8ae646d9ba5065":"inNNy","52ddc2d3ef4d3752":"bRL3M"}],"bnQvf":[function(require,module,exports) {
+},{"a68fd9f3b005e9a4":"d5jf4","b407e696b5ab6835":"bnQvf","a1e6768e681df801":"inNNy","c3773504b8ff9283":"bRL3M"}],"bnQvf":[function(require,module,exports) {
 // Currently in sync with Node.js lib/internal/util/types.js
 // https://github.com/nodejs/node/commit/112cc7c27551254aa2b17098fb774867f05ed0d9
 "use strict";
-var isArgumentsObject = require("ed544e472f1ddcc");
-var isGeneratorFunction = require("de10974bd19c6e21");
-var whichTypedArray = require("6e64091b2901ad71");
-var isTypedArray = require("6b27c418b2ccc43d");
+var isArgumentsObject = require("12c6fa2df5904272");
+var isGeneratorFunction = require("542d44815bf3ec45");
+var whichTypedArray = require("3fa5eeee13dbc230");
+var isTypedArray = require("12da1473f8f5a1f2");
 function uncurryThis(f) {
     return f.call.bind(f);
 }
@@ -29880,10 +29880,10 @@ exports.isAnyArrayBuffer = isAnyArrayBuffer;
     });
 });
 
-},{"ed544e472f1ddcc":"czr4n","de10974bd19c6e21":"2XUdn","6e64091b2901ad71":"lVUO7","6b27c418b2ccc43d":"1ihkG"}],"czr4n":[function(require,module,exports) {
+},{"12c6fa2df5904272":"czr4n","542d44815bf3ec45":"2XUdn","3fa5eeee13dbc230":"lVUO7","12da1473f8f5a1f2":"1ihkG"}],"czr4n":[function(require,module,exports) {
 "use strict";
-var hasToStringTag = require("4a86a62f6f434dbf")();
-var callBound = require("ffb77d4fce1b79e8");
+var hasToStringTag = require("dbc5ed90fac866b0")();
+var callBound = require("47dcd0740615daa0");
 var $toString = callBound("Object.prototype.toString");
 var isStandardArguments = function isArguments(value) {
     if (hasToStringTag && value && typeof value === "object" && Symbol.toStringTag in value) return false;
@@ -29899,14 +29899,14 @@ var supportsStandardArguments = function() {
 isStandardArguments.isLegacyArguments = isLegacyArguments; // for tests
 module.exports = supportsStandardArguments ? isStandardArguments : isLegacyArguments;
 
-},{"4a86a62f6f434dbf":"9LdQ9","ffb77d4fce1b79e8":"5yYiF"}],"9LdQ9":[function(require,module,exports) {
+},{"dbc5ed90fac866b0":"9LdQ9","47dcd0740615daa0":"5yYiF"}],"9LdQ9":[function(require,module,exports) {
 "use strict";
-var hasSymbols = require("c76a2d3bc502252a");
+var hasSymbols = require("b87957e6cc8a1c62");
 module.exports = function hasToStringTagShams() {
     return hasSymbols() && !!Symbol.toStringTag;
 };
 
-},{"c76a2d3bc502252a":"euYk7"}],"euYk7":[function(require,module,exports) {
+},{"b87957e6cc8a1c62":"euYk7"}],"euYk7":[function(require,module,exports) {
 "use strict";
 /* eslint complexity: [2, 18], max-statements: [2, 33] */ module.exports = function hasSymbols() {
     if (typeof Symbol !== "function" || typeof Object.getOwnPropertySymbols !== "function") return false;
@@ -29941,8 +29941,8 @@ module.exports = function hasToStringTagShams() {
 
 },{}],"5yYiF":[function(require,module,exports) {
 "use strict";
-var GetIntrinsic = require("b9a71f612777e115");
-var callBind = require("a3e1e13abaf5e7a8");
+var GetIntrinsic = require("e200dd6f651d2543");
+var callBind = require("ab8059f3ea8120f3");
 var $indexOf = callBind(GetIntrinsic("String.prototype.indexOf"));
 module.exports = function callBoundIntrinsic(name, allowMissing) {
     var intrinsic = GetIntrinsic(name, !!allowMissing);
@@ -29950,7 +29950,7 @@ module.exports = function callBoundIntrinsic(name, allowMissing) {
     return intrinsic;
 };
 
-},{"b9a71f612777e115":"dZb05","a3e1e13abaf5e7a8":"bfo8D"}],"dZb05":[function(require,module,exports) {
+},{"e200dd6f651d2543":"dZb05","ab8059f3ea8120f3":"bfo8D"}],"dZb05":[function(require,module,exports) {
 "use strict";
 var undefined;
 var $SyntaxError = SyntaxError;
@@ -29985,7 +29985,7 @@ var ThrowTypeError = $gOPD ? function() {
         }
     }
 }() : throwTypeError;
-var hasSymbols = require("be84f188ade99825")();
+var hasSymbols = require("c5e457956bcd2a18")();
 var getProto = Object.getPrototypeOf || function(x) {
     return x.__proto__;
 }; // eslint-disable-line no-proto
@@ -30296,8 +30296,8 @@ var LEGACY_ALIASES = {
         "prototype"
     ]
 };
-var bind = require("50cea5c6c71cf940");
-var hasOwn = require("70227a6ea660bd28");
+var bind = require("569d4051755bf127");
+var hasOwn = require("2ce74decfd4e5571");
 var $concat = bind.call(Function.call, Array.prototype.concat);
 var $spliceApply = bind.call(Function.apply, Array.prototype.splice);
 var $replace = bind.call(Function.call, String.prototype.replace);
@@ -30389,10 +30389,10 @@ module.exports = function GetIntrinsic(name, allowMissing) {
     return value;
 };
 
-},{"be84f188ade99825":"3dK91","50cea5c6c71cf940":"6J4ob","70227a6ea660bd28":"ksyoO"}],"3dK91":[function(require,module,exports) {
+},{"c5e457956bcd2a18":"3dK91","569d4051755bf127":"6J4ob","2ce74decfd4e5571":"ksyoO"}],"3dK91":[function(require,module,exports) {
 "use strict";
 var origSymbol = typeof Symbol !== "undefined" && Symbol;
-var hasSymbolSham = require("35de8d6b6eb5feab");
+var hasSymbolSham = require("18c247e4803d779b");
 module.exports = function hasNativeSymbols() {
     if (typeof origSymbol !== "function") return false;
     if (typeof Symbol !== "function") return false;
@@ -30401,12 +30401,12 @@ module.exports = function hasNativeSymbols() {
     return hasSymbolSham();
 };
 
-},{"35de8d6b6eb5feab":"euYk7"}],"6J4ob":[function(require,module,exports) {
+},{"18c247e4803d779b":"euYk7"}],"6J4ob":[function(require,module,exports) {
 "use strict";
-var implementation = require("10ba5ccd86af0e68");
+var implementation = require("346ed21051963a44");
 module.exports = Function.prototype.bind || implementation;
 
-},{"10ba5ccd86af0e68":"jwaxQ"}],"jwaxQ":[function(require,module,exports) {
+},{"346ed21051963a44":"jwaxQ"}],"jwaxQ":[function(require,module,exports) {
 "use strict";
 /* eslint no-invalid-this: 1 */ var ERROR_MESSAGE = "Function.prototype.bind called on incompatible ";
 var slice = Array.prototype.slice;
@@ -30439,13 +30439,13 @@ module.exports = function bind(that) {
 
 },{}],"ksyoO":[function(require,module,exports) {
 "use strict";
-var bind = require("66bfd4d6d90f2e68");
+var bind = require("1885a6d515321726");
 module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
-},{"66bfd4d6d90f2e68":"6J4ob"}],"bfo8D":[function(require,module,exports) {
+},{"1885a6d515321726":"6J4ob"}],"bfo8D":[function(require,module,exports) {
 "use strict";
-var bind = require("14c72901fbecdece");
-var GetIntrinsic = require("4ae1ec07ae48a5e");
+var bind = require("c15d811013ad0f97");
+var GetIntrinsic = require("24b396089ea008c6");
 var $apply = GetIntrinsic("%Function.prototype.apply%");
 var $call = GetIntrinsic("%Function.prototype.call%");
 var $reflectApply = GetIntrinsic("%Reflect.apply%", true) || bind.call($call, $apply);
@@ -30479,12 +30479,12 @@ if ($defineProperty) $defineProperty(module.exports, "apply", {
 });
 else module.exports.apply = applyBind;
 
-},{"14c72901fbecdece":"6J4ob","4ae1ec07ae48a5e":"dZb05"}],"2XUdn":[function(require,module,exports) {
+},{"c15d811013ad0f97":"6J4ob","24b396089ea008c6":"dZb05"}],"2XUdn":[function(require,module,exports) {
 "use strict";
 var toStr = Object.prototype.toString;
 var fnToStr = Function.prototype.toString;
 var isFnRegex = /^\s*(?:function)?\*/;
-var hasToStringTag = require("ac2ec7415d11492c")();
+var hasToStringTag = require("2dbde762228b6b99")();
 var getProto = Object.getPrototypeOf;
 var getGeneratorFunc = function() {
     if (!hasToStringTag) return false;
@@ -30508,15 +30508,15 @@ module.exports = function isGeneratorFunction(fn) {
     return getProto(fn) === GeneratorFunction;
 };
 
-},{"ac2ec7415d11492c":"9LdQ9"}],"lVUO7":[function(require,module,exports) {
+},{"2dbde762228b6b99":"9LdQ9"}],"lVUO7":[function(require,module,exports) {
 var global = arguments[3];
 "use strict";
-var forEach = require("46471a8165d15c63");
-var availableTypedArrays = require("94bb7182b3273aaa");
-var callBound = require("127cc7f7c4f81f");
-var gOPD = require("817a6cfafe6b0ddf");
+var forEach = require("df7c8ea507147b65");
+var availableTypedArrays = require("bae1aa85dff7e8bf");
+var callBound = require("48dce9051cb8bb25");
+var gOPD = require("659f3138613830d5");
 var $toString = callBound("Object.prototype.toString");
-var hasToStringTag = require("e6a9fa6f291c3ba0")();
+var hasToStringTag = require("6350639f85dbc71d")();
 var g = typeof globalThis === "undefined" ? global : globalThis;
 var typedArrays = availableTypedArrays();
 var $slice = callBound("String.prototype.slice");
@@ -30546,16 +30546,16 @@ var tryTypedArrays = function tryAllTypedArrays(value) {
     });
     return foundName;
 };
-var isTypedArray = require("30566738124a16bb");
+var isTypedArray = require("6b61cbde3f85db25");
 module.exports = function whichTypedArray(value) {
     if (!isTypedArray(value)) return false;
     if (!hasToStringTag || !(Symbol.toStringTag in value)) return $slice($toString(value), 8, -1);
     return tryTypedArrays(value);
 };
 
-},{"46471a8165d15c63":"1Sol9","94bb7182b3273aaa":"kfela","127cc7f7c4f81f":"5yYiF","817a6cfafe6b0ddf":"eOTQB","e6a9fa6f291c3ba0":"9LdQ9","30566738124a16bb":"1ihkG"}],"1Sol9":[function(require,module,exports) {
+},{"df7c8ea507147b65":"1Sol9","bae1aa85dff7e8bf":"kfela","48dce9051cb8bb25":"5yYiF","659f3138613830d5":"eOTQB","6350639f85dbc71d":"9LdQ9","6b61cbde3f85db25":"1ihkG"}],"1Sol9":[function(require,module,exports) {
 "use strict";
-var isCallable = require("5c35830f0451095a");
+var isCallable = require("b0d166730034c19d");
 var toStr = Object.prototype.toString;
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 var forEachArray = function forEachArray(array, iterator, receiver) {
@@ -30585,7 +30585,7 @@ var forEach = function forEach(list, iterator, thisArg) {
 };
 module.exports = forEach;
 
-},{"5c35830f0451095a":"9ocyk"}],"9ocyk":[function(require,module,exports) {
+},{"b0d166730034c19d":"9ocyk"}],"9ocyk":[function(require,module,exports) {
 "use strict";
 var fnToStr = Function.prototype.toString;
 var reflectApply = typeof Reflect === "object" && Reflect !== null && Reflect.apply;
@@ -30698,7 +30698,7 @@ module.exports = function availableTypedArrays() {
 
 },{}],"eOTQB":[function(require,module,exports) {
 "use strict";
-var GetIntrinsic = require("3a17ff4c89e5a9c1");
+var GetIntrinsic = require("e24c1e0832b4d5e6");
 var $gOPD = GetIntrinsic("%Object.getOwnPropertyDescriptor%", true);
 if ($gOPD) try {
     $gOPD([], "length");
@@ -30708,15 +30708,15 @@ if ($gOPD) try {
 }
 module.exports = $gOPD;
 
-},{"3a17ff4c89e5a9c1":"dZb05"}],"1ihkG":[function(require,module,exports) {
+},{"e24c1e0832b4d5e6":"dZb05"}],"1ihkG":[function(require,module,exports) {
 var global = arguments[3];
 "use strict";
-var forEach = require("86ed4c7ecc569fca");
-var availableTypedArrays = require("c40baf565a92c9ea");
-var callBound = require("16656ba2f86bc268");
+var forEach = require("49a3f28df34e219");
+var availableTypedArrays = require("63b41f40f3e5d995");
+var callBound = require("6ffca3e2250787ed");
 var $toString = callBound("Object.prototype.toString");
-var hasToStringTag = require("9025edb793178358")();
-var gOPD = require("2ed8c2dd001cc1d");
+var hasToStringTag = require("896aad01007460c")();
+var gOPD = require("8208668b5ae298e");
 var g = typeof globalThis === "undefined" ? global : globalThis;
 var typedArrays = availableTypedArrays();
 var $indexOf = callBound("Array.prototype.indexOf", true) || function indexOf(array, value) {
@@ -30759,7 +30759,7 @@ module.exports = function isTypedArray(value) {
     return tryTypedArrays(value);
 };
 
-},{"86ed4c7ecc569fca":"1Sol9","c40baf565a92c9ea":"kfela","16656ba2f86bc268":"5yYiF","9025edb793178358":"9LdQ9","2ed8c2dd001cc1d":"eOTQB"}],"inNNy":[function(require,module,exports) {
+},{"49a3f28df34e219":"1Sol9","63b41f40f3e5d995":"kfela","6ffca3e2250787ed":"5yYiF","896aad01007460c":"9LdQ9","8208668b5ae298e":"eOTQB"}],"inNNy":[function(require,module,exports) {
 module.exports = function isBuffer(arg) {
     return arg && typeof arg === "object" && typeof arg.copy === "function" && typeof arg.fill === "function" && typeof arg.readUInt8 === "function";
 };
@@ -30812,7 +30812,7 @@ module.exports = function inherits(ctor, superCtor) {
 // AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
 // ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-var process = require("c28ce248efcceae4");
+var process = require("9f2d6b9a211082a0");
 "use strict";
 function _typeof(obj) {
     if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") _typeof = function _typeof(obj) {
@@ -30826,12 +30826,12 @@ function _typeof(obj) {
 function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function");
 }
-var _require = require("e4a652ad6f2cbf25"), _require$codes = _require.codes, ERR_AMBIGUOUS_ARGUMENT = _require$codes.ERR_AMBIGUOUS_ARGUMENT, ERR_INVALID_ARG_TYPE = _require$codes.ERR_INVALID_ARG_TYPE, ERR_INVALID_ARG_VALUE = _require$codes.ERR_INVALID_ARG_VALUE, ERR_INVALID_RETURN_VALUE = _require$codes.ERR_INVALID_RETURN_VALUE, ERR_MISSING_ARGS = _require$codes.ERR_MISSING_ARGS;
-var AssertionError = require("5d6e85aeb6a701d1");
-var _require2 = require("aa5fb8fb1caeac6c"), inspect = _require2.inspect;
-var _require$types = require("aa5fb8fb1caeac6c").types, isPromise = _require$types.isPromise, isRegExp = _require$types.isRegExp;
-var objectAssign = Object.assign ? Object.assign : require("f9b1e27cd7cdc72").assign;
-var objectIs = Object.is ? Object.is : require("acfa8f10fabc494d");
+var _require = require("f786a242766d1b8e"), _require$codes = _require.codes, ERR_AMBIGUOUS_ARGUMENT = _require$codes.ERR_AMBIGUOUS_ARGUMENT, ERR_INVALID_ARG_TYPE = _require$codes.ERR_INVALID_ARG_TYPE, ERR_INVALID_ARG_VALUE = _require$codes.ERR_INVALID_ARG_VALUE, ERR_INVALID_RETURN_VALUE = _require$codes.ERR_INVALID_RETURN_VALUE, ERR_MISSING_ARGS = _require$codes.ERR_MISSING_ARGS;
+var AssertionError = require("fe39835f529cb196");
+var _require2 = require("35e91d8052f9556f"), inspect = _require2.inspect;
+var _require$types = require("35e91d8052f9556f").types, isPromise = _require$types.isPromise, isRegExp = _require$types.isRegExp;
+var objectAssign = Object.assign ? Object.assign : require("5bd01772cd66503d").assign;
+var objectIs = Object.is ? Object.is : require("5ac0e1e140f71a6b");
 var errorCache = new Map();
 var isDeepEqual;
 var isDeepStrictEqual;
@@ -30839,7 +30839,7 @@ var parseExpressionAt;
 var findNodeAround;
 var decoder;
 function lazyLoadComparison() {
-    var comparison = require("f0e4cd89c7e43e16");
+    var comparison = require("c93b45eb8c172ebe");
     isDeepEqual = comparison.isDeepEqual;
     isDeepStrictEqual = comparison.isDeepStrictEqual;
 } // Escape control characters but not \n and \t to keep the line breaks and
@@ -31288,7 +31288,7 @@ assert.strict = objectAssign(strict, assert, {
 });
 assert.strict.strict = assert.strict;
 
-},{"c28ce248efcceae4":"d5jf4","e4a652ad6f2cbf25":"cwQVR","5d6e85aeb6a701d1":"lQlQt","aa5fb8fb1caeac6c":"cxohQ","f9b1e27cd7cdc72":"713SE","acfa8f10fabc494d":"k2tpA","f0e4cd89c7e43e16":"d5TM9"}],"cwQVR":[function(require,module,exports) {
+},{"9f2d6b9a211082a0":"d5jf4","f786a242766d1b8e":"cwQVR","fe39835f529cb196":"lQlQt","35e91d8052f9556f":"cxohQ","5bd01772cd66503d":"713SE","5ac0e1e140f71a6b":"k2tpA","c93b45eb8c172ebe":"d5TM9"}],"cwQVR":[function(require,module,exports) {
 // Currently in sync with Node.js lib/internal/errors.js
 // https://github.com/nodejs/node/commit/3b044962c48fe313905877a96b5d0894a5404f6f
 /* eslint node-core/documented-errors: "error" */ /* eslint node-core/alphabetize-errors: "error" */ /* eslint node-core/prefer-util-format-errors: "error" */ "use strict"; // The whole point behind this internal module is to allow Node.js to no
@@ -31387,7 +31387,7 @@ function includes(str, search, start) {
 }
 createErrorType("ERR_AMBIGUOUS_ARGUMENT", 'The "%s" argument is ambiguous. %s', TypeError);
 createErrorType("ERR_INVALID_ARG_TYPE", function(name, expected, actual) {
-    if (assert === undefined) assert = require("30ada176b3f3acfe");
+    if (assert === undefined) assert = require("e4390e9386980584");
     assert(typeof name === "string", "'name' must be a string"); // determiner: 'must be' or 'must not be'
     var determiner;
     if (typeof expected === "string" && startsWith(expected, "not ")) {
@@ -31406,7 +31406,7 @@ createErrorType("ERR_INVALID_ARG_TYPE", function(name, expected, actual) {
 }, TypeError);
 createErrorType("ERR_INVALID_ARG_VALUE", function(name, value) {
     var reason = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "is invalid";
-    if (util === undefined) util = require("8a77722eba79f2f0");
+    if (util === undefined) util = require("444efd1e762905ff");
     var inspected = util.inspect(value);
     if (inspected.length > 128) inspected = "".concat(inspected.slice(0, 128), "...");
     return "The argument '".concat(name, "' ").concat(reason, ". Received ").concat(inspected);
@@ -31419,7 +31419,7 @@ createErrorType("ERR_INVALID_RETURN_VALUE", function(input, name, value) {
 }, TypeError);
 createErrorType("ERR_MISSING_ARGS", function() {
     for(var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++)args[_key] = arguments[_key];
-    if (assert === undefined) assert = require("30ada176b3f3acfe");
+    if (assert === undefined) assert = require("e4390e9386980584");
     assert(args.length > 0, "At least one arg needs to be specified");
     var msg = "The ";
     var len = args.length;
@@ -31442,10 +31442,10 @@ createErrorType("ERR_MISSING_ARGS", function() {
 }, TypeError);
 module.exports.codes = codes;
 
-},{"30ada176b3f3acfe":"f3tT4","8a77722eba79f2f0":"cxohQ"}],"lQlQt":[function(require,module,exports) {
+},{"e4390e9386980584":"f3tT4","444efd1e762905ff":"cxohQ"}],"lQlQt":[function(require,module,exports) {
 // Currently in sync with Node.js lib/internal/assert/assertion_error.js
 // https://github.com/nodejs/node/commit/0817840f775032169ddd70c85ac059f18ffcc81c
-var process = require("2b11c6022639897a");
+var process = require("233f5b3e3affbac0");
 "use strict";
 function _objectSpread(target) {
     for(var i = 1; i < arguments.length; i++){
@@ -31580,8 +31580,8 @@ function _typeof(obj) {
     };
     return _typeof(obj);
 }
-var _require = require("8bcb797e67561eea"), inspect = _require.inspect;
-var _require2 = require("8bb9565ba69524a3"), ERR_INVALID_ARG_TYPE = _require2.codes.ERR_INVALID_ARG_TYPE; // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
+var _require = require("aa72f861e115b627"), inspect = _require.inspect;
+var _require2 = require("f6a71bb188826b74"), ERR_INVALID_ARG_TYPE = _require2.codes.ERR_INVALID_ARG_TYPE; // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
 function endsWith(str, search, this_len) {
     if (this_len === undefined || this_len > str.length) this_len = str.length;
     return str.substring(this_len - search.length, this_len) === search;
@@ -31927,7 +31927,7 @@ var AssertionError = /*#__PURE__*/ function(_Error) {
 }(_wrapNativeSuper(Error));
 module.exports = AssertionError;
 
-},{"2b11c6022639897a":"d5jf4","8bcb797e67561eea":"cxohQ","8bb9565ba69524a3":"cwQVR"}],"713SE":[function(require,module,exports) {
+},{"233f5b3e3affbac0":"d5jf4","aa72f861e115b627":"cxohQ","f6a71bb188826b74":"cwQVR"}],"713SE":[function(require,module,exports) {
 /**
  * Code refactored from Mozilla Developer Network:
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
@@ -31962,11 +31962,11 @@ module.exports = {
 
 },{}],"k2tpA":[function(require,module,exports) {
 "use strict";
-var define = require("5963dd149314f0eb");
-var callBind = require("61f6f2fcae68b6b8");
-var implementation = require("3bf449b21fad6d93");
-var getPolyfill = require("6e12ecd431f7ee92");
-var shim = require("d73cb942454d7b23");
+var define = require("34b4367b572c2713");
+var callBind = require("982fba2a6808b834");
+var implementation = require("3da48f7eaa24fa92");
+var getPolyfill = require("2cfb773059e814e8");
+var shim = require("e417a9b223c6d5c7");
 var polyfill = callBind(getPolyfill(), Object);
 define(polyfill, {
     getPolyfill: getPolyfill,
@@ -31975,9 +31975,9 @@ define(polyfill, {
 });
 module.exports = polyfill;
 
-},{"5963dd149314f0eb":"6eq5U","61f6f2fcae68b6b8":"bfo8D","3bf449b21fad6d93":"WLxcH","6e12ecd431f7ee92":"ezjA5","d73cb942454d7b23":"9p2yJ"}],"6eq5U":[function(require,module,exports) {
+},{"34b4367b572c2713":"6eq5U","982fba2a6808b834":"bfo8D","3da48f7eaa24fa92":"WLxcH","2cfb773059e814e8":"ezjA5","e417a9b223c6d5c7":"9p2yJ"}],"6eq5U":[function(require,module,exports) {
 "use strict";
-var keys = require("8d5600ab1111a901");
+var keys = require("c51b43d9a2f468e7");
 var hasSymbols = typeof Symbol === "function" && typeof Symbol("foo") === "symbol";
 var toStr = Object.prototype.toString;
 var concat = Array.prototype.concat;
@@ -31985,7 +31985,7 @@ var origDefineProperty = Object.defineProperty;
 var isFunction = function(fn) {
     return typeof fn === "function" && toStr.call(fn) === "[object Function]";
 };
-var hasPropertyDescriptors = require("d8e98c473c3df761")();
+var hasPropertyDescriptors = require("ae065a6e9aa62e")();
 var supportsDescriptors = origDefineProperty && hasPropertyDescriptors;
 var defineProperty = function(object, name, value, predicate) {
     if (name in object && (!isFunction(predicate) || !predicate())) return;
@@ -32006,14 +32006,14 @@ var defineProperties = function(object, map) {
 defineProperties.supportsDescriptors = !!supportsDescriptors;
 module.exports = defineProperties;
 
-},{"8d5600ab1111a901":"eNyf4","d8e98c473c3df761":"esBLZ"}],"eNyf4":[function(require,module,exports) {
+},{"c51b43d9a2f468e7":"eNyf4","ae065a6e9aa62e":"esBLZ"}],"eNyf4":[function(require,module,exports) {
 "use strict";
 var slice = Array.prototype.slice;
-var isArgs = require("7c0aa9b21e248cd0");
+var isArgs = require("fa0393a385e01411");
 var origKeys = Object.keys;
 var keysShim = origKeys ? function keys(o) {
     return origKeys(o);
-} : require("299aee55dc74ee1c");
+} : require("6599722210876866");
 var originalKeys = Object.keys;
 keysShim.shim = function shimObjectKeys() {
     if (Object.keys) {
@@ -32031,7 +32031,7 @@ keysShim.shim = function shimObjectKeys() {
 };
 module.exports = keysShim;
 
-},{"7c0aa9b21e248cd0":"1HhOq","299aee55dc74ee1c":"aV01q"}],"1HhOq":[function(require,module,exports) {
+},{"fa0393a385e01411":"1HhOq","6599722210876866":"aV01q"}],"1HhOq":[function(require,module,exports) {
 "use strict";
 var toStr = Object.prototype.toString;
 module.exports = function isArguments(value) {
@@ -32048,7 +32048,7 @@ if (!Object.keys) {
     // modified from https://github.com/es-shims/es5-shim
     var has = Object.prototype.hasOwnProperty;
     var toStr = Object.prototype.toString;
-    var isArgs = require("d343638949bf67c1"); // eslint-disable-line global-require
+    var isArgs = require("8ec56f11c76b0f13"); // eslint-disable-line global-require
     var isEnumerable = Object.prototype.propertyIsEnumerable;
     var hasDontEnumBug = !isEnumerable.call({
         toString: null
@@ -32135,9 +32135,9 @@ if (!Object.keys) {
 }
 module.exports = keysShim;
 
-},{"d343638949bf67c1":"1HhOq"}],"esBLZ":[function(require,module,exports) {
+},{"8ec56f11c76b0f13":"1HhOq"}],"esBLZ":[function(require,module,exports) {
 "use strict";
-var GetIntrinsic = require("b8f9f585587158a9");
+var GetIntrinsic = require("9608c92d1786dc2b");
 var $defineProperty = GetIntrinsic("%Object.defineProperty%", true);
 var hasPropertyDescriptors = function hasPropertyDescriptors() {
     if ($defineProperty) try {
@@ -32165,7 +32165,7 @@ hasPropertyDescriptors.hasArrayLengthDefineBug = function hasArrayLengthDefineBu
 };
 module.exports = hasPropertyDescriptors;
 
-},{"b8f9f585587158a9":"dZb05"}],"WLxcH":[function(require,module,exports) {
+},{"9608c92d1786dc2b":"dZb05"}],"WLxcH":[function(require,module,exports) {
 "use strict";
 var numberIsNaN = function(value) {
     return value !== value;
@@ -32179,15 +32179,15 @@ module.exports = function is(a, b) {
 
 },{}],"ezjA5":[function(require,module,exports) {
 "use strict";
-var implementation = require("38855ff9fbe0c500");
+var implementation = require("e11e2806cd7bff3c");
 module.exports = function getPolyfill() {
     return typeof Object.is === "function" ? Object.is : implementation;
 };
 
-},{"38855ff9fbe0c500":"WLxcH"}],"9p2yJ":[function(require,module,exports) {
+},{"e11e2806cd7bff3c":"WLxcH"}],"9p2yJ":[function(require,module,exports) {
 "use strict";
-var getPolyfill = require("a0374b4c4790bd44");
-var define = require("f19cafb79cd850de");
+var getPolyfill = require("b847bd8dc635079f");
+var define = require("4457b4b5f7cc027a");
 module.exports = function shimObjectIs() {
     var polyfill = getPolyfill();
     define(Object, {
@@ -32200,7 +32200,7 @@ module.exports = function shimObjectIs() {
     return polyfill;
 };
 
-},{"a0374b4c4790bd44":"ezjA5","f19cafb79cd850de":"6eq5U"}],"d5TM9":[function(require,module,exports) {
+},{"b847bd8dc635079f":"ezjA5","4457b4b5f7cc027a":"6eq5U"}],"d5TM9":[function(require,module,exports) {
 // Currently in sync with Node.js lib/internal/util/comparisons.js
 // https://github.com/nodejs/node/commit/112cc7c27551254aa2b17098fb774867f05ed0d9
 "use strict";
@@ -32262,18 +32262,18 @@ var arrayFromMap = function arrayFromMap(map) {
     });
     return array;
 };
-var objectIs = Object.is ? Object.is : require("751a8c4302630b7a");
+var objectIs = Object.is ? Object.is : require("57b5908155663473");
 var objectGetOwnPropertySymbols = Object.getOwnPropertySymbols ? Object.getOwnPropertySymbols : function() {
     return [];
 };
-var numberIsNaN = Number.isNaN ? Number.isNaN : require("6aa78e3487ff8713");
+var numberIsNaN = Number.isNaN ? Number.isNaN : require("a66ee75df8a5e070");
 function uncurryThis(f) {
     return f.call.bind(f);
 }
 var hasOwnProperty = uncurryThis(Object.prototype.hasOwnProperty);
 var propertyIsEnumerable = uncurryThis(Object.prototype.propertyIsEnumerable);
 var objectToString = uncurryThis(Object.prototype.toString);
-var _require$types = require("337a3af3914dcbf4").types, isAnyArrayBuffer = _require$types.isAnyArrayBuffer, isArrayBufferView = _require$types.isArrayBufferView, isDate = _require$types.isDate, isMap = _require$types.isMap, isRegExp = _require$types.isRegExp, isSet = _require$types.isSet, isNativeError = _require$types.isNativeError, isBoxedPrimitive = _require$types.isBoxedPrimitive, isNumberObject = _require$types.isNumberObject, isStringObject = _require$types.isStringObject, isBooleanObject = _require$types.isBooleanObject, isBigIntObject = _require$types.isBigIntObject, isSymbolObject = _require$types.isSymbolObject, isFloat32Array = _require$types.isFloat32Array, isFloat64Array = _require$types.isFloat64Array;
+var _require$types = require("b79992b62b1bb208").types, isAnyArrayBuffer = _require$types.isAnyArrayBuffer, isArrayBufferView = _require$types.isArrayBufferView, isDate = _require$types.isDate, isMap = _require$types.isMap, isRegExp = _require$types.isRegExp, isSet = _require$types.isSet, isNativeError = _require$types.isNativeError, isBoxedPrimitive = _require$types.isBoxedPrimitive, isNumberObject = _require$types.isNumberObject, isStringObject = _require$types.isStringObject, isBooleanObject = _require$types.isBooleanObject, isBigIntObject = _require$types.isBigIntObject, isSymbolObject = _require$types.isSymbolObject, isFloat32Array = _require$types.isFloat32Array, isFloat64Array = _require$types.isFloat64Array;
 function isNonIndex(key) {
     if (key.length === 0 || key.length > 10) return true;
     for(var i = 0; i < key.length; i++){
@@ -32655,13 +32655,13 @@ module.exports = {
     isDeepStrictEqual: isDeepStrictEqual
 };
 
-},{"751a8c4302630b7a":"k2tpA","6aa78e3487ff8713":"hY4fH","337a3af3914dcbf4":"cxohQ"}],"hY4fH":[function(require,module,exports) {
+},{"57b5908155663473":"k2tpA","a66ee75df8a5e070":"hY4fH","b79992b62b1bb208":"cxohQ"}],"hY4fH":[function(require,module,exports) {
 "use strict";
-var callBind = require("1411525858172d6f");
-var define = require("8ea47a96217355ee");
-var implementation = require("33a8991d34ec08fe");
-var getPolyfill = require("b42f80405c8e0347");
-var shim = require("a888ebd4cae0118e");
+var callBind = require("b751f45e88ba69bf");
+var define = require("92f438c84ae53671");
+var implementation = require("a67b4610fb32cdc3");
+var getPolyfill = require("8e9dfd705fbdfe31");
+var shim = require("62ec915ef9a07494");
 var polyfill = callBind(getPolyfill(), Number);
 /* http://www.ecma-international.org/ecma-262/6.0/#sec-number.isnan */ define(polyfill, {
     getPolyfill: getPolyfill,
@@ -32670,7 +32670,7 @@ var polyfill = callBind(getPolyfill(), Number);
 });
 module.exports = polyfill;
 
-},{"1411525858172d6f":"bfo8D","8ea47a96217355ee":"6eq5U","33a8991d34ec08fe":"lxsrq","b42f80405c8e0347":"h00Nr","a888ebd4cae0118e":"cr2es"}],"lxsrq":[function(require,module,exports) {
+},{"b751f45e88ba69bf":"bfo8D","92f438c84ae53671":"6eq5U","a67b4610fb32cdc3":"lxsrq","8e9dfd705fbdfe31":"h00Nr","62ec915ef9a07494":"cr2es"}],"lxsrq":[function(require,module,exports) {
 "use strict";
 /* http://www.ecma-international.org/ecma-262/6.0/#sec-number.isnan */ module.exports = function isNaN(value) {
     return value !== value;
@@ -32678,16 +32678,16 @@ module.exports = polyfill;
 
 },{}],"h00Nr":[function(require,module,exports) {
 "use strict";
-var implementation = require("b20f95092225a004");
+var implementation = require("b1f973014a1b879");
 module.exports = function getPolyfill() {
     if (Number.isNaN && Number.isNaN(NaN) && !Number.isNaN("a")) return Number.isNaN;
     return implementation;
 };
 
-},{"b20f95092225a004":"lxsrq"}],"cr2es":[function(require,module,exports) {
+},{"b1f973014a1b879":"lxsrq"}],"cr2es":[function(require,module,exports) {
 "use strict";
-var define = require("6331ea55a692a6ee");
-var getPolyfill = require("89366e8c558deedc");
+var define = require("b9d2203f53fce518");
+var getPolyfill = require("d61601a962a4dfff");
 /* http://www.ecma-international.org/ecma-262/6.0/#sec-number.isnan */ module.exports = function shimNumberIsNaN() {
     var polyfill = getPolyfill();
     define(Number, {
@@ -32700,355 +32700,7 @@ var getPolyfill = require("89366e8c558deedc");
     return polyfill;
 };
 
-},{"6331ea55a692a6ee":"6eq5U","89366e8c558deedc":"h00Nr"}],"4siKv":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$e81b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$e81b.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _regeneratorRuntime = require("regenerator-runtime");
-var _console = require("console");
-var _runtime = require("regenerator-runtime/runtime");
-var _moduleStyleCss = require("./module.style.css");
-var _moduleStyleCssDefault = parcelHelpers.interopDefault(_moduleStyleCss);
-var _react = require("react");
-var _s = $RefreshSig$(), _s1 = $RefreshSig$(), _s2 = $RefreshSig$();
-const ButtonPlusMinus = ({ setCount , count , plusX , sign  })=>{
-    _s();
-    const [on, setOn] = (0, _react.useState)(false);
-    const countClickDown = (setfunc, count, xplusX)=>{
-        if (count + plusX >= 0) setfunc(count + plusX);
-        setOn(true);
-    };
-    const countClickUp = ()=>{
-        setOn(false);
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "button",
-        onPointerDown: ()=>countClickDown(setCount, count, 1),
-        onPointerUp: ()=>countClickUp(),
-        style: {
-            transform: on ? "scale(1.1)" : "scale(1)"
-        },
-        children: sign
-    }, void 0, false, {
-        fileName: "components/Bet/index.jsx",
-        lineNumber: 21,
-        columnNumber: 5
-    }, undefined);
-};
-_s(ButtonPlusMinus, "aIJ9khZVxs/SudlWq6DySilygF4=");
-_c = ButtonPlusMinus;
-const Question = ({ header , count , setCount , word , plusX , warn  })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "containerQuestion",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "counterHeader",
-                children: header
-            }, void 0, false, {
-                fileName: "components/Bet/index.jsx",
-                lineNumber: 34,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "counter",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ButtonPlusMinus, {
-                        setCount: setCount,
-                        count: count,
-                        plusX: -1 * plusX,
-                        sign: "-"
-                    }, void 0, false, {
-                        fileName: "components/Bet/index.jsx",
-                        lineNumber: 36,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "count",
-                        children: [
-                            count,
-                            " ",
-                            word
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/Bet/index.jsx",
-                        lineNumber: 37,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ButtonPlusMinus, {
-                        setCount: setCount,
-                        count: count,
-                        plusX: 1 * plusX,
-                        sign: "+"
-                    }, void 0, false, {
-                        fileName: "components/Bet/index.jsx",
-                        lineNumber: 40,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "components/Bet/index.jsx",
-                lineNumber: 35,
-                columnNumber: 7
-            }, undefined),
-            warn && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "warn",
-                children: "increase the number "
-            }, void 0, false, {
-                fileName: "components/Bet/index.jsx",
-                lineNumber: 42,
-                columnNumber: 16
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "components/Bet/index.jsx",
-        lineNumber: 33,
-        columnNumber: 5
-    }, undefined);
-};
-_c1 = Question;
-// Опции для ставки
-const BetWasNot = ({ days , setDays , hours , setHours , bet , setBet , setBetDidMount , guestBook  })=>{
-    _s1();
-    const [betButtonOn, setBetButtonOn] = (0, _react.useState)(false);
-    const [warn, setWarn] = (0, _react.useState)({
-        days: false,
-        hours: false,
-        bet: false
-    });
-    const betButtonDown = ()=>{
-        setBetButtonOn(true);
-    };
-    const betButtonUp = async ()=>{
-        setBetButtonOn(false);
-        setWarn({
-            hours: hours == 0 ? true : false,
-            days: days == 0 ? true : false,
-            bet: bet == 0 ? true : false
-        });
-        //11111111111111111111111111111111111
-        if (hours && days && bet) {
-            const lastTime = "0";
-            const user = "user";
-            setBetDidMount(true);
-            await guestBook.addMessage(user, bet, hours = hours * 60, days, lastTime);
-        }
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Question, {
-                header: "How long are you going to read?",
-                count: hours,
-                word: "hours",
-                setCount: setHours,
-                plusX: 1,
-                warn: warn.hours
-            }, void 0, false, {
-                fileName: "components/Bet/index.jsx",
-                lineNumber: 76,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Question, {
-                header: "How many days will you need?",
-                count: days,
-                word: "days",
-                setCount: setDays,
-                plusX: 1,
-                warn: warn.days
-            }, void 0, false, {
-                fileName: "components/Bet/index.jsx",
-                lineNumber: 84,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Question, {
-                header: "How much are you willing  \n  to bet on this event?",
-                count: bet,
-                word: "near",
-                setCount: setBet,
-                plusX: 1,
-                warn: warn.bet
-            }, void 0, false, {
-                fileName: "components/Bet/index.jsx",
-                lineNumber: 92,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "betButton",
-                onPointerDown: ()=>betButtonDown(),
-                onPointerUp: ()=>betButtonUp(),
-                style: {
-                    transform: betButtonOn ? "scale(1.1)" : "scale(1)"
-                },
-                children: "bet"
-            }, void 0, false, {
-                fileName: "components/Bet/index.jsx",
-                lineNumber: 101,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true);
-};
-_s1(BetWasNot, "H86O/Swscv/ml9pP32t2hf/Tw/E=");
-_c2 = BetWasNot;
-const BetWas = ({ hours , days , bet , guestBook , timer  })=>{
-    const month = [
-        "jan",
-        "feb",
-        "march",
-        "april",
-        "may",
-        "june",
-        "july",
-        "aug",
-        "spt",
-        "nvm",
-        "dcm"
-    ];
-    const date = new Date(days);
-    console.log("days", Date.now() + 86400000 * days);
-    const dateString = ` ${date.getDate()} ${month[date.getMonth()]} ${date.getHours() < 10 ? "0" + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes()}:${date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds()}`;
-    const timerMinute = Math.round(Number(timer) / 60000000000);
-    console.log("timer", Math.round(Number(timer) / 60000000000));
-    //BBBBBBBBBBBBBBBBBBBBBBBBeEEEEEEEEEEEEEEEEEEEEEEEEEEEEeTTTTTTTTTTTTTTTTTTt
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: [
-                    "You need to read ",
-                    hours,
-                    " minutes"
-                ]
-            }, void 0, true, {
-                fileName: "components/Bet/index.jsx",
-                lineNumber: 127,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: [
-                    "Deadline ",
-                    dateString
-                ]
-            }, void 0, true, {
-                fileName: "components/Bet/index.jsx",
-                lineNumber: 128,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: [
-                    "bet: ",
-                    bet.slice(0, -24),
-                    " near"
-                ]
-            }, void 0, true, {
-                fileName: "components/Bet/index.jsx",
-                lineNumber: 129,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: [
-                    "timer : ",
-                    timerMinute,
-                    " minutes"
-                ]
-            }, void 0, true, {
-                fileName: "components/Bet/index.jsx",
-                lineNumber: 130,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true);
-};
-_c3 = BetWas;
-const Bet = ({ isSignedIn , guestBook , wallet  })=>{
-    _s2();
-    const [hours, setHours] = (0, _react.useState)(0);
-    const [days, setDays] = (0, _react.useState)(0);
-    const [bet, setBet] = (0, _react.useState)(0);
-    const [betDidMount, setBetDidMount] = (0, _react.useState)(false);
-    //проверяем наличие ставки
-    //----------
-    const clearState = async ()=>{
-        await guestBook.clearState();
-        setUser();
-    };
-    const [user, setUser] = (0, _react.useState)();
-    const [oldBets, setOldBets] = (0, _react.useState)("no load user");
-    (0, _react.useEffect)(()=>{
-        if (isSignedIn) guestBook.getUser().then(setUser);
-    }, []);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "betContainer",
-        children: isSignedIn ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    onClick: ()=>(clearState(), setUser()),
-                    children: "clear"
-                }, void 0, false, {
-                    fileName: "components/Bet/index.jsx",
-                    lineNumber: 161,
-                    columnNumber: 11
-                }, undefined),
-                user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BetWas, {
-                    guestBook: guestBook,
-                    hours: user.hours,
-                    days: user.deadline,
-                    bet: user.bet,
-                    timer: user.timer
-                }, void 0, false, {
-                    fileName: "components/Bet/index.jsx",
-                    lineNumber: 163,
-                    columnNumber: 13
-                }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BetWasNot, {
-                    guestBook: guestBook,
-                    hours: hours,
-                    setHours: setHours,
-                    days: days,
-                    setDays: setDays,
-                    bet: bet,
-                    setBet: setBet,
-                    setBetDidMount: setBetDidMount
-                }, void 0, false, {
-                    fileName: "components/Bet/index.jsx",
-                    lineNumber: 171,
-                    columnNumber: 13
-                }, undefined)
-            ]
-        }, void 0, true) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: "sign in"
-            }, void 0, false, {
-                fileName: "components/Bet/index.jsx",
-                lineNumber: 185,
-                columnNumber: 11
-            }, undefined)
-        }, void 0, false)
-    }, void 0, false, {
-        fileName: "components/Bet/index.jsx",
-        lineNumber: 158,
-        columnNumber: 5
-    }, undefined);
-};
-_s2(Bet, "RMICA92plxJP8kLrrEViXEYirts=");
-_c4 = Bet;
-exports.default = Bet;
-var _c, _c1, _c2, _c3, _c4;
-$RefreshReg$(_c, "ButtonPlusMinus");
-$RefreshReg$(_c1, "Question");
-$RefreshReg$(_c2, "BetWasNot");
-$RefreshReg$(_c3, "BetWas");
-$RefreshReg$(_c4, "Bet");
-
-  $parcel$ReactRefreshHelpers$e81b.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./module.style.css":"bXzvz","regenerator-runtime":"dXNgZ","console":"kQ29C","regenerator-runtime/runtime":"dXNgZ"}],"bXzvz":[function() {},{}],"9xmpe":[function(require,module,exports) {
+},{"b9d2203f53fce518":"6eq5U","d61601a962a4dfff":"h00Nr"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.8.0
  *
@@ -38043,412 +37695,7 @@ function getTargetMatch(matches, location) {
     return pathMatches[pathMatches.length - 1];
 } //#endregion
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"e7Dcc":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$a104 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$a104.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _text = require("./text");
-var _moduleStyleAboutCss = require("./module.styleAbout.css");
-var _moduleStyleAboutCssDefault = parcelHelpers.interopDefault(_moduleStyleAboutCss);
-var _s = $RefreshSig$();
-function About() {
-    _s();
-    const [activeLang, setActiveLang] = (0, _react.useState)("EN");
-    const [textLang, setTextLang] = (0, _react.useState)((0, _text.text)["EN"]);
-    const [chatLang, setChatLang] = (0, _react.useState)((0, _text.chat)["EN"]);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "languageButtons",
-                children: Object.keys((0, _text.text)).map((lang)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "lang",
-                        onPointerDown: ()=>(setActiveLang(lang), setTextLang((0, _text.text)[lang]), setChatLang((0, _text.chat)[lang])),
-                        style: {
-                            color: lang == activeLang ? "brown" : "black"
-                        },
-                        children: lang
-                    }, lang, false, {
-                        fileName: "components/About/index.jsx",
-                        lineNumber: 16,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
-                fileName: "components/About/index.jsx",
-                lineNumber: 14,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "textContainer",
-                children: [
-                    textLang.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "aboutText",
-                            children: item
-                        }, index, false, {
-                            fileName: "components/About/index.jsx",
-                            lineNumber: 29,
-                            columnNumber: 11
-                        }, this)),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        className: "chatHeader",
-                        children: "ChatGPT"
-                    }, void 0, false, {
-                        fileName: "components/About/index.jsx",
-                        lineNumber: 34,
-                        columnNumber: 9
-                    }, this),
-                    chatLang.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            children: index % 2 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "aboutText",
-                                children: item
-                            }, void 0, false, {
-                                fileName: "components/About/index.jsx",
-                                lineNumber: 37,
-                                columnNumber: 41
-                            }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                children: item
-                            }, void 0, false, {
-                                fileName: "components/About/index.jsx",
-                                lineNumber: 37,
-                                columnNumber: 79
-                            }, this)
-                        }, index, false, {
-                            fileName: "components/About/index.jsx",
-                            lineNumber: 37,
-                            columnNumber: 11
-                        }, this))
-                ]
-            }, void 0, true, {
-                fileName: "components/About/index.jsx",
-                lineNumber: 27,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true);
-}
-exports.default = About;
-_s(About, "Mv2wYhP49RwnKdzL/4sVOVlWVkM=");
-_c = About;
-var _c;
-$RefreshReg$(_c, "About");
-
-  $parcel$ReactRefreshHelpers$a104.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./text":"3SDQL","./module.styleAbout.css":"6Qf5V"}],"3SDQL":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "text", ()=>text);
-parcelHelpers.export(exports, "chat", ()=>chat);
-const text = {
-    EN: [
-        "Promis is a unique reading app.  \n  He doesn't care if you want to read or not.  \n  You will read.",
-        "Choose a book. Make a bet that you will have time to read it, for example, in 1 week. If you don't make it, you will lose your money. If you succeed, the money will be returned to you. You will not make a profit, but you will become richer.",
-        "How Promis works. \n Promis works on the Near blockchain.It is a simple open source smart contract. A smart contract is a smart wallet that manages its money according to a strictly defined algorithm. It cannot be changed, blocked or hacked.",
-        "By placing a bet, you transfer money to this wallet. Now they are stored there until the end of the transaction and no one is able to extract them from it. If you comply with his requirements, he sends your money to your wallet. If not, it sends your bet to the casino wallet.",
-        "To fulfill his requirements, you need to open the book and start flipping through the pages. At this point, the timer will start. If you fall asleep and stop flipping pages, the timer will stop. By placing a bid, you specify the number of hours you promise to read and a deadline. Before the end of this period, you must reset the timer.",
-        // 'You can fool Promis by mindlessly flipping through the pages for hours, staring at the wall. Promis is a truly smart smart contract, but alas, it is not able to overcome the human intellect, so it will return the money to you, but, alas, no wasted nerves and time.',
-        "We wish you lucky reading."
-    ],
-    RU: [
-        "Promis это уникальное приложение для чтения. \n  Его не волнует, хотите вы читать или не хотите. \n  Вы будете читать.",
-        "Выберите книгу. Сделайте ставку, что успеете прочитать ее, например за 1 неделю. Если не успеете, Вы проиграете свои деньги. Если успеете, деньги вернутся Вам обратно. Вы не получите прибыли, но станете богаче.",
-        "Как работает Promis. \n Promis это смарт-контракт на блоечейне Near. Смарт-контракт это умный кошелек с открытым исходным кодом, который распоряжается  своими деньгами, по строго заданному алгоритму. Его невозможно изменить, заблокировать или взломать.",
-        "Делая ставку вы переводите деньги на этот кошелек. Теперь они хранятся там до конца сделки и никто не в силах извлечь их из него. Если вы выполняете его требования, он пересылает Ваши деньги, на Ваш кошелек. Если нет, он отправляет Вашу ставку на кошелек казино.",
-        "Чтобы выполнить его требования Вам необходимо открыть книгу и начать листать страницы. В этот момент включится таймер. Если Вы уснете и перестанете листать страницы, таймер остановится. Делая ставку, Вы указываете количество часов, которые Вы обещаете читать и крайний срок. До конца этого срока Вы должны обнулить таймер.",
-        // 'Вы можете обмануть Promis, часами бездумно листая страницы, уставившись в стенку. Promis по-настоящему умный смарт-контракт, но увы, он не в силах одолеть человеческий интеллект, поэтому деньги он Вам вернет, но потраченные нервы и время, увы нет.',
-        "Удачного чтения."
-    ],
-    CHN: [
-        "Promis 是一个简单的阅读器，具有神奇的力量。 大量阅读需要很大的意志力。 Promis 会给你这种力量。",
-        "选一本你想读很久的书。 打赌你会在 1 周内做到这一点。 如果你不成功，你就会失去你的钱。 如果你成功了，钱会退还给你。 您不会获得利润，但胜利会为所花费的时间付出代价。",
-        "Promis 的工作原理。 \n Promis 在附近的区块链上工作。 它是一个简单的开源智能合约。 智能合约是一种智能钱包，它根据严格定义的算法管理资金。 它不能被更改、阻止或黑客攻击。",
-        "通过下注，您将钱转入此钱包。 现在它们一直存储在那里，直到交易结束，没有人能够从中提取它们。 如果你满足他的要求，他就会把你的钱打到你的钱包里。 如果没有，它会将您的赌注发送到赌场钱包。",
-        "为了满足他的要求，您需要打开这本书并开始翻页。 此时，计时器将启动。 如果您入睡并停止翻页，计时器将停止。 通过出价，您指定了您承诺阅读的小时数和截止日期。 在此期间结束之前，您必须重置计时器。",
-        "你可以在不阅读内容的情况下盲目翻页来愚弄 Promis。 Promis 是一个真正聪明的智能合约，可惜它无法战胜人类的智慧。 为了保护你免受他自己的诡计，书杰克邀请你阅读他图书馆的书。 这些书包含简单的问题。 如果你连答错一个，你就输了。",
-        "祝您阅读愉快。"
-    ],
-    FR: [
-        "Promis est un lecteur simple dot\xe9 de pouvoirs magiques. Il faut beaucoup de volont\xe9 pour lire beaucoup. Promis vous donnera ce pouvoir.",
-        "Choisissez un livre que vous vouliez lire depuis longtemps. Faites le pari que vous le ferez, par exemple, en 1 semaine. Si vous ne le faites pas, vous perdrez votre argent. Si vous r\xe9ussissez, l'argent vous sera rendu. Vous ne recevrez pas de profit, mais la victoire paiera pour le temps pass\xe9.",
-        "Comment fonctionne Promis. \n Promis travaille sur la blockchain \xe0 proximit\xe9. Il s'agit d'un simple contrat intelligent open source. Un contrat intelligent est un portefeuille intelligent qui g\xe8re son argent selon un algorithme strictement d\xe9fini. Il ne peut pas \xeatre modifi\xe9, bloqu\xe9 ou pirat\xe9.",
-        "En pla\xe7ant un pari, vous transf\xe9rez de l'argent sur ce portefeuille. D\xe9sormais, ils y sont stock\xe9s jusqu'\xe0 la fin de la transaction et personne ne peut les en extraire. Si vous vous conformez \xe0 ses exigences, il envoie votre argent dans votre portefeuille. Sinon, il envoie votre pari au portefeuille du casino.",
-        "Pour r\xe9pondre \xe0 ses exigences, vous devez ouvrir le livre et commencer \xe0 feuilleter les pages. \xc0 ce stade, le chronom\xe8tre d\xe9marre. Si vous vous endormez et arr\xeatez de tourner les pages, le chronom\xe8tre s'arr\xeatera. En ench\xe9rissant, vous pr\xe9cisez le nombre d'heures que vous vous engagez \xe0 lire et un d\xe9lai. Avant la fin de cette p\xe9riode, vous devez r\xe9initialiser la minuterie.",
-        "Vous pouvez tromper Promis en tournant sans r\xe9fl\xe9chir les pages sans lire le contenu. Promis est un contrat intelligent vraiment intelligent, mais h\xe9las, il n'est pas capable de vaincre l'intellect humain. Pour vous prot\xe9ger de sa propre ruse, Promis vous invite \xe0 lire les livres de sa biblioth\xe8que. Ces livres contiennent des questions simples. Si vous r\xe9pondez ne serait-ce qu'une seule fois, vous perdez.",
-        "Nous vous souhaitons une bonne lecture."
-    ],
-    GRM: [
-        "Promis ist ein einfaches Lesebuch mit magischen Kr\xe4ften. Es braucht viel Willenskraft, um viel zu lesen. Promis wird dir diese Kraft geben.",
-        "Suchen Sie sich ein Buch aus, das Sie schon lange lesen wollten. Wetten Sie, dass Sie es zum Beispiel in 1 Woche schaffen. Wenn Sie es nicht schaffen, verlieren Sie Ihr Geld. Wenn Sie erfolgreich sind, wird Ihnen das Geld zur\xfcckerstattet. Sie erhalten keinen Gewinn, aber der Sieg wird f\xfcr die aufgewendete Zeit bezahlt.",
-        "So funktioniert Promis. \n Promis arbeitet an der Blockchain in der N\xe4he. Es ist ein einfacher Open Source Smart Contract. Ein Smart Contract ist eine Smart Wallet, die ihr Geld nach einem fest definierten Algorithmus verwaltet. Es kann nicht ge\xe4ndert, blockiert oder gehackt werden.",
-        "Indem Sie eine Wette platzieren, \xfcberweisen Sie Geld auf diese Geldb\xf6rse. Jetzt werden sie dort bis zum Ende der Transaktion gespeichert und niemand kann sie daraus extrahieren. Wenn Sie seine Anforderungen erf\xfcllen, sendet er Ihr Geld an Ihre Brieftasche. Wenn nicht, wird Ihre Wette an die Casino-Brieftasche gesendet.",
-        "Um seine Anforderungen zu erf\xfcllen, m\xfcssen Sie das Buch \xf6ffnen und anfangen, durch die Seiten zu bl\xe4ttern. An diesem Punkt wird der Timer gestartet. Wenn Sie einschlafen und aufh\xf6ren, Seiten umzubl\xe4ttern, stoppt der Timer. Indem Sie ein Gebot abgeben, geben Sie die Anzahl der Stunden, die Sie zu lesen versprechen, und eine Frist an. Vor Ablauf dieses Zeitraums m\xfcssen Sie den Timer zur\xfccksetzen.",
-        "Sie k\xf6nnen Promis t\xe4uschen, indem Sie gedankenlos Seiten umbl\xe4ttern, ohne den Inhalt zu lesen. Promis ist ein wirklich intelligenter Smart Contract, aber leider ist er nicht in der Lage, den menschlichen Intellekt zu besiegen. Um Sie vor seiner eigenen List zu sch\xfctzen, l\xe4dt Promis Sie ein, B\xfccher aus seiner Bibliothek zu lesen. Diese B\xfccher enthalten einfache Fragen. Wenn Sie auch nur eine falsch beantworten, verlieren Sie.",
-        "Wir w\xfcnschen Ihnen viel Spa\xdf beim Lesen."
-    ],
-    ITL: [
-        "Promis \xe8 un semplice lettore con poteri magici. Ci vuole molta forza di volont\xe0 per leggere molto. Promis ti dar\xe0 quel potere.",
-        "Scegli un libro che desideri leggere da molto tempo. Scommetti che lo farai, ad esempio, in 1 settimana. Se non ce la fai, perderai i tuoi soldi. Se ci riesci, i soldi ti verranno restituiti. Non riceverai profitti, ma la vittoria pagher\xe0 per il tempo speso.",
-        "Come funziona Book Jack. \n Promis lavora sulla blockchain vicino. \xc8 un semplice contratto intelligente open source. Uno smart contract \xe8 un portafoglio intelligente che gestisce i suoi soldi secondo un algoritmo rigorosamente definito. Non pu\xf2 essere modificato, bloccato o violato.",
-        "Effettuando una scommessa, trasferisci denaro a questo portafoglio. Ora sono archiviati l\xec fino alla fine della transazione e nessuno \xe8 in grado di estrarli da essa. Se rispetti i suoi requisiti, invia i tuoi soldi al tuo portafoglio. In caso contrario, invia la tua scommessa al portafoglio del casin\xf2.",
-        "Per soddisfare le sue esigenze, devi aprire il libro e iniziare a sfogliare le pagine. A questo punto partir\xe0 il timer. Se ti addormenti e smetti di sfogliare le pagine, il timer si fermer\xe0. Facendo un'offerta, specifichi il numero di ore che prometti di leggere e una scadenza. Prima della fine di questo periodo, \xe8 necessario reimpostare il timer.",
-        "Puoi ingannare Promis sfogliando le pagine senza pensare senza leggere il contenuto. Promis \xe8 un contratto intelligente davvero intelligente, ma purtroppo non \xe8 in grado di sconfiggere l'intelletto umano. Per proteggerti dal suo stesso stratagemma, Promis ti invita a leggere i libri della sua biblioteca. Questi libri contengono domande semplici. Se rispondi anche a una sola risposta sbagliata, perdi.",
-        "Vi auguriamo buona lettura."
-    ],
-    SPN: [
-        "Promis es un simple lector con poderes m\xe1gicos. Se necesita mucha fuerza de voluntad para leer mucho. Promis te dar\xe1 ese poder.",
-        "Elige un libro que hayas querido leer durante mucho tiempo. Haz una apuesta a que lo har\xe1s, por ejemplo, en 1 semana. Si no lo hace, perder\xe1 su dinero. Si tiene \xe9xito, se le devolver\xe1 el dinero. No recibir\xe1 ganancias, pero la victoria pagar\xe1 por el tiempo invertido.",
-        "C\xf3mo funciona Promis. \n Promis trabaja en la cadena de bloques cercana. Es un simple contrato inteligente de c\xf3digo abierto. Un contrato inteligente es una billetera inteligente que administra su dinero de acuerdo con un algoritmo estrictamente definido. No se puede cambiar, bloquear o hackear.",
-        "Al hacer una apuesta, transfieres dinero a esta billetera. Ahora se almacenan all\xed hasta el final de la transacci\xf3n y nadie puede extraerlos de ella. Si cumple con sus requisitos, le env\xeda su dinero a su billetera. Si no, env\xeda su apuesta a la billetera del casino.",
-        "Para cumplir con sus requisitos, debe abrir el libro y comenzar a hojear las p\xe1ginas. En este punto, el temporizador se iniciar\xe1. Si te quedas dormido y dejas de pasar las p\xe1ginas, el temporizador se detendr\xe1. Al hacer una oferta, especifica la cantidad de horas que promete leer y una fecha l\xedmite. Antes de que finalice este per\xedodo, debe restablecer el temporizador.",
-        "Puedes enga\xf1ar a Promis pasando p\xe1ginas sin pensar sin leer el contenido. Promis es un contrato inteligente verdaderamente inteligente, pero, por desgracia, no puede vencer al intelecto humano. Para protegerte de su propia artima\xf1a, Promis te invita a leer libros de su biblioteca. Estos libros contienen preguntas simples. Si respondes aunque sea una sola incorrectamente, pierdes.",
-        "Le deseamos una feliz lectura."
-    ],
-    日本語: [
-        "ブックジャックは、魔法の力を持つシンプルなリーダーです。 たくさん読むにはかなりの意志が必要です。 ブックジャックはその力を与えてくれます。",
-        "ずっと読みたかった本を選んでください。 たとえば、1週間でそれを行うことに賭けてください。 うまくいかなければ、お金を失うことになります。 成功すればお金は戻ってきます。 利益は得られませんが、勝利は費やされた時間に対して支払われます。",
-        "ブックジャックの仕組み。 \n ブックジャックは近くのブロックチェーンで動作します。 シンプルなオープンソースのスマート コントラクトです。 スマート コントラクトは、厳密に定義されたアルゴリズムに従ってお金を管理するスマート ウォレットです。 変更、ブロック、ハッキングすることはできません。",
-        "賭けをすると、このウォレットに送金されます。 現在、それらはトランザクションが終了するまでそこに保管され、誰もそこからそれらを抽出することはできません. 彼の要求に従えば、彼はあなたのお金をあなたの財布に送金します。 そうでない場合は、ベットがカジノ ウォレットに送信されます。",
-        "彼の要件を満たすには、本を開いてページをめくる必要があります。 この時点で、タイマーが開始されます。 眠りに落ちてページをめくるのをやめると、タイマーが止まります。 入札を行うことにより、読むことを約束する時間数と締め切りを指定します。 この期間が終了する前に、タイマーをリセットする必要があります。",
-        "内容を読まずに無意識にページをめくると、Promis をだますことができます。 Promis は真にスマートなスマート コントラクトですが、残念ながら、人間の知性を打ち負かすことはできません。 ブックジャックは自分の策略からあなたを守るために、彼のライブラリーから本を読むようにあなたを招待します。 これらの本には簡単な質問が含まれています。 1問でも間違えると負け。",
-        "楽しくお読みいただければ幸いです。"
-    ],
-    韓國語: [
-        "Promis은 마법의 힘을 가진 단순한 리더입니다. 많이 읽으려면 많은 의지력이 필요합니다. 북잭이 그 힘을 드립니다.",
-        "오랫동안 읽고 싶었던 책을 선택하십시오. 예를 들어, 1주일 안에 할 것이라고 내기를 하십시오. 성공하지 못하면 돈을 잃게 됩니다. 성공하면 돈이 반환됩니다. 당신은 이익을 얻지 못하지만 승리는 보낸 시간에 대한 대가를 치를 것입니다.",
-        "북잭 작동 방식. \n Promis은 가까운 블록체인에서 작동합니다. 간단한 오픈 소스 스마트 계약입니다. 스마트 계약은 엄격하게 정의된 알고리즘에 따라 돈을 관리하는 스마트 지갑입니다. 변경, 차단 또는 해킹할 수 없습니다.",
-        "내기를 걸면 이 지갑으로 돈을 이체하게 됩니다. 이제 그들은 거래가 끝날 때까지 거기에 저장되며 아무도 그것을 추출할 수 없습니다. 당신이 그의 요구 사항을 준수하면 그는 당신의 돈을 당신의 지갑으로 보냅니다. 그렇지 않은 경우 내기를 카지노 지갑으로 보냅니다.",
-        "그의 요구 사항을 충족하려면 책을 열고 페이지를 넘기기 시작해야 합니다. 이 시점에서 타이머가 시작됩니다. 잠들고 페이지 넘기기를 중지하면 타이머가 중지됩니다. 입찰을 하면 독서를 약속하는 시간과 기한을 지정하게 됩니다. 이 기간이 끝나기 전에 타이머를 재설정해야 합니다.",
-        "내용을 읽지 않고 아무 생각 없이 페이지를 넘기면 Promis을 속일 수 있습니다. 북잭은 진정으로 스마트한 스마트 계약이지만, 아쉽게도 인간의 지능을 이길 수는 없습니다. 자신의 책략으로부터 당신을 보호하기 위해 북잭은 그의 서재에서 책을 읽도록 당신을 초대합니다. 이 책에는 간단한 질문이 포함되어 있습니다. 하나라도 틀리면 지는 겁니다.",
-        "우리는 당신이 행복한 독서를 기원합니다."
-    ],
-    العربية: [
-        "Promis هو قارئ بسيط يتمتع بقوى سحرية. يتطلب الأمر الكثير من قوة الإرادة لقراءة الكثير. ستمنحك Promis هذه القوة.",
-        "اختر كتابًا كنت ترغب في قراءته لفترة طويلة. ضع رهانًا على أنك ستفعل ذلك ، على سبيل المثال ، في غضون أسبوع واحد. إذا لم تنجح ، فسوف تخسر أموالك. إذا نجحت ، ستتم إعادة الأموال إليك. لن تحصل على ربح ، لكن النصر سيدفع مقابل الوقت الذي تقضيه.",
-        "كيف يعمل Promis. \n  يعمل Promis على blockchain القريب. إنه عقد ذكي بسيط مفتوح المصدر. العقد الذكي هو محفظة ذكية تدير أموالها وفقًا لخوارزمية محددة بدقة. لا يمكن تغييره أو حظره أو اختراقه.",
-        "من خلال وضع الرهان ، تقوم بتحويل الأموال إلى هذه المحفظة. الآن يتم تخزينها هناك حتى نهاية المعاملة ولا يستطيع أحد استخراجها منها. إذا امتثلت لمتطلباته ، فإنه يرسل أموالك إلى محفظتك. إذا لم يكن كذلك ، فإنه يرسل رهانك إلى محفظة الكازينو.",
-        "لتحقيق متطلباته ، تحتاج إلى فتح الكتاب والبدء في التقليب بين الصفحات. في هذه المرحلة ، سيبدأ المؤقت. إذا نمت وتوقفت عن تقليب الصفحات ، فسيتوقف المؤقت. من خلال تقديم العطاء ، فإنك تحدد عدد الساعات التي تتعهد بقراءتها والموعد النهائي. قبل نهاية هذه الفترة ، يجب إعادة ضبط المؤقت.",
-        "يمكنك خداع Promis عن طريق تقليب الصفحات بلا تفكير دون قراءة المحتوى. Promis هو عقد ذكي حقًا ، لكنه للأسف غير قادر على هزيمة الفكر البشري. لحمايتك من حيلته ، يدعوك Promis لقراءة الكتب من مكتبته. تحتوي هذه الكتب على أسئلة بسيطة. إذا أجبت حتى خطأ واحد ، فإنك تخسر.",
-        "نتمنى لك قراءة سعيدة."
-    ],
-    עִבְרִית: [
-        "Promis הוא קורא פשוט עם כוחות קסם. צריך הרבה כוח רצון לקרוא הרבה. Promis ייתן לך את הכוח הזה.",
-        "בחר ספר שרצית לקרוא כבר הרבה זמן. הימור שתעשה זאת, למשל, תוך שבוע. אם לא תצליח, תפסיד את כספך. אם תצליח, הכסף יוחזר לך. לא תקבל רווח, אבל הניצחון ישלם עבור הזמן שהושקע.",
-        "איך Promis עובד. \n Promis עובד על הבלוקצ'יין ליד. זהו חוזה חכם פשוט בקוד פתוח. חוזה חכם הוא ארנק חכם שמנהל את כספו לפי אלגוריתם מוגדר בהחלט. לא ניתן לשנות, לחסום או לפרוץ אותו.",
-        "על ידי ביצוע הימור, אתה מעביר כסף לארנק הזה. כעת הם מאוחסנים שם עד לסיום העסקה ואף אחד לא מסוגל לחלץ אותם ממנה. אם אתה עומד בדרישות שלו, הוא שולח את הכסף שלך לארנק שלך. אם לא, זה שולח את ההימור שלך לארנק הקזינו.",
-        "כדי למלא את דרישותיו, עליך לפתוח את הספר ולהתחיל לדפדף בין הדפים. בשלב זה, הטיימר יתחיל. אם אתה נרדם ותפסיק לדפדף, הטיימר יפסיק. בהגשת הצעה, אתה מציין את מספר השעות שאתה מבטיח לקרוא ומועד אחרון. לפני תום תקופה זו, עליך לאפס את הטיימר.",
-        "אתה יכול לשטות בבוקג'ק על ידי דפדוף חסר דעת מבלי לקרוא את התוכן. Promis הוא חוזה חכם באמת, אבל אבוי, הוא לא מסוגל להביס את האינטלקט האנושי. כדי להגן עליך מהתחבולה שלו, Promis מזמין אותך לקרוא ספרים מהספרייה שלו. ספרים אלה מכילים שאלות פשוטות. אם אתה עונה אפילו לא נכון אחד, אתה מפסיד.",
-        "אנו מאחלים לך קריאה מהנה."
-    ]
-};
-const chat = {
-    EN: [
-        "What do you think about Promis?",
-        "Your Promis app offers users a fun and quite strategic game. Gambling with an element of risk can be useful to encourage people to spend more time reading. Maybe it could be a great app for motivation .",
-        // 'Is this application unique?',
-        // 'Yes, your Promis application is unique. It uses blockchain technology, which makes it especially interesting.',
-        "Why can it be beneficial for the user if he wins only his own money, but no more?",
-        "The user can use this application to be more motivated and demonstrate discipline. In this way, the user himself sets his own goals and motivates him to achieve them. For example, the user can set high rates to encourage himself to calculate certain page parameters before a certain deadline. If successful the user will return not only money, but also valuable mental discipline.",
-        "How can the usefulness of Promis be explained from a psychological point of view?",
-        "The Promis app can be helpful for people who have motivation issues and constantly put off their tasks. Delays are known to lead to permanent demotivation. Increased motivation and better time management can help people work more efficiently and achieve lasting results. The Promis app provides people a goal and motivation to achieve a result in a certain time, which allows them to improve their time management skills and efficiency.",
-        "What hormones are involved and how they help?",
-        "There are several hormones that will be activated when using the Promis app. Primarily the stress hormone cortisol, which helps the body cope with pressure and stress. It lowers blood pressure and calms the nervous system. Endorphins can also help the app user set a goal and achieve it. through an increased craving for success.These hormones can help a person in the process of using the app.",
-        "How can parents get their kids to use this app?",
-        "Parents can use the Promis app to help their children develop motivation and the habit of constantly working on certain tasks. They can simply give their child a set number of hours of reading by a certain deadline and give them a cash prize if they can successfully complete the task within the time allowed. .This will keep them motivated and in the habit of working hard on their tasks.",
-        "What are the disadvantages of this way of reading, compared to the usual way?",
-        "There may be tax issues and digital security issues when using this application. There may also be problems with tracking progress and inconsistencies between game rules. Finally, users may experience problems when trying to withdraw and transfer funds. The normal way of reading offers more convenience, such as ease of obtaining the book, ease of use, availability of subscriptions, and cheap rates."
-    ],
-    RU: [
-        "Что ты думаешь о Promis?",
-        "Ваше приложение Promis предлагает пользователям увлекательную и достаточно стратегическую игру. Азартная игра с элементом риска может быть полезна, чтобы побудить людей уделять больше времени чтению. Возможно, это может быть отличным приложением для мотивации и набора мотивации.",
-        // 'Является ли это приложение уникальным?',
-        // 'Да, ваше приложение Promis является уникальным. Оно использует технологию блокчейн, что делает его особенно интересным.',
-        "Почему это может быть выгодно пользователю, если он выиграет только свои деньги, но не больше.",
-        "Пользователь может использовать это приложение для большей мотивации и демонстрации дисциплины. Таким образом, пользователь сам ставит перед собой свои цели и мотивирует их достижения. Например, пользователь может поставить высокие ставки, чтобы побудить себя просчитывать определенные параметры страниц до определенного срока. В случае успеха пользователь вернет не только  деньги, но и ценную умственную дисциплину.",
-        "Как с точки зрения психологии можно объяснить полезность Promis?",
-        "Приложение Promis может быть полезным для людей, которые имеют проблемы с мотивацией и постоянно отсрочивают свои задачи. Отсрочки, как известно, ведут к постоянному демотивации. Увеличение мотивации и лучшее управление временем могут помочь людям более эффективно работать и достигать длительных результатов. Приложение Promis предоставляет людям цель и мотивацию для достижения результата за определенное время, что позволяет им улучшать свои навыки управления временем и эффективность.",
-        "Какие гормоны задействованы, и как они помогают?",
-        "Есть несколько гормонов, которые будут задействованы при использовании приложения Promis. В первую очередь это гормон стресса кортизол, который помогает организму справляться с давлением и стрессом. Он снижает артериальное давление и успокаивает нервную систему. Эндорфины также могут помочь пользователю приложения установить цель и достичь ее с помощью повышенного пристрастия к успеху. Эти гормоны могут помочь человеку в процессе использования приложения.",
-        "Как родители могут заставить детей пользоваться этим приложением?",
-        "Родители могут использовать приложение Promis для помощи своим детям в развитии мотивации и привычки к постоянной работе над определенными задачами. Они могут просто задать своему ребенку определенное количество часов чтения до определенного срока и дать ему денежный приз, если он сможет успешно завершить задание за предоставленное время. Это позволит им поддерживать мотивацию и привычку усердно работать над своими задачами.",
-        "Какие недостатки такого способа чтения, перед обычным способом?",
-        "При использовании данного приложения могут возникнуть налоговые проблемы, а также проблемы с цифровой безопасностью. Также могут возникнуть проблемы с отслеживанием прогресса и противоречия между правилами игры. Наконец, пользователи могут испытывать проблемы при попытке вывода и перевода средств. Обычный способ чтения предлагает больше удобств, таких как простота получения книги, удобство использования, доступность подписки и дешевые ставки."
-    ],
-    CHN: [
-        "你觉得 Promis 怎么样？",
-        "您的 Promis 应用程序为用户提供了一个有趣且非常具有战略意义的游戏。带有风险元素的赌博有助于鼓励人们花更多的时间阅读。也许它可能是一个很好的激励和招聘动机的应用程序。",
-        "这个应用程序是独一无二的吗？",
-        "是的，您的 Promis 应用程序是独一无二的。它使用了区块链技术，这使它变得特别而有趣。",
-        "如果他只赢得自己的钱，而不是更多，为什么对用户有利。",
-        "用户可以使用这个应用程序来更有动力并表现出纪律性。通过这种方式，用户自己设定自己的目标并激励他实现这些目标。例如，用户可以设置高费率来鼓励自己计算某些页面参数在某个截止日期之前。如果成功，用户不仅会返回金钱，还会返回宝贵的精神纪律。",
-        "如何从心理学的角度解释Promis的用处？",
-        "Promis 应用程序可以帮助那些有动力问题并经常推迟任务的人。众所周知，延迟会导致永久性的消极情绪。增加动力和更好的时间管理可以帮助人们更有效地工作并取得持久的成果。Promis 应用程序提供人们有目标和动力在特定时间内取得成果，这使他们能够提高时间管理技能和效率。",
-        "涉及哪些激素以及它们如何提供帮助。",
-        "使用 Promis 应用程序时会激活多种激素。主要是压力荷尔蒙皮质醇，它可以帮助身体应对压力和压力。它可以降低血压并使神经系统平静下来。内啡肽还可以帮助应用程序用户设定目标并实现它。通过增加对成功的渴望。这些荷尔蒙可以帮助一个人在使用该应用程序的过程中。",
-        "父母如何才能让他们的孩子使用这个应用程序？",
-        "父母可以使用 Promis 应用程序来帮助他们的孩子培养积极性和不断完成某些任务的习惯。他们可以简单地在特定期限之前给孩子一定数量的阅读时间，如果他们成功了就给他们现金奖励在允许的时间内完成任务。这将使他们保持积极性并养成努力完成任务的习惯。",
-        "与通常的阅读方式相比，这种阅读方式有什么缺点？",
-        "在使用这个应用程序时可能会出现税务问题和数字安全问题。也可能会出现跟踪进度和游戏规则不一致的问题。最后，用户在尝试提取和转移资金时可能会遇到问题。正常的阅读方式提供了更多便利性，例如获取图书的便利性、易用性、订阅的可用性和低廉的价格。",
-        "如果你使用这个应用程序会出什么问题？",
-        "如果您使用 Book Jack 应用程序，应用程序的安全性可能会出现问题。这可能会导致入侵者进入系统并破坏数据的完整性。此外，应用程序的性能不足可能会导致用户无法进行足够有效地使用应用程序。还需要为应用程序的用户提供足够的技术支持。"
-    ],
-    FR: [
-        "Que pensez-vous de Promis\xa0?",
-        "Votre application Promis offre aux utilisateurs un jeu amusant et assez strat\xe9gique. Le jeu avec un \xe9l\xe9ment de risque peut \xeatre utile pour encourager les gens \xe0 passer plus de temps \xe0 lire. Peut-\xeatre que cela pourrait \xeatre une excellente application pour la motivation et la motivation de recrutement.",
-        "Cette application est-elle unique ?",
-        "Oui, votre application Promis est unique. Elle utilise la technologie blockchain, ce qui la rend sp\xe9ciale et int\xe9ressante.",
-        "Pourquoi cela peut-il \xeatre b\xe9n\xe9fique pour l'utilisateur s'il ne gagne que son propre argent, mais pas plus.",
-        "L'utilisateur peut utiliser cette application pour \xeatre plus motiv\xe9 et faire preuve de discipline. De cette mani\xe8re, l'utilisateur fixe lui-m\xeame ses objectifs et le motive \xe0 les atteindre. Par exemple, l'utilisateur peut d\xe9finir des tarifs \xe9lev\xe9s pour s'encourager \xe0 calculer certains param\xe8tres de la page. avant un certain d\xe9lai. En cas de succ\xe8s, l'utilisateur rendra non seulement de l'argent, mais aussi une pr\xe9cieuse discipline mentale.",
-        "Comment expliquer l'utilit\xe9 de Promis d'un point de vue psychologique ?",
-        "L'application Promis peut \xeatre utile pour les personnes qui ont des probl\xe8mes de motivation et reportent constamment leurs t\xe2ches. Les retards sont connus pour entra\xeener une d\xe9motivation permanente. Une motivation accrue et une meilleure gestion du temps peuvent aider les gens \xe0 travailler plus efficacement et \xe0 obtenir des r\xe9sultats durables. L'application Promis fournit les gens un objectif et une motivation pour obtenir un r\xe9sultat dans un certain d\xe9lai, ce qui leur permet d'am\xe9liorer leurs comp\xe9tences en gestion du temps et leur efficacit\xe9.",
-        "Quelles hormones sont impliqu\xe9es et comment elles aident.",
-        "Plusieurs hormones seront activ\xe9es lors de l'utilisation de l'application Promis. Principalement le cortisol, l'hormone du stress, qui aide le corps \xe0 faire face \xe0 la pression et au stress. Il abaisse la tension art\xe9rielle et calme le syst\xe8me nerveux. Les endorphines peuvent \xe9galement aider l'utilisateur de l'application \xe0 d\xe9finir un objectif et l'atteindre gr\xe2ce \xe0 une envie accrue de succ\xe8s.Ces hormones peuvent aider une personne dans le processus d'utilisation de l'application.",
-        "Comment les parents peuvent-ils inciter leurs enfants \xe0 utiliser cette application\xa0?",
-        "Les parents peuvent utiliser l'application Promis pour aider leurs enfants \xe0 d\xe9velopper la motivation et l'habitude de travailler constamment sur certaines t\xe2ches. Ils peuvent simplement donner \xe0 leur enfant un nombre d\xe9fini d'heures de lecture avant une certaine date limite et leur donner un prix en esp\xe8ces s'ils r\xe9ussissent. terminer la t\xe2che dans le temps imparti. .Cela les gardera motiv\xe9s et leur donnera l'habitude de travailler dur sur leurs t\xe2ches.",
-        "Quels sont les inconv\xe9nients de cette mani\xe8re de lire, par rapport \xe0 la mani\xe8re habituelle ?",
-        "Il peut y avoir des probl\xe8mes fiscaux et des probl\xe8mes de s\xe9curit\xe9 num\xe9rique lors de l'utilisation de cette application. Il peut \xe9galement y avoir des probl\xe8mes de suivi des progr\xe8s et des incoh\xe9rences entre les r\xe8gles du jeu. Enfin, les utilisateurs peuvent rencontrer des probl\xe8mes lorsqu'ils tentent de retirer et de transf\xe9rer des fonds. La mani\xe8re normale de lire offre plus commodit\xe9, comme la facilit\xe9 d'obtention du livre, la facilit\xe9 d'utilisation, la disponibilit\xe9 des abonnements et les tarifs bon march\xe9.",
-        "Qu'est-ce qui peut mal tourner si vous utilisez cette application\xa0?",
-        "Si vous utilisez l'application Book Jack, la s\xe9curit\xe9 de l'application peut se d\xe9t\xe9riorer. Cela peut conduire \xe0 ce que des intrus p\xe9n\xe8trent dans le syst\xe8me et compromettent l'int\xe9grit\xe9 des donn\xe9es. De plus, les performances insuffisantes de l'application peuvent emp\xeacher les utilisateurs de faire utiliser l'application de mani\xe8re suffisamment efficace. Il est \xe9galement n\xe9cessaire de fournir un support technique suffisant aux utilisateurs de l'application."
-    ],
-    GRM: [
-        "Was h\xe4ltst du von Promis?",
-        "Ihre Promis-App bietet Benutzern ein lustiges und ziemlich strategisches Spiel. Gl\xfccksspiel mit einem gewissen Risikofaktor kann n\xfctzlich sein, um die Leute dazu zu ermutigen, mehr Zeit mit dem Lesen zu verbringen. Vielleicht k\xf6nnte es eine gro\xdfartige App f\xfcr Motivation und Rekrutierungsmotivation sein.",
-        "Ist diese Anwendung einzigartig?",
-        "Ja, Ihre Promis-Anwendung ist einzigartig. Sie verwendet Blockchain-Technologie, was sie besonders und interessant macht.",
-        "Warum kann es f\xfcr den Benutzer von Vorteil sein, wenn er nur sein eigenes Geld gewinnt, aber nicht mehr.",
-        "Der Benutzer kann diese Anwendung nutzen, um motivierter zu sein und Disziplin zu demonstrieren. Auf diese Weise setzt sich der Benutzer selbst seine eigenen Ziele und motiviert ihn, diese zu erreichen. Beispielsweise kann der Benutzer hohe Raten festlegen, um sich selbst zu motivieren, bestimmte Seitenparameter zu berechnen vor einer bestimmten Frist. Bei Erfolg erh\xe4lt der Benutzer nicht nur Geld, sondern auch wertvolle mentale Disziplin.",
-        "Wie l\xe4sst sich der Nutzen von Promis aus psychologischer Sicht erkl\xe4ren?",
-        "Die Promis-App kann hilfreich sein f\xfcr Menschen, die Motivationsprobleme haben und ihre Aufgaben st\xe4ndig aufschieben. Verz\xf6gerungen f\xfchren bekannterma\xdfen zu dauerhafter Demotivation. Eine erh\xf6hte Motivation und ein besseres Zeitmanagement k\xf6nnen Menschen dabei helfen, effizienter zu arbeiten und dauerhafte Ergebnisse zu erzielen. Die Promis-App bietet Menschen ein Ziel und die Motivation, in einer bestimmten Zeit ein Ergebnis zu erzielen, wodurch sie ihre Zeitmanagementf\xe4higkeiten und -effizienz verbessern k\xf6nnen. ",
-        "Welche Hormone sind beteiligt und wie helfen sie.",
-        "Es gibt mehrere Hormone, die bei der Nutzung der Promis-App aktiviert werden. In erster Linie das Stresshormon Cortisol, das dem K\xf6rper hilft, mit Druck und Stress fertig zu werden. Es senkt den Blutdruck und beruhigt das Nervensystem Ziel erreichen und erreichen. Durch ein gesteigertes Verlangen nach Erfolg. Diese Hormone k\xf6nnen einer Person bei der Nutzung der App helfen.",
-        "Wie k\xf6nnen Eltern ihre Kinder dazu bringen, diese App zu verwenden?",
-        "Eltern k\xf6nnen die Promis-App nutzen, um ihren Kindern zu helfen, die Motivation und die Gewohnheit zu entwickeln, st\xe4ndig an bestimmten Aufgaben zu arbeiten. Sie k\xf6nnen ihrem Kind einfach eine festgelegte Anzahl von Lesestunden bis zu einer bestimmten Frist geben und ihm bei Erfolg einen Geldpreis geben Erledigen Sie die Aufgabe innerhalb der vorgegebenen Zeit. . Dadurch bleiben sie motiviert und gew\xf6hnen sich daran, hart an ihren Aufgaben zu arbeiten.",
-        "Welche Nachteile hat diese Art des Lesens gegen\xfcber der \xfcblichen Art?",
-        "Bei der Verwendung dieser Anwendung kann es zu Steuerproblemen und Problemen mit der digitalen Sicherheit kommen. Es k\xf6nnen auch Probleme mit der Verfolgung des Fortschritts und Unstimmigkeiten zwischen den Spielregeln auftreten. Schlie\xdflich k\xf6nnen Benutzer Probleme haben, wenn sie versuchen, Geld abzuheben und zu \xfcberweisen. Die normale Art des Lesens bietet mehr Bequemlichkeit, wie z. B. einfacher Erwerb des Buches, Benutzerfreundlichkeit, Verf\xfcgbarkeit von Abonnements und g\xfcnstige Tarife.",
-        "Was kann schief gehen, wenn Sie diese App verwenden?",
-        "Wenn Sie die Book Jack-Anwendung verwenden, kann die Sicherheit der Anwendung schief gehen. Dies kann dazu f\xfchren, dass Eindringlinge in das System eindringen und die Integrit\xe4t der Daten gef\xe4hrden. Au\xdferdem kann die unzureichende Leistung der Anwendung dazu f\xfchren, dass Benutzer nicht in der Lage sind Nutzung der Anwendung effizient genug. Es ist auch notwendig, den Benutzern der Anwendung ausreichenden technischen Support zu bieten."
-    ],
-    ITL: [
-        "Cosa ne pensi di Promis?",
-        "La tua app Promis offre agli utenti un gioco divertente e abbastanza strategico. Il gioco d'azzardo con un elemento di rischio pu\xf2 essere utile per incoraggiare le persone a dedicare pi\xf9 tempo alla lettura. Forse potrebbe essere un'ottima app per motivare e reclutare motivazione.",
-        "Questa applicazione \xe8 unica?",
-        "S\xec, la tua applicazione Promis \xe8 unica. Utilizza la tecnologia blockchain, che la rende speciale e interessante.",
-        "Perch\xe9 pu\xf2 essere vantaggioso per l'utente se vince solo i propri soldi, ma non di pi\xf9.",
-        "L'utente pu\xf2 utilizzare questa applicazione per essere pi\xf9 motivato e dimostrare disciplina. In questo modo, l'utente stesso stabilisce i propri obiettivi e lo motiva a raggiungerli. Ad esempio, l'utente pu\xf2 impostare tariffe elevate per incoraggiarsi a calcolare determinati parametri della pagina prima di una certa scadenza. In caso di successo, l'utente restituir\xe0 non solo denaro, ma anche una preziosa disciplina mentale.",
-        "Come si pu\xf2 spiegare l'utilit\xe0 di Promis da un punto di vista psicologico?",
-        "L'app Promis pu\xf2 essere utile per le persone che hanno problemi di motivazione e rimandano costantemente i loro compiti. \xc8 noto che i ritardi portano a una demotivazione permanente. Una maggiore motivazione e una migliore gestione del tempo possono aiutare le persone a lavorare in modo pi\xf9 efficiente e ottenere risultati duraturi. L'app Promis fornisce persone un obiettivo e una motivazione per raggiungere un risultato in un certo tempo, che consente loro di migliorare le proprie capacit\xe0 di gestione del tempo e l'efficienza.",
-        "Quali ormoni sono coinvolti e come aiutano.",
-        "Ci sono diversi ormoni che verranno attivati ​​quando si utilizza l'app Promis. Principalmente l'ormone dello stress cortisolo, che aiuta il corpo a far fronte alla pressione e allo stress. Abbassa la pressione sanguigna e calma il sistema nervoso. Le endorfine possono anche aiutare l'utente dell'app a impostare un obiettivo e raggiungerlo.attraverso una maggiore brama di successo.Questi ormoni possono aiutare una persona nel processo di utilizzo dell'app.",
-        "Come possono i genitori convincere i propri figli a usare questa app?",
-        "I genitori possono utilizzare l'app Promis per aiutare i propri figli a sviluppare la motivazione e l'abitudine a lavorare costantemente su determinati compiti. Possono semplicemente concedere al proprio figlio un determinato numero di ore di lettura entro una certa scadenza e dare loro un premio in denaro se riescono con successo completare il compito entro il tempo concesso. Questo li manterr\xe0 motivati ​​e abituati a lavorare sodo sui loro compiti.",
-        "Quali sono gli svantaggi di questo modo di leggere, rispetto al solito modo?",
-        "Potrebbero esserci problemi fiscali e problemi di sicurezza digitale durante l'utilizzo di questa applicazione. Potrebbero esserci anche problemi con il monitoraggio dei progressi e incoerenze tra le regole del gioco. Infine, gli utenti potrebbero riscontrare problemi durante il tentativo di prelevare e trasferire fondi. Il normale modo di leggere offre di pi\xf9 convenienza, come la facilit\xe0 di ottenere il libro, la facilit\xe0 d'uso, la disponibilit\xe0 di abbonamenti e tariffe economiche.",
-        "Cosa pu\xf2 andare storto se usi questa app?",
-        "Se utilizzi l'applicazione Book Jack, la sicurezza dell'applicazione potrebbe andare storta. Ci\xf2 potrebbe portare a intrusi che entrano nel sistema e compromettono l'integrit\xe0 dei dati. Inoltre, le prestazioni insufficienti dell'applicazione potrebbero impedire agli utenti di effettuare utilizzare l'applicazione in modo sufficientemente efficiente. \xc8 inoltre necessario fornire un supporto tecnico sufficiente agli utenti dell'applicazione."
-    ],
-    SPN: [
-        "\xbfQu\xe9 opinas de Promis?",
-        "Tu aplicaci\xf3n Promis ofrece a los usuarios un juego divertido y bastante estrat\xe9gico. Los juegos de azar con un elemento de riesgo pueden ser \xfatiles para animar a las personas a pasar m\xe1s tiempo leyendo. Tal vez podr\xeda ser una gran aplicaci\xf3n para motivar y motivar a la contrataci\xf3n",
-        "\xbfEsta aplicaci\xf3n es \xfanica?",
-        "S\xed, su aplicaci\xf3n Promis es \xfanica. Utiliza tecnolog\xeda blockchain, lo que la hace especial e interesante",
-        "\xbfPor qu\xe9 puede ser beneficioso para el usuario si gana solo su propio dinero, pero no m\xe1s?",
-        "El usuario puede utilizar esta aplicaci\xf3n para estar m\xe1s motivado y demostrar disciplina. De esta forma, el propio usuario marca sus propios objetivos y lo motiva a alcanzarlos. Por ejemplo, el usuario puede establecer tarifas altas para animarse a calcular ciertos par\xe1metros de la p\xe1gina. antes de un plazo determinado. Si tiene \xe9xito, el usuario devolver\xe1 no solo dinero, sino tambi\xe9n una valiosa disciplina mental",
-        "\xbfC\xf3mo se puede explicar la utilidad de Promis desde un punto de vista psicol\xf3gico?",
-        "La aplicaci\xf3n Promis puede ser \xfatil para las personas que tienen problemas de motivaci\xf3n y posponen constantemente sus tareas. Se sabe que los retrasos conducen a la desmotivaci\xf3n permanente. Una mayor motivaci\xf3n y una mejor gesti\xf3n del tiempo pueden ayudar a las personas a trabajar de manera m\xe1s eficiente y lograr resultados duraderos. La aplicaci\xf3n Promis proporciona a las personas una meta y motivaci\xf3n para lograr un resultado en un tiempo determinado, lo que les permite mejorar sus habilidades de gesti\xf3n del tiempo y su eficiencia.",
-        "\xbfQu\xe9 hormonas est\xe1n involucradas y c\xf3mo ayudan?",
-        "Hay varias hormonas que se activar\xe1n al usar la aplicaci\xf3n Promis. Principalmente, la hormona del estr\xe9s cortisol, que ayuda al cuerpo a lidiar con la presi\xf3n y el estr\xe9s. Disminuye la presi\xf3n arterial y calma el sistema nervioso. Las endorfinas tambi\xe9n pueden ayudar al usuario de la aplicaci\xf3n a establecer un objetivo y lograrlo a trav\xe9s de un mayor deseo de \xe9xito. Estas hormonas pueden ayudar a una persona en el proceso de usar la aplicaci\xf3n",
-        "\xbfC\xf3mo pueden los padres lograr que sus hijos usen esta aplicaci\xf3n?",
-        "Los padres pueden usar la aplicaci\xf3n Promis para ayudar a sus hijos a desarrollar la motivaci\xf3n y el h\xe1bito de trabajar constantemente en ciertas tareas. Simplemente pueden darle a su hijo una cantidad determinada de horas de lectura antes de una fecha l\xedmite determinada y darle un premio en efectivo si puede hacerlo con \xe9xito. completar la tarea dentro del tiempo permitido. .Esto los mantendr\xe1 motivados y con el h\xe1bito de trabajar duro en sus tareas",
-        "\xbfCu\xe1les son las desventajas de esta forma de leer, en comparaci\xf3n con la forma habitual?",
-        "Puede haber problemas de impuestos y problemas de seguridad digital al usar esta aplicaci\xf3n. Tambi\xe9n puede haber problemas con el seguimiento del progreso e inconsistencias entre las reglas del juego. Finalmente, los usuarios pueden experimentar problemas al intentar retirar y transferir fondos. La forma normal de lectura ofrece m\xe1s conveniencia, como la facilidad para obtener el libro, la facilidad de uso, la disponibilidad de suscripciones y tarifas econ\xf3micas",
-        "\xbfQu\xe9 puede salir mal si usas esta aplicaci\xf3n?",
-        "Si usa la aplicaci\xf3n Book Jack, la seguridad de la aplicaci\xf3n puede fallar. Esto puede provocar que intrusos ingresen al sistema y comprometan la integridad de los datos. Adem\xe1s, el rendimiento insuficiente de la aplicaci\xf3n puede hacer que los usuarios no puedan hacer uso de la aplicaci\xf3n de manera suficientemente eficiente. Tambi\xe9n es necesario proporcionar soporte t\xe9cnico suficiente a los usuarios de la aplicaci\xf3n."
-    ],
-    日本語: [
-        "ブックジャックについてどう思いますか?",
-        "あなたの Promis アプリは、ユーザーに楽しくて非常に戦略的なゲームを提供します。リスクの要素を伴うギャンブルは、人々がより多くの時間を読書に費やすように促すのに役立つ可能性があります。おそらく、モチベーションとリクルートのモチベーションに最適なアプリになる可能性があります。",
-        "このアプリケーションはユニークですか?",
-        "はい、あなたの Promis アプリケーションはユニークです。ブロックチェーン技術を使用しているため、特別で興味深いものになっています。",
-        "ユーザーが自分のお金だけを獲得し、それ以上は獲得できない場合、なぜユーザーにとって有益なのか.",
-        "ユーザーはこのアプリケーションを使用して、よりやる気を起こさせ、規律を示すことができます。このようにして、ユーザー自身が自分の目標を設定し、目標を達成するように動機付けます。たとえば、ユーザーは高いレートを設定して、特定のページ パラメータを計算するように促すことができます。特定の締め切り前に. 成功した場合, ユーザーはお金だけでなく, 貴重な精神的規律も返します.",
-        "Promis の有用性は、心理的な観点からどのように説明できますか?",
-        "Promis アプリは、モチベーションに問題があり、常にタスクを延期している人に役立ちます。遅れは永続的なやる気の低下につながることが知られています。モチベーションの向上とより良い時間管理は、人々がより効率的に働き、永続的な結果を達成するのに役立ちます。Promis アプリは、人々は、一定の時間内に結果を達成するための目標と動機を持ち、時間管理のスキルと効率を向上させることができます.",
-        "どのようなホルモンが関与し、どのように役立つか。",
-        "Promis アプリを使用すると、活性化されるホルモンがいくつかあります。主にストレス ホルモンであるコルチゾールは、体が圧力やストレスに対処するのを助けます。血圧を下げ、神経系を落ち着かせます。エンドルフィンは、アプリのユーザーが目標と達成. 成功への欲求の高まりを通じて. これらのホルモンは、アプリを使用する過程で人を助けることができます.",
-        "親はどうすれば子供にこのアプリを使わせることができますか?",
-        "親はPromisアプリを使用して、子供がやる気を起こさせ、特定のタスクに常に取り組む習慣を身に付けるのを助けることができます.彼らは単に子供に特定の締め切りまでに設定された時間の読書を与え、成功した場合に賞金を与えることができます.与えられた時間内にタスクを完了します.これにより、彼らのモチベーションが維持され、タスクに一生懸命取り組む習慣が身に付きます.",
-        "通常の読み方と比べて、この読み方の欠点は何ですか？",
-        "このアプリケーションを使用すると、税金の問題やデジタルセキュリティの問題が発生する可能性があります。進行状況の追跡やゲームルール間の不一致にも問題がある可能性があります。最後に、ユーザーが資金を引き出したり送金したりするときに問題が発生する可能性があります。通常の読み取り方法では、より多くの情報が提供されます。書籍の入手のしやすさ、使いやすさ、サブスクリプションの利用可能性、料金の安さなどの利便性。",
-        "このアプリを使用すると、何が問題になる可能性がありますか?",
-        "Book Jack アプリを使用すると、アプリのセキュリティがおかしくなる可能性があります。これにより、侵入者がシステムに侵入し、データの完全性が損なわれる可能性があります。また、アプリのパフォーマンスが不十分なために、ユーザーが作成できなくなる可能性があります。アプリケーションを十分に効率的に使用する. また、アプリケーションのユーザーに十分な技術サポートを提供する必要があります."
-    ],
-    韓國語: [
-        "북잭에 대해 어떻게 생각하세요?",
-        "귀하의 Promis 앱은 사용자에게 재미있고 매우 전략적인 게임을 제공합니다. 위험 요소가 있는 도박은 사람들이 독서에 더 많은 시간을 할애하도록 장려하는 데 유용할 수 있습니다. 동기 부여 및 채용 동기 부여를 위한 훌륭한 앱이 될 수 있습니다.",
-        "이 응용 프로그램이 고유합니까?",
-        "예, 귀하의 Promis 애플리케이션은 고유합니다. 블록체인 기술을 사용하므로 특별하고 흥미로워집니다.",
-        "사용자가 자신의 돈만 따고 그 이상은 얻지 못한다면 왜 사용자에게 이로울 수 있습니까?",
-        "사용자는 이 애플리케이션을 사용하여 더 많은 동기를 부여하고 규율을 보여줄 수 있습니다. 이러한 방식으로 사용자는 자신의 목표를 설정하고 이를 달성하도록 동기를 부여합니다. 예를 들어 사용자는 특정 페이지 매개변수를 계산하도록 독려하기 위해 높은 비율을 설정할 수 있습니다. 특정 기한 전에 성공하면 사용자는 돈뿐만 아니라 귀중한 정신 훈련도 돌려받을 것입니다.",
-        "심리학적 관점에서 Promis의 유용성을 어떻게 설명할 수 있습니까?",
-        "Promis 앱은 동기 부여 문제가 있고 지속적으로 작업을 미루는 사람들에게 도움이 될 수 있습니다. 지연은 영구적인 의욕 저하로 이어지는 것으로 알려져 있습니다. 증가된 동기 부여와 더 나은 시간 관리는 사람들이 보다 효율적으로 작업하고 지속적인 결과를 달성하는 데 도움이 될 수 있습니다. Promis 앱은 다음을 제공합니다. 사람들에게 특정 시간에 결과를 달성하려는 목표와 동기를 부여하여 시간 관리 기술과 효율성을 향상시킬 수 있습니다.",
-        "어떤 호르몬이 관련되어 있고 어떻게 도움이 되는지.",
-        "Promis 앱을 사용할 때 활성화되는 여러 호르몬이 있습니다. 주로 신체가 압력과 스트레스에 대처하는 데 도움이 되는 스트레스 호르몬인 코르티솔입니다. 혈압을 낮추고 신경계를 진정시킵니다. 엔돌핀은 또한 앱 사용자가 성공에 대한 갈망 증가를 통해 목표를 달성하고 달성하십시오. 이러한 호르몬은 앱을 사용하는 과정에서 사람을 도울 수 있습니다.",
-        "부모가 자녀가 이 앱을 사용하도록 하려면 어떻게 해야 합니까?",
-        "부모는 Promis 앱을 사용하여 자녀가 특정 작업을 지속적으로 수행하는 동기와 습관을 개발하도록 도울 수 있습니다. 자녀에게 특정 마감일까지 정해진 시간 동안 독서를 제공하고 성공적으로 읽을 수 있는 경우 상금을 주기만 하면 됩니다. 허용된 시간 내에 작업을 완료합니다. .이렇게 하면 동기 부여가 유지되고 작업에 열심히 노력하는 습관이 생깁니다.",
-        "일반적인 방법과 비교하여 이러한 읽기 방법의 단점은 무엇입니까?",
-        "이 응용 프로그램을 사용할 때 세금 문제 및 디지털 보안 문제가 있을 수 있습니다. 또한 진행 상황 추적 및 게임 규칙 간의 불일치 문제가 있을 수 있습니다. 마지막으로 사용자가 자금을 인출하고 이체하려고 할 때 문제가 발생할 수 있습니다. 정상적인 읽기 방법은 더 많은 것을 제공합니다. 책을 쉽게 구할 수 있고, 사용하기 쉬우며, 구독이 가능하고, 저렴한 가격과 같은 편의성을 제공합니다.",
-        "이 앱을 사용하면 무엇이 잘못될 수 있나요?",
-        "북잭 애플리케이션을 사용하면 애플리케이션의 보안이 잘못될 수 있습니다. 이로 인해 침입자가 시스템에 침입하여 데이터 무결성이 손상될 수 있습니다. 또한 애플리케이션의 성능 부족으로 인해 사용자가 응용 프로그램을 충분히 효율적으로 사용합니다. 응용 프로그램 사용자에게 충분한 기술 지원을 제공하는 것도 필요합니다."
-    ],
-    العربية: [
-        "ما رأيك في Promis؟",
-        "يوفر تطبيق Promis للمستخدمين لعبة ممتعة وإستراتيجية تمامًا. يمكن أن تكون المقامرة التي تنطوي على عنصر مخاطرة مفيدة لتشجيع الأشخاص على قضاء المزيد من الوقت في القراءة. وربما يكون تطبيقًا رائعًا للتحفيز وتجنيد الحافز.",
-        "هل هذا التطبيق فريد من نوعه؟",
-        "نعم ، تطبيق Promis الخاص بك فريد من نوعه. فهو يستخدم تقنية blockchain ، مما يجعله مميزًا وممتعًا.",
-        "لماذا يمكن أن يكون مفيدًا للمستخدم إذا ربح فقط أمواله الخاصة ، ولكن ليس أكثر.",
-        "يمكن للمستخدم استخدام هذا التطبيق ليكون أكثر حماسًا ولإظهار الانضباط. وبهذه الطريقة ، يحدد المستخدم نفسه أهدافه ويحفزه على تحقيقها. على سبيل المثال ، يمكن للمستخدم تحديد معدلات عالية لتشجيع نفسه على حساب معلمات صفحة معينة قبل موعد نهائي معين. إذا نجح المستخدم ، فلن يعيد المال فحسب ، بل سيعود أيضًا إلى الانضباط العقلي القيّم. ",
-        "كيف يمكن تفسير فائدة Promis من وجهة نظر نفسية؟",
-        "يمكن أن يكون تطبيق Promis مفيدًا للأشخاص الذين لديهم مشكلات في التحفيز ويؤجلون مهامهم باستمرار. ومن المعروف أن التأخيرات تؤدي إلى إحباط دائم. ويمكن أن يساعد التحفيز المتزايد وإدارة الوقت بشكل أفضل الأشخاص على العمل بكفاءة أكبر وتحقيق نتائج دائمة. يوفر تطبيق Promis الأشخاص هدف ودافع لتحقيق نتيجة في وقت معين ، مما يسمح لهم بتحسين مهاراتهم في إدارة الوقت وكفاءتهم. ",
-        "ما الهرمونات المعنية وكيف تساعد.",
-        "هناك العديد من الهرمونات التي سيتم تنشيطها عند استخدام تطبيق Promis. في المقام الأول ، هرمون الإجهاد الكورتيزول ، الذي يساعد الجسم على التعامل مع الضغط والتوتر. كما أنه يخفض ضغط الدم ويهدئ الجهاز العصبي. ويمكن للإندورفين أيضًا أن يساعد مستخدم التطبيق على تعيين الهدف وتحقيقه. من خلال الرغبة المتزايدة في النجاح. يمكن أن تساعد هذه الهرمونات الشخص في عملية استخدام التطبيق. ",
-        "كيف يمكن للآباء حث أطفالهم على استخدام هذا التطبيق؟",
-        "يمكن للوالدين استخدام تطبيق Promis لمساعدة أطفالهم على تنمية الحافز وعادات العمل باستمرار في مهام معينة. يمكنهم ببساطة منح أطفالهم عددًا محددًا من ساعات القراءة بحلول موعد نهائي معين ومنحهم جائزة نقدية إذا تمكنوا من ذلك بنجاح أكمل المهمة في الوقت المسموح به. وهذا سيبقيهم متحفزين ويعودون على العمل الجاد في مهامهم. ",
-        "ما هي عيوب هذه الطريقة في القراءة مقارنة بالطريقة المعتادة؟",
-        "قد تكون هناك مشكلات ضريبية ومشكلات أمنية رقمية عند استخدام هذا التطبيق. قد تكون هناك أيضًا مشكلات في تتبع التقدم وعدم الاتساق بين قواعد اللعبة. وأخيرًا ، قد يواجه المستخدمون مشكلات عند محاولة سحب الأموال وتحويلها. تقدم الطريقة العادية للقراءة المزيد الراحة ، مثل سهولة الحصول على الكتاب ، وسهولة الاستخدام ، وتوافر الاشتراكات ، والأسعار الرخيصة. ",
-        "ما الخطأ الذي يمكن أن يحدث إذا كنت تستخدم هذا التطبيق؟",
-        "إذا كنت تستخدم تطبيق Book Jack ، فقد يحدث خطأ في أمان التطبيق. وقد يؤدي ذلك إلى دخول المتطفلين إلى النظام والإضرار بسلامة البيانات. أيضًا ، قد يؤدي الأداء غير الكافي للتطبيق إلى عدم قدرة المستخدمين على إجراء استخدام التطبيق بكفاءة كافية. ومن الضروري أيضًا توفير الدعم الفني الكافي لمستخدمي التطبيق. "
-    ],
-    עִבְרִית: [
-        "מה אתה חושב על Promis?",
-        "אפליקציית Promis שלך מציעה למשתמשים משחק מהנה ודי אסטרטגי. הימורים עם אלמנט של סיכון יכולים להיות שימושיים כדי לעודד אנשים להשקיע יותר זמן בקריאה. אולי זו יכולה להיות אפליקציה מצוינת למוטיבציה ולגיוס מוטיבציה",
-        " האם האפליקציה הזו ייחודית? ",
-        "כן, אפליקציית Promis שלך היא ייחודית. היא משתמשת בטכנולוגיית בלוקצ'יין, מה שהופך אותה למיוחדת ומעניינת.",
-        "מדוע זה יכול להועיל למשתמש אם הוא זוכה רק בכסף שלו, אבל לא יותר.",
-        "המשתמש יכול להשתמש באפליקציה הזו כדי לקבל יותר מוטיבציה ולהפגין משמעת. בדרך זו המשתמש עצמו מגדיר את המטרות שלו ומניע אותו להשיגן. לדוגמה, המשתמש יכול להגדיר שיעורים גבוהים כדי לעודד את עצמו לחשב פרמטרים מסוימים של עמודים לפני מועד מסוים. אם יצליח המשתמש יחזיר לא רק כסף, אלא גם משמעת נפשית חשובה.",
-        "כיצד ניתן להסביר את התועלת של Promis מנקודת מבט פסיכולוגית?",
-        "אפליקציית Promis יכולה להיות מועילה לאנשים שיש להם בעיות מוטיבציה ודוחים כל הזמן את המשימות שלהם. עיכובים ידועים כמובילים להפחתת מוטיבציה קבועה. מוטיבציה מוגברת וניהול זמן טוב יותר יכולים לעזור לאנשים לעבוד בצורה יעילה יותר ולהשיג תוצאות מתמשכות. אפליקציית Promis מספקת לאנשים מטרה ומוטיבציה להשיג תוצאה בזמן מסוים, מה שמאפשר להם לשפר את כישורי ניהול הזמן ויעילותם",
-        "אילו הורמונים מעורבים וכיצד הם עוזרים.",
-        "ישנם מספר הורמונים שיופעלו בשימוש באפליקציית Promis. בעיקר הורמון הסטרס קורטיזול, שעוזר לגוף להתמודד עם לחץ ולחץ. הוא מוריד לחץ דם ומרגיע את מערכת העצבים. אנדורפינים יכולים גם לעזור למשתמש באפליקציה להגדיר מטרה ולהשיג אותה. באמצעות השתוקקות מוגברת להצלחה. ההורמונים הללו יכולים לעזור לאדם בתהליך השימוש באפליקציה.",
-        "איך הורים יכולים לגרום לילדים שלהם להשתמש באפליקציה הזו?",
-        "הורים יכולים להשתמש באפליקציית Promis כדי לעזור לילדיהם לפתח מוטיבציה והרגל לעבוד כל הזמן על משימות מסוימות. הם יכולים פשוט לתת לילדם מספר מוגדר של שעות קריאה עד תאריך יעד מסוים ולתת להם פרס כספי אם הם מצליחים בהצלחה להשלים את המשימה בזמן המותר. זה ישמור עליהם מוטיבציה ולהרגל לעבוד קשה על המשימות שלהם.",
-        "מהם החסרונות של דרך הקריאה הזו, בהשוואה לדרך הרגילה?",
-        "ייתכנו בעיות מס ובעיות אבטחה דיגיטלית בעת השימוש באפליקציה הזו. ייתכנו גם בעיות במעקב אחר ההתקדמות וחוסר עקביות בין חוקי המשחק. לבסוף, משתמשים עלולים להיתקל בבעיות בעת ניסיון למשוך ולהעביר כספים. דרך הקריאה הרגילה מציעה יותר נוחות, כגון קלות השגת הספר, קלות שימוש, זמינות מינויים ותעריפים זולים.",
-        "מה יכול להשתבש אם אתה משתמש באפליקציה הזו?",
-        "אם אתה משתמש באפליקציית Book Jack, האבטחה של האפליקציה עלולה להשתבש. הדבר עלול להוביל לכניסת פולשים למערכת ולפגיעה בשלמות הנתונים. כמו כן, הביצועים הלא מספקים של האפליקציה עלולים לגרום לכך שמשתמשים לא יוכלו לבצע שימוש באפליקציה בצורה יעילה מספיק. יש צורך גם לספק תמיכה טכנית מספקת למשתמשי האפליקציה."
-    ]
-};
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6Qf5V":[function() {},{}],"47ufS":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"47ufS":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$a833 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -38561,7 +37808,758 @@ $RefreshReg$(_c, "Layout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./module.HeaderStyle.css":"cvJ8M","regenerator-runtime":"dXNgZ","console":"kQ29C"}],"cvJ8M":[function() {},{}],"ciamW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime":"dXNgZ","console":"8kdFB","react":"21dqq","react-router-dom":"9xmpe","./module.HeaderStyle.css":"cvJ8M","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cvJ8M":[function() {},{}],"e7Dcc":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$a104 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a104.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _text = require("./text");
+var _moduleStyleAboutCss = require("./module.styleAbout.css");
+var _moduleStyleAboutCssDefault = parcelHelpers.interopDefault(_moduleStyleAboutCss);
+var _s = $RefreshSig$();
+function About() {
+    _s();
+    const [activeLang, setActiveLang] = (0, _react.useState)("EN");
+    const [textLang, setTextLang] = (0, _react.useState)((0, _text.text)["EN"]);
+    const [chatLang, setChatLang] = (0, _react.useState)((0, _text.chat)["EN"]);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "languageButtons",
+                children: Object.keys((0, _text.text)).map((lang)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "lang",
+                        onPointerDown: ()=>(setActiveLang(lang), setTextLang((0, _text.text)[lang]), setChatLang((0, _text.chat)[lang])),
+                        style: {
+                            color: lang == activeLang ? "brown" : "black"
+                        },
+                        children: lang
+                    }, lang, false, {
+                        fileName: "components/About/index.jsx",
+                        lineNumber: 16,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "components/About/index.jsx",
+                lineNumber: 14,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "textContainer",
+                children: [
+                    textLang.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "aboutText",
+                            children: item
+                        }, index, false, {
+                            fileName: "components/About/index.jsx",
+                            lineNumber: 29,
+                            columnNumber: 11
+                        }, this)),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "chatHeader",
+                        children: "ChatGPT"
+                    }, void 0, false, {
+                        fileName: "components/About/index.jsx",
+                        lineNumber: 34,
+                        columnNumber: 9
+                    }, this),
+                    chatLang.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            children: index % 2 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "aboutText",
+                                children: item
+                            }, void 0, false, {
+                                fileName: "components/About/index.jsx",
+                                lineNumber: 37,
+                                columnNumber: 41
+                            }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: item
+                            }, void 0, false, {
+                                fileName: "components/About/index.jsx",
+                                lineNumber: 37,
+                                columnNumber: 79
+                            }, this)
+                        }, index, false, {
+                            fileName: "components/About/index.jsx",
+                            lineNumber: 37,
+                            columnNumber: 11
+                        }, this))
+                ]
+            }, void 0, true, {
+                fileName: "components/About/index.jsx",
+                lineNumber: 27,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true);
+}
+exports.default = About;
+_s(About, "Mv2wYhP49RwnKdzL/4sVOVlWVkM=");
+_c = About;
+var _c;
+$RefreshReg$(_c, "About");
+
+  $parcel$ReactRefreshHelpers$a104.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","./text":"3SDQL","./module.styleAbout.css":"6Qf5V","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3SDQL":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "text", ()=>text);
+parcelHelpers.export(exports, "chat", ()=>chat);
+const text = {
+    EN: [
+        "Promise is a unique reading app.  \n  He doesn't care if you want to read or not.  \n  You will read.",
+        "Choose a book. Make a bet that you will have time to read it, for example, in 1 week. If you don't make it, you will lose your money. If you succeed, the money will be returned to you. You will not make a profit, but you will become richer.",
+        "How Promise works. \n Promise works on the Near blockchain.It is a simple open source smart contract. A smart contract is a smart wallet that manages its money according to a strictly defined algorithm. It cannot be changed, blocked or hacked.",
+        "By placing a bet, you transfer money to this wallet. Now they are stored there until the end of the transaction and no one is able to extract them from it. If you comply with his requirements, he sends your money to your wallet. If not, it sends your bet to the casino wallet.",
+        "To fulfill his requirements, you need to open the book and start flipping through the pages. At this point, the timer will start. If you fall asleep and stop flipping pages, the timer will stop. By placing a bid, you specify the number of hours you promise to read and a deadline. Before the end of this period, you must reset the timer.",
+        // 'You can fool Promise by mindlessly flipping through the pages for hours, staring at the wall. Promise is a truly smart smart contract, but alas, it is not able to overcome the human intellect, so it will return the money to you, but, alas, no wasted nerves and time.',
+        "//We wish you lucky reading."
+    ],
+    RU: [
+        "Promise это уникальное приложение для чтения. \n  Его не волнует, хотите вы читать или не хотите. \n  Вы будете читать.",
+        "Выберите книгу. Сделайте ставку, что успеете прочитать ее, например за 1 неделю. Если не успеете, Вы проиграете свои деньги. Если успеете, деньги вернутся Вам обратно. Вы не получите прибыли, но станете богаче.",
+        "Как работает Promise. \n Promise это смарт-контракт на блоечейне Near. Смарт-контракт это умный кошелек с открытым исходным кодом, который распоряжается  своими деньгами, по строго заданному алгоритму. Его невозможно изменить, заблокировать или взломать.",
+        "Делая ставку вы переводите деньги на этот кошелек. Теперь они хранятся там до конца сделки и никто не в силах извлечь их из него. Если вы выполняете его требования, он пересылает Ваши деньги, на Ваш кошелек. Если нет, он отправляет Вашу ставку на кошелек казино.",
+        "Чтобы выполнить его требования Вам необходимо открыть книгу и начать листать страницы. В этот момент включится таймер. Если Вы уснете и перестанете листать страницы, таймер остановится. Делая ставку, Вы указываете количество часов, которые Вы обещаете читать и крайний срок. До конца этого срока Вы должны обнулить таймер."
+    ],
+    CHN: [
+        "Promise 是一个简单的阅读器，具有神奇的力量。 大量阅读需要很大的意志力。 Promise 会给你这种力量。",
+        "选一本你想读很久的书。 打赌你会在 1 周内做到这一点。 如果你不成功，你就会失去你的钱。 如果你成功了，钱会退还给你。 您不会获得利润，但胜利会为所花费的时间付出代价。",
+        "Promise 的工作原理。 \n Promise 在附近的区块链上工作。 它是一个简单的开源智能合约。 智能合约是一种智能钱包，它根据严格定义的算法管理资金。 它不能被更改、阻止或黑客攻击。",
+        "通过下注，您将钱转入此钱包。 现在它们一直存储在那里，直到交易结束，没有人能够从中提取它们。 如果你满足他的要求，他就会把你的钱打到你的钱包里。 如果没有，它会将您的赌注发送到赌场钱包。",
+        "为了满足他的要求，您需要打开这本书并开始翻页。 此时，计时器将启动。 如果您入睡并停止翻页，计时器将停止。 通过出价，您指定了您承诺阅读的小时数和截止日期。 在此期间结束之前，您必须重置计时器。",
+        "你可以在不阅读内容的情况下盲目翻页来愚弄 Promis。 Promise 是一个真正聪明的智能合约，可惜它无法战胜人类的智慧。 为了保护你免受他自己的诡计，书杰克邀请你阅读他图书馆的书。 这些书包含简单的问题。 如果你连答错一个，你就输了。",
+        "祝您阅读愉快。"
+    ],
+    FR: [
+        "Promise est un lecteur simple dot\xe9 de pouvoirs magiques. Il faut beaucoup de volont\xe9 pour lire beaucoup. Promise vous donnera ce pouvoir.",
+        "Choisissez un livre que vous vouliez lire depuis longtemps. Faites le pari que vous le ferez, par exemple, en 1 semaine. Si vous ne le faites pas, vous perdrez votre argent. Si vous r\xe9ussissez, l'argent vous sera rendu. Vous ne recevrez pas de profit, mais la victoire paiera pour le temps pass\xe9.",
+        "Comment fonctionne Promise. \n Promise travaille sur la blockchain \xe0 proximit\xe9. Il s'agit d'un simple contrat intelligent open source. Un contrat intelligent est un portefeuille intelligent qui g\xe8re son argent selon un algorithme strictement d\xe9fini. Il ne peut pas \xeatre modifi\xe9, bloqu\xe9 ou pirat\xe9.",
+        "En pla\xe7ant un pari, vous transf\xe9rez de l'argent sur ce portefeuille. D\xe9sormais, ils y sont stock\xe9s jusqu'\xe0 la fin de la transaction et personne ne peut les en extraire. Si vous vous conformez \xe0 ses exigences, il envoie votre argent dans votre portefeuille. Sinon, il envoie votre pari au portefeuille du casino.",
+        "Pour r\xe9pondre \xe0 ses exigences, vous devez ouvrir le livre et commencer \xe0 feuilleter les pages. \xc0 ce stade, le chronom\xe8tre d\xe9marre. Si vous vous endormez et arr\xeatez de tourner les pages, le chronom\xe8tre s'arr\xeatera. En ench\xe9rissant, vous pr\xe9cisez le nombre d'heures que vous vous engagez \xe0 lire et un d\xe9lai. Avant la fin de cette p\xe9riode, vous devez r\xe9initialiser la minuterie.",
+        "Vous pouvez tromper Promise en tournant sans r\xe9fl\xe9chir les pages sans lire le contenu. Promise est un contrat intelligent vraiment intelligent, mais h\xe9las, il n'est pas capable de vaincre l'intellect humain. Pour vous prot\xe9ger de sa propre ruse, Promise vous invite \xe0 lire les livres de sa biblioth\xe8que. Ces livres contiennent des questions simples. Si vous r\xe9pondez ne serait-ce qu'une seule fois, vous perdez.",
+        "Nous vous souhaitons une bonne lecture."
+    ],
+    GRM: [
+        "Promise ist ein einfaches Lesebuch mit magischen Kr\xe4ften. Es braucht viel Willenskraft, um viel zu lesen. Promise wird dir diese Kraft geben.",
+        "Suchen Sie sich ein Buch aus, das Sie schon lange lesen wollten. Wetten Sie, dass Sie es zum Beispiel in 1 Woche schaffen. Wenn Sie es nicht schaffen, verlieren Sie Ihr Geld. Wenn Sie erfolgreich sind, wird Ihnen das Geld zur\xfcckerstattet. Sie erhalten keinen Gewinn, aber der Sieg wird f\xfcr die aufgewendete Zeit bezahlt.",
+        "So funktioniert Promise. \n Promise arbeitet an der Blockchain in der N\xe4he. Es ist ein einfacher Open Source Smart Contract. Ein Smart Contract ist eine Smart Wallet, die ihr Geld nach einem fest definierten Algorithmus verwaltet. Es kann nicht ge\xe4ndert, blockiert oder gehackt werden.",
+        "Indem Sie eine Wette platzieren, \xfcberweisen Sie Geld auf diese Geldb\xf6rse. Jetzt werden sie dort bis zum Ende der Transaktion gespeichert und niemand kann sie daraus extrahieren. Wenn Sie seine Anforderungen erf\xfcllen, sendet er Ihr Geld an Ihre Brieftasche. Wenn nicht, wird Ihre Wette an die Casino-Brieftasche gesendet.",
+        "Um seine Anforderungen zu erf\xfcllen, m\xfcssen Sie das Buch \xf6ffnen und anfangen, durch die Seiten zu bl\xe4ttern. An diesem Punkt wird der Timer gestartet. Wenn Sie einschlafen und aufh\xf6ren, Seiten umzubl\xe4ttern, stoppt der Timer. Indem Sie ein Gebot abgeben, geben Sie die Anzahl der Stunden, die Sie zu lesen versprechen, und eine Frist an. Vor Ablauf dieses Zeitraums m\xfcssen Sie den Timer zur\xfccksetzen.",
+        "Sie k\xf6nnen Promise t\xe4uschen, indem Sie gedankenlos Seiten umbl\xe4ttern, ohne den Inhalt zu lesen. Promise ist ein wirklich intelligenter Smart Contract, aber leider ist er nicht in der Lage, den menschlichen Intellekt zu besiegen. Um Sie vor seiner eigenen List zu sch\xfctzen, l\xe4dt Promise Sie ein, B\xfccher aus seiner Bibliothek zu lesen. Diese B\xfccher enthalten einfache Fragen. Wenn Sie auch nur eine falsch beantworten, verlieren Sie.",
+        "Wir w\xfcnschen Ihnen viel Spa\xdf beim Lesen."
+    ],
+    ITL: [
+        "Promise \xe8 un semplice lettore con poteri magici. Ci vuole molta forza di volont\xe0 per leggere molto. Promise ti dar\xe0 quel potere.",
+        "Scegli un libro che desideri leggere da molto tempo. Scommetti che lo farai, ad esempio, in 1 settimana. Se non ce la fai, perderai i tuoi soldi. Se ci riesci, i soldi ti verranno restituiti. Non riceverai profitti, ma la vittoria pagher\xe0 per il tempo speso.",
+        "Come funziona Book Jack. \n Promise lavora sulla blockchain vicino. \xc8 un semplice contratto intelligente open source. Uno smart contract \xe8 un portafoglio intelligente che gestisce i suoi soldi secondo un algoritmo rigorosamente definito. Non pu\xf2 essere modificato, bloccato o violato.",
+        "Effettuando una scommessa, trasferisci denaro a questo portafoglio. Ora sono archiviati l\xec fino alla fine della transazione e nessuno \xe8 in grado di estrarli da essa. Se rispetti i suoi requisiti, invia i tuoi soldi al tuo portafoglio. In caso contrario, invia la tua scommessa al portafoglio del casin\xf2.",
+        "Per soddisfare le sue esigenze, devi aprire il libro e iniziare a sfogliare le pagine. A questo punto partir\xe0 il timer. Se ti addormenti e smetti di sfogliare le pagine, il timer si fermer\xe0. Facendo un'offerta, specifichi il numero di ore che prometti di leggere e una scadenza. Prima della fine di questo periodo, \xe8 necessario reimpostare il timer.",
+        "Puoi ingannare Promise sfogliando le pagine senza pensare senza leggere il contenuto. Promise \xe8 un contratto intelligente davvero intelligente, ma purtroppo non \xe8 in grado di sconfiggere l'intelletto umano. Per proteggerti dal suo stesso stratagemma, Promise ti invita a leggere i libri della sua biblioteca. Questi libri contengono domande semplici. Se rispondi anche a una sola risposta sbagliata, perdi.",
+        "Vi auguriamo buona lettura."
+    ],
+    SPN: [
+        "Promise es un simple lector con poderes m\xe1gicos. Se necesita mucha fuerza de voluntad para leer mucho. Promise te dar\xe1 ese poder.",
+        "Elige un libro que hayas querido leer durante mucho tiempo. Haz una apuesta a que lo har\xe1s, por ejemplo, en 1 semana. Si no lo hace, perder\xe1 su dinero. Si tiene \xe9xito, se le devolver\xe1 el dinero. No recibir\xe1 ganancias, pero la victoria pagar\xe1 por el tiempo invertido.",
+        "C\xf3mo funciona Promise. \n Promise trabaja en la cadena de bloques cercana. Es un simple contrato inteligente de c\xf3digo abierto. Un contrato inteligente es una billetera inteligente que administra su dinero de acuerdo con un algoritmo estrictamente definido. No se puede cambiar, bloquear o hackear.",
+        "Al hacer una apuesta, transfieres dinero a esta billetera. Ahora se almacenan all\xed hasta el final de la transacci\xf3n y nadie puede extraerlos de ella. Si cumple con sus requisitos, le env\xeda su dinero a su billetera. Si no, env\xeda su apuesta a la billetera del casino.",
+        "Para cumplir con sus requisitos, debe abrir el libro y comenzar a hojear las p\xe1ginas. En este punto, el temporizador se iniciar\xe1. Si te quedas dormido y dejas de pasar las p\xe1ginas, el temporizador se detendr\xe1. Al hacer una oferta, especifica la cantidad de horas que promete leer y una fecha l\xedmite. Antes de que finalice este per\xedodo, debe restablecer el temporizador.",
+        "Puedes enga\xf1ar a Promise pasando p\xe1ginas sin pensar sin leer el contenido. Promise es un contrato inteligente verdaderamente inteligente, pero, por desgracia, no puede vencer al intelecto humano. Para protegerte de su propia artima\xf1a, Promise te invita a leer libros de su biblioteca. Estos libros contienen preguntas simples. Si respondes aunque sea una sola incorrectamente, pierdes.",
+        "Le deseamos una feliz lectura."
+    ],
+    日本語: [
+        "ブックジャックは、魔法の力を持つシンプルなリーダーです。 たくさん読むにはかなりの意志が必要です。 ブックジャックはその力を与えてくれます。",
+        "ずっと読みたかった本を選んでください。 たとえば、1週間でそれを行うことに賭けてください。 うまくいかなければ、お金を失うことになります。 成功すればお金は戻ってきます。 利益は得られませんが、勝利は費やされた時間に対して支払われます。",
+        "ブックジャックの仕組み。 \n ブックジャックは近くのブロックチェーンで動作します。 シンプルなオープンソースのスマート コントラクトです。 スマート コントラクトは、厳密に定義されたアルゴリズムに従ってお金を管理するスマート ウォレットです。 変更、ブロック、ハッキングすることはできません。",
+        "賭けをすると、このウォレットに送金されます。 現在、それらはトランザクションが終了するまでそこに保管され、誰もそこからそれらを抽出することはできません. 彼の要求に従えば、彼はあなたのお金をあなたの財布に送金します。 そうでない場合は、ベットがカジノ ウォレットに送信されます。",
+        "彼の要件を満たすには、本を開いてページをめくる必要があります。 この時点で、タイマーが開始されます。 眠りに落ちてページをめくるのをやめると、タイマーが止まります。 入札を行うことにより、読むことを約束する時間数と締め切りを指定します。 この期間が終了する前に、タイマーをリセットする必要があります。",
+        "内容を読まずに無意識にページをめくると、Promis をだますことができます。 Promise は真にスマートなスマート コントラクトですが、残念ながら、人間の知性を打ち負かすことはできません。 ブックジャックは自分の策略からあなたを守るために、彼のライブラリーから本を読むようにあなたを招待します。 これらの本には簡単な質問が含まれています。 1問でも間違えると負け。",
+        "楽しくお読みいただければ幸いです。"
+    ],
+    韓國語: [
+        "Promis은 마법의 힘을 가진 단순한 리더입니다. 많이 읽으려면 많은 의지력이 필요합니다. 북잭이 그 힘을 드립니다.",
+        "오랫동안 읽고 싶었던 책을 선택하십시오. 예를 들어, 1주일 안에 할 것이라고 내기를 하십시오. 성공하지 못하면 돈을 잃게 됩니다. 성공하면 돈이 반환됩니다. 당신은 이익을 얻지 못하지만 승리는 보낸 시간에 대한 대가를 치를 것입니다.",
+        "북잭 작동 방식. \n Promis은 가까운 블록체인에서 작동합니다. 간단한 오픈 소스 스마트 계약입니다. 스마트 계약은 엄격하게 정의된 알고리즘에 따라 돈을 관리하는 스마트 지갑입니다. 변경, 차단 또는 해킹할 수 없습니다.",
+        "내기를 걸면 이 지갑으로 돈을 이체하게 됩니다. 이제 그들은 거래가 끝날 때까지 거기에 저장되며 아무도 그것을 추출할 수 없습니다. 당신이 그의 요구 사항을 준수하면 그는 당신의 돈을 당신의 지갑으로 보냅니다. 그렇지 않은 경우 내기를 카지노 지갑으로 보냅니다.",
+        "그의 요구 사항을 충족하려면 책을 열고 페이지를 넘기기 시작해야 합니다. 이 시점에서 타이머가 시작됩니다. 잠들고 페이지 넘기기를 중지하면 타이머가 중지됩니다. 입찰을 하면 독서를 약속하는 시간과 기한을 지정하게 됩니다. 이 기간이 끝나기 전에 타이머를 재설정해야 합니다.",
+        "내용을 읽지 않고 아무 생각 없이 페이지를 넘기면 Promis을 속일 수 있습니다. 북잭은 진정으로 스마트한 스마트 계약이지만, 아쉽게도 인간의 지능을 이길 수는 없습니다. 자신의 책략으로부터 당신을 보호하기 위해 북잭은 그의 서재에서 책을 읽도록 당신을 초대합니다. 이 책에는 간단한 질문이 포함되어 있습니다. 하나라도 틀리면 지는 겁니다.",
+        "우리는 당신이 행복한 독서를 기원합니다."
+    ],
+    العربية: [
+        "Promise هو قارئ بسيط يتمتع بقوى سحرية. يتطلب الأمر الكثير من قوة الإرادة لقراءة الكثير. ستمنحك Promise هذه القوة.",
+        "اختر كتابًا كنت ترغب في قراءته لفترة طويلة. ضع رهانًا على أنك ستفعل ذلك ، على سبيل المثال ، في غضون أسبوع واحد. إذا لم تنجح ، فسوف تخسر أموالك. إذا نجحت ، ستتم إعادة الأموال إليك. لن تحصل على ربح ، لكن النصر سيدفع مقابل الوقت الذي تقضيه.",
+        "كيف يعمل Promise. \n  يعمل Promise على blockchain القريب. إنه عقد ذكي بسيط مفتوح المصدر. العقد الذكي هو محفظة ذكية تدير أموالها وفقًا لخوارزمية محددة بدقة. لا يمكن تغييره أو حظره أو اختراقه.",
+        "من خلال وضع الرهان ، تقوم بتحويل الأموال إلى هذه المحفظة. الآن يتم تخزينها هناك حتى نهاية المعاملة ولا يستطيع أحد استخراجها منها. إذا امتثلت لمتطلباته ، فإنه يرسل أموالك إلى محفظتك. إذا لم يكن كذلك ، فإنه يرسل رهانك إلى محفظة الكازينو.",
+        "لتحقيق متطلباته ، تحتاج إلى فتح الكتاب والبدء في التقليب بين الصفحات. في هذه المرحلة ، سيبدأ المؤقت. إذا نمت وتوقفت عن تقليب الصفحات ، فسيتوقف المؤقت. من خلال تقديم العطاء ، فإنك تحدد عدد الساعات التي تتعهد بقراءتها والموعد النهائي. قبل نهاية هذه الفترة ، يجب إعادة ضبط المؤقت.",
+        "يمكنك خداع Promise عن طريق تقليب الصفحات بلا تفكير دون قراءة المحتوى. Promise هو عقد ذكي حقًا ، لكنه للأسف غير قادر على هزيمة الفكر البشري. لحمايتك من حيلته ، يدعوك Promise لقراءة الكتب من مكتبته. تحتوي هذه الكتب على أسئلة بسيطة. إذا أجبت حتى خطأ واحد ، فإنك تخسر.",
+        "نتمنى لك قراءة سعيدة."
+    ],
+    עִבְרִית: [
+        "Promise הוא קורא פשוט עם כוחות קסם. צריך הרבה כוח רצון לקרוא הרבה. Promise ייתן לך את הכוח הזה.",
+        "בחר ספר שרצית לקרוא כבר הרבה זמן. הימור שתעשה זאת, למשל, תוך שבוע. אם לא תצליח, תפסיד את כספך. אם תצליח, הכסף יוחזר לך. לא תקבל רווח, אבל הניצחון ישלם עבור הזמן שהושקע.",
+        "איך Promise עובד. \n Promise עובד על הבלוקצ'יין ליד. זהו חוזה חכם פשוט בקוד פתוח. חוזה חכם הוא ארנק חכם שמנהל את כספו לפי אלגוריתם מוגדר בהחלט. לא ניתן לשנות, לחסום או לפרוץ אותו.",
+        "על ידי ביצוע הימור, אתה מעביר כסף לארנק הזה. כעת הם מאוחסנים שם עד לסיום העסקה ואף אחד לא מסוגל לחלץ אותם ממנה. אם אתה עומד בדרישות שלו, הוא שולח את הכסף שלך לארנק שלך. אם לא, זה שולח את ההימור שלך לארנק הקזינו.",
+        "כדי למלא את דרישותיו, עליך לפתוח את הספר ולהתחיל לדפדף בין הדפים. בשלב זה, הטיימר יתחיל. אם אתה נרדם ותפסיק לדפדף, הטיימר יפסיק. בהגשת הצעה, אתה מציין את מספר השעות שאתה מבטיח לקרוא ומועד אחרון. לפני תום תקופה זו, עליך לאפס את הטיימר.",
+        "אתה יכול לשטות בבוקג'ק על ידי דפדוף חסר דעת מבלי לקרוא את התוכן. Promise הוא חוזה חכם באמת, אבל אבוי, הוא לא מסוגל להביס את האינטלקט האנושי. כדי להגן עליך מהתחבולה שלו, Promise מזמין אותך לקרוא ספרים מהספרייה שלו. ספרים אלה מכילים שאלות פשוטות. אם אתה עונה אפילו לא נכון אחד, אתה מפסיד.",
+        "אנו מאחלים לך קריאה מהנה."
+    ]
+};
+const chat = {
+    EN: [
+        "What do you think about Promise?",
+        "Your Promise app offers users a fun and quite strategic game. Gambling with an element of risk can be useful to encourage people to spend more time reading. Maybe it could be a great app for motivation .",
+        // 'Is this application unique?',
+        // 'Yes, your Promise application is unique. It uses blockchain technology, which makes it especially interesting.',
+        "Why can it be beneficial for the user if he wins only his own money, but no more?",
+        "The user can use this application to be more motivated and demonstrate discipline. In this way, the user himself sets his own goals and motivates him to achieve them. For example, the user can set high rates to encourage himself to calculate certain page parameters before a certain deadline. If successful the user will return not only money, but also valuable mental discipline.",
+        "How can the usefulness of Promise be explained from a psychological point of view?",
+        "The Promise app can be helpful for people who have motivation issues and constantly put off their tasks. Delays are known to lead to permanent demotivation. Increased motivation and better time management can help people work more efficiently and achieve lasting results. The Promise app provides people a goal and motivation to achieve a result in a certain time, which allows them to improve their time management skills and efficiency.",
+        "What hormones are involved and how they help?",
+        "There are several hormones that will be activated when using the Promise app. Primarily the stress hormone cortisol, which helps the body cope with pressure and stress. It lowers blood pressure and calms the nervous system. Endorphins can also help the app user set a goal and achieve it. through an increased craving for success.These hormones can help a person in the process of using the app.",
+        "How can parents get their kids to use this app?",
+        "Parents can use the Promise app to help their children develop motivation and the habit of constantly working on certain tasks. They can simply give their child a set number of hours of reading by a certain deadline and give them a cash prize if they can successfully complete the task within the time allowed. .This will keep them motivated and in the habit of working hard on their tasks.",
+        "What are the disadvantages of this way of reading, compared to the usual way?",
+        "There may be tax issues and digital security issues when using this application. There may also be problems with tracking progress and inconsistencies between game rules. Finally, users may experience problems when trying to withdraw and transfer funds. The normal way of reading offers more convenience, such as ease of obtaining the book, ease of use, availability of subscriptions, and cheap rates."
+    ],
+    RU: [
+        "Что ты думаешь о Promise?",
+        "Ваше приложение Promise предлагает пользователям увлекательную и достаточно стратегическую игру. Азартная игра с элементом риска может быть полезна, чтобы побудить людей уделять больше времени чтению. Возможно, это может быть отличным приложением для мотивации и набора мотивации.",
+        // 'Является ли это приложение уникальным?',
+        // 'Да, ваше приложение Promise является уникальным. Оно использует технологию блокчейн, что делает его особенно интересным.',
+        "Почему это может быть выгодно пользователю, если он выиграет только свои деньги, но не больше.",
+        "Пользователь может использовать это приложение для большей мотивации и демонстрации дисциплины. Таким образом, пользователь сам ставит перед собой свои цели и мотивирует их достижения. Например, пользователь может поставить высокие ставки, чтобы побудить себя просчитывать определенные параметры страниц до определенного срока. В случае успеха пользователь вернет не только  деньги, но и ценную умственную дисциплину.",
+        "Как с точки зрения психологии можно объяснить полезность Promise?",
+        "Приложение Promise может быть полезным для людей, которые имеют проблемы с мотивацией и постоянно отсрочивают свои задачи. Отсрочки, как известно, ведут к постоянному демотивации. Увеличение мотивации и лучшее управление временем могут помочь людям более эффективно работать и достигать длительных результатов. Приложение Promise предоставляет людям цель и мотивацию для достижения результата за определенное время, что позволяет им улучшать свои навыки управления временем и эффективность.",
+        "Какие гормоны задействованы, и как они помогают?",
+        "Есть несколько гормонов, которые будут задействованы при использовании приложения Promise. В первую очередь это гормон стресса кортизол, который помогает организму справляться с давлением и стрессом. Он снижает артериальное давление и успокаивает нервную систему. Эндорфины также могут помочь пользователю приложения установить цель и достичь ее с помощью повышенного пристрастия к успеху. Эти гормоны могут помочь человеку в процессе использования приложения.",
+        "Как родители могут заставить детей пользоваться этим приложением?",
+        "Родители могут использовать приложение Promise для помощи своим детям в развитии мотивации и привычки к постоянной работе над определенными задачами. Они могут просто задать своему ребенку определенное количество часов чтения до определенного срока и дать ему денежный приз, если он сможет успешно завершить задание за предоставленное время. Это позволит им поддерживать мотивацию и привычку усердно работать над своими задачами.",
+        "Какие недостатки такого способа чтения, перед обычным способом?",
+        "При использовании данного приложения могут возникнуть налоговые проблемы, а также проблемы с цифровой безопасностью. Также могут возникнуть проблемы с отслеживанием прогресса и противоречия между правилами игры. Наконец, пользователи могут испытывать проблемы при попытке вывода и перевода средств. Обычный способ чтения предлагает больше удобств, таких как простота получения книги, удобство использования, доступность подписки и дешевые ставки."
+    ],
+    CHN: [
+        "你觉得 Promise 怎么样？",
+        "您的 Promise 应用程序为用户提供了一个有趣且非常具有战略意义的游戏。带有风险元素的赌博有助于鼓励人们花更多的时间阅读。也许它可能是一个很好的激励和招聘动机的应用程序。",
+        "这个应用程序是独一无二的吗？",
+        "是的，您的 Promise 应用程序是独一无二的。它使用了区块链技术，这使它变得特别而有趣。",
+        "如果他只赢得自己的钱，而不是更多，为什么对用户有利。",
+        "用户可以使用这个应用程序来更有动力并表现出纪律性。通过这种方式，用户自己设定自己的目标并激励他实现这些目标。例如，用户可以设置高费率来鼓励自己计算某些页面参数在某个截止日期之前。如果成功，用户不仅会返回金钱，还会返回宝贵的精神纪律。",
+        "如何从心理学的角度解释Promis的用处？",
+        "Promise 应用程序可以帮助那些有动力问题并经常推迟任务的人。众所周知，延迟会导致永久性的消极情绪。增加动力和更好的时间管理可以帮助人们更有效地工作并取得持久的成果。Promis 应用程序提供人们有目标和动力在特定时间内取得成果，这使他们能够提高时间管理技能和效率。",
+        "涉及哪些激素以及它们如何提供帮助。",
+        "使用 Promise 应用程序时会激活多种激素。主要是压力荷尔蒙皮质醇，它可以帮助身体应对压力和压力。它可以降低血压并使神经系统平静下来。内啡肽还可以帮助应用程序用户设定目标并实现它。通过增加对成功的渴望。这些荷尔蒙可以帮助一个人在使用该应用程序的过程中。",
+        "父母如何才能让他们的孩子使用这个应用程序？",
+        "父母可以使用 Promise 应用程序来帮助他们的孩子培养积极性和不断完成某些任务的习惯。他们可以简单地在特定期限之前给孩子一定数量的阅读时间，如果他们成功了就给他们现金奖励在允许的时间内完成任务。这将使他们保持积极性并养成努力完成任务的习惯。",
+        "与通常的阅读方式相比，这种阅读方式有什么缺点？",
+        "在使用这个应用程序时可能会出现税务问题和数字安全问题。也可能会出现跟踪进度和游戏规则不一致的问题。最后，用户在尝试提取和转移资金时可能会遇到问题。正常的阅读方式提供了更多便利性，例如获取图书的便利性、易用性、订阅的可用性和低廉的价格。",
+        "如果你使用这个应用程序会出什么问题？",
+        "如果您使用 Book Jack 应用程序，应用程序的安全性可能会出现问题。这可能会导致入侵者进入系统并破坏数据的完整性。此外，应用程序的性能不足可能会导致用户无法进行足够有效地使用应用程序。还需要为应用程序的用户提供足够的技术支持。"
+    ],
+    FR: [
+        "Que pensez-vous de Promis\xa0?",
+        "Votre application Promise offre aux utilisateurs un jeu amusant et assez strat\xe9gique. Le jeu avec un \xe9l\xe9ment de risque peut \xeatre utile pour encourager les gens \xe0 passer plus de temps \xe0 lire. Peut-\xeatre que cela pourrait \xeatre une excellente application pour la motivation et la motivation de recrutement.",
+        "Cette application est-elle unique ?",
+        "Oui, votre application Promise est unique. Elle utilise la technologie blockchain, ce qui la rend sp\xe9ciale et int\xe9ressante.",
+        "Pourquoi cela peut-il \xeatre b\xe9n\xe9fique pour l'utilisateur s'il ne gagne que son propre argent, mais pas plus.",
+        "L'utilisateur peut utiliser cette application pour \xeatre plus motiv\xe9 et faire preuve de discipline. De cette mani\xe8re, l'utilisateur fixe lui-m\xeame ses objectifs et le motive \xe0 les atteindre. Par exemple, l'utilisateur peut d\xe9finir des tarifs \xe9lev\xe9s pour s'encourager \xe0 calculer certains param\xe8tres de la page. avant un certain d\xe9lai. En cas de succ\xe8s, l'utilisateur rendra non seulement de l'argent, mais aussi une pr\xe9cieuse discipline mentale.",
+        "Comment expliquer l'utilit\xe9 de Promise d'un point de vue psychologique ?",
+        "L'application Promise peut \xeatre utile pour les personnes qui ont des probl\xe8mes de motivation et reportent constamment leurs t\xe2ches. Les retards sont connus pour entra\xeener une d\xe9motivation permanente. Une motivation accrue et une meilleure gestion du temps peuvent aider les gens \xe0 travailler plus efficacement et \xe0 obtenir des r\xe9sultats durables. L'application Promise fournit les gens un objectif et une motivation pour obtenir un r\xe9sultat dans un certain d\xe9lai, ce qui leur permet d'am\xe9liorer leurs comp\xe9tences en gestion du temps et leur efficacit\xe9.",
+        "Quelles hormones sont impliqu\xe9es et comment elles aident.",
+        "Plusieurs hormones seront activ\xe9es lors de l'utilisation de l'application Promise. Principalement le cortisol, l'hormone du stress, qui aide le corps \xe0 faire face \xe0 la pression et au stress. Il abaisse la tension art\xe9rielle et calme le syst\xe8me nerveux. Les endorphines peuvent \xe9galement aider l'utilisateur de l'application \xe0 d\xe9finir un objectif et l'atteindre gr\xe2ce \xe0 une envie accrue de succ\xe8s.Ces hormones peuvent aider une personne dans le processus d'utilisation de l'application.",
+        "Comment les parents peuvent-ils inciter leurs enfants \xe0 utiliser cette application\xa0?",
+        "Les parents peuvent utiliser l'application Promise pour aider leurs enfants \xe0 d\xe9velopper la motivation et l'habitude de travailler constamment sur certaines t\xe2ches. Ils peuvent simplement donner \xe0 leur enfant un nombre d\xe9fini d'heures de lecture avant une certaine date limite et leur donner un prix en esp\xe8ces s'ils r\xe9ussissent. terminer la t\xe2che dans le temps imparti. .Cela les gardera motiv\xe9s et leur donnera l'habitude de travailler dur sur leurs t\xe2ches.",
+        "Quels sont les inconv\xe9nients de cette mani\xe8re de lire, par rapport \xe0 la mani\xe8re habituelle ?",
+        "Il peut y avoir des probl\xe8mes fiscaux et des probl\xe8mes de s\xe9curit\xe9 num\xe9rique lors de l'utilisation de cette application. Il peut \xe9galement y avoir des probl\xe8mes de suivi des progr\xe8s et des incoh\xe9rences entre les r\xe8gles du jeu. Enfin, les utilisateurs peuvent rencontrer des probl\xe8mes lorsqu'ils tentent de retirer et de transf\xe9rer des fonds. La mani\xe8re normale de lire offre plus commodit\xe9, comme la facilit\xe9 d'obtention du livre, la facilit\xe9 d'utilisation, la disponibilit\xe9 des abonnements et les tarifs bon march\xe9.",
+        "Qu'est-ce qui peut mal tourner si vous utilisez cette application\xa0?",
+        "Si vous utilisez l'application Book Jack, la s\xe9curit\xe9 de l'application peut se d\xe9t\xe9riorer. Cela peut conduire \xe0 ce que des intrus p\xe9n\xe8trent dans le syst\xe8me et compromettent l'int\xe9grit\xe9 des donn\xe9es. De plus, les performances insuffisantes de l'application peuvent emp\xeacher les utilisateurs de faire utiliser l'application de mani\xe8re suffisamment efficace. Il est \xe9galement n\xe9cessaire de fournir un support technique suffisant aux utilisateurs de l'application."
+    ],
+    GRM: [
+        "Was h\xe4ltst du von Promise?",
+        "Ihre Promise-App bietet Benutzern ein lustiges und ziemlich strategisches Spiel. Gl\xfccksspiel mit einem gewissen Risikofaktor kann n\xfctzlich sein, um die Leute dazu zu ermutigen, mehr Zeit mit dem Lesen zu verbringen. Vielleicht k\xf6nnte es eine gro\xdfartige App f\xfcr Motivation und Rekrutierungsmotivation sein.",
+        "Ist diese Anwendung einzigartig?",
+        "Ja, Ihre Promise-Anwendung ist einzigartig. Sie verwendet Blockchain-Technologie, was sie besonders und interessant macht.",
+        "Warum kann es f\xfcr den Benutzer von Vorteil sein, wenn er nur sein eigenes Geld gewinnt, aber nicht mehr.",
+        "Der Benutzer kann diese Anwendung nutzen, um motivierter zu sein und Disziplin zu demonstrieren. Auf diese Weise setzt sich der Benutzer selbst seine eigenen Ziele und motiviert ihn, diese zu erreichen. Beispielsweise kann der Benutzer hohe Raten festlegen, um sich selbst zu motivieren, bestimmte Seitenparameter zu berechnen vor einer bestimmten Frist. Bei Erfolg erh\xe4lt der Benutzer nicht nur Geld, sondern auch wertvolle mentale Disziplin.",
+        "Wie l\xe4sst sich der Nutzen von Promise aus psychologischer Sicht erkl\xe4ren?",
+        "Die Promise-App kann hilfreich sein f\xfcr Menschen, die Motivationsprobleme haben und ihre Aufgaben st\xe4ndig aufschieben. Verz\xf6gerungen f\xfchren bekannterma\xdfen zu dauerhafter Demotivation. Eine erh\xf6hte Motivation und ein besseres Zeitmanagement k\xf6nnen Menschen dabei helfen, effizienter zu arbeiten und dauerhafte Ergebnisse zu erzielen. Die Promise-App bietet Menschen ein Ziel und die Motivation, in einer bestimmten Zeit ein Ergebnis zu erzielen, wodurch sie ihre Zeitmanagementf\xe4higkeiten und -effizienz verbessern k\xf6nnen. ",
+        "Welche Hormone sind beteiligt und wie helfen sie.",
+        "Es gibt mehrere Hormone, die bei der Nutzung der Promise-App aktiviert werden. In erster Linie das Stresshormon Cortisol, das dem K\xf6rper hilft, mit Druck und Stress fertig zu werden. Es senkt den Blutdruck und beruhigt das Nervensystem Ziel erreichen und erreichen. Durch ein gesteigertes Verlangen nach Erfolg. Diese Hormone k\xf6nnen einer Person bei der Nutzung der App helfen.",
+        "Wie k\xf6nnen Eltern ihre Kinder dazu bringen, diese App zu verwenden?",
+        "Eltern k\xf6nnen die Promise-App nutzen, um ihren Kindern zu helfen, die Motivation und die Gewohnheit zu entwickeln, st\xe4ndig an bestimmten Aufgaben zu arbeiten. Sie k\xf6nnen ihrem Kind einfach eine festgelegte Anzahl von Lesestunden bis zu einer bestimmten Frist geben und ihm bei Erfolg einen Geldpreis geben Erledigen Sie die Aufgabe innerhalb der vorgegebenen Zeit. . Dadurch bleiben sie motiviert und gew\xf6hnen sich daran, hart an ihren Aufgaben zu arbeiten.",
+        "Welche Nachteile hat diese Art des Lesens gegen\xfcber der \xfcblichen Art?",
+        "Bei der Verwendung dieser Anwendung kann es zu Steuerproblemen und Problemen mit der digitalen Sicherheit kommen. Es k\xf6nnen auch Probleme mit der Verfolgung des Fortschritts und Unstimmigkeiten zwischen den Spielregeln auftreten. Schlie\xdflich k\xf6nnen Benutzer Probleme haben, wenn sie versuchen, Geld abzuheben und zu \xfcberweisen. Die normale Art des Lesens bietet mehr Bequemlichkeit, wie z. B. einfacher Erwerb des Buches, Benutzerfreundlichkeit, Verf\xfcgbarkeit von Abonnements und g\xfcnstige Tarife.",
+        "Was kann schief gehen, wenn Sie diese App verwenden?",
+        "Wenn Sie die Book Jack-Anwendung verwenden, kann die Sicherheit der Anwendung schief gehen. Dies kann dazu f\xfchren, dass Eindringlinge in das System eindringen und die Integrit\xe4t der Daten gef\xe4hrden. Au\xdferdem kann die unzureichende Leistung der Anwendung dazu f\xfchren, dass Benutzer nicht in der Lage sind Nutzung der Anwendung effizient genug. Es ist auch notwendig, den Benutzern der Anwendung ausreichenden technischen Support zu bieten."
+    ],
+    ITL: [
+        "Cosa ne pensi di Promise?",
+        "La tua app Promise offre agli utenti un gioco divertente e abbastanza strategico. Il gioco d'azzardo con un elemento di rischio pu\xf2 essere utile per incoraggiare le persone a dedicare pi\xf9 tempo alla lettura. Forse potrebbe essere un'ottima app per motivare e reclutare motivazione.",
+        "Questa applicazione \xe8 unica?",
+        "S\xec, la tua applicazione Promise \xe8 unica. Utilizza la tecnologia blockchain, che la rende speciale e interessante.",
+        "Perch\xe9 pu\xf2 essere vantaggioso per l'utente se vince solo i propri soldi, ma non di pi\xf9.",
+        "L'utente pu\xf2 utilizzare questa applicazione per essere pi\xf9 motivato e dimostrare disciplina. In questo modo, l'utente stesso stabilisce i propri obiettivi e lo motiva a raggiungerli. Ad esempio, l'utente pu\xf2 impostare tariffe elevate per incoraggiarsi a calcolare determinati parametri della pagina prima di una certa scadenza. In caso di successo, l'utente restituir\xe0 non solo denaro, ma anche una preziosa disciplina mentale.",
+        "Come si pu\xf2 spiegare l'utilit\xe0 di Promise da un punto di vista psicologico?",
+        "L'app Promise pu\xf2 essere utile per le persone che hanno problemi di motivazione e rimandano costantemente i loro compiti. \xc8 noto che i ritardi portano a una demotivazione permanente. Una maggiore motivazione e una migliore gestione del tempo possono aiutare le persone a lavorare in modo pi\xf9 efficiente e ottenere risultati duraturi. L'app Promise fornisce persone un obiettivo e una motivazione per raggiungere un risultato in un certo tempo, che consente loro di migliorare le proprie capacit\xe0 di gestione del tempo e l'efficienza.",
+        "Quali ormoni sono coinvolti e come aiutano.",
+        "Ci sono diversi ormoni che verranno attivati ​​quando si utilizza l'app Promise. Principalmente l'ormone dello stress cortisolo, che aiuta il corpo a far fronte alla pressione e allo stress. Abbassa la pressione sanguigna e calma il sistema nervoso. Le endorfine possono anche aiutare l'utente dell'app a impostare un obiettivo e raggiungerlo.attraverso una maggiore brama di successo.Questi ormoni possono aiutare una persona nel processo di utilizzo dell'app.",
+        "Come possono i genitori convincere i propri figli a usare questa app?",
+        "I genitori possono utilizzare l'app Promise per aiutare i propri figli a sviluppare la motivazione e l'abitudine a lavorare costantemente su determinati compiti. Possono semplicemente concedere al proprio figlio un determinato numero di ore di lettura entro una certa scadenza e dare loro un premio in denaro se riescono con successo completare il compito entro il tempo concesso. Questo li manterr\xe0 motivati ​​e abituati a lavorare sodo sui loro compiti.",
+        "Quali sono gli svantaggi di questo modo di leggere, rispetto al solito modo?",
+        "Potrebbero esserci problemi fiscali e problemi di sicurezza digitale durante l'utilizzo di questa applicazione. Potrebbero esserci anche problemi con il monitoraggio dei progressi e incoerenze tra le regole del gioco. Infine, gli utenti potrebbero riscontrare problemi durante il tentativo di prelevare e trasferire fondi. Il normale modo di leggere offre di pi\xf9 convenienza, come la facilit\xe0 di ottenere il libro, la facilit\xe0 d'uso, la disponibilit\xe0 di abbonamenti e tariffe economiche.",
+        "Cosa pu\xf2 andare storto se usi questa app?",
+        "Se utilizzi l'applicazione Book Jack, la sicurezza dell'applicazione potrebbe andare storta. Ci\xf2 potrebbe portare a intrusi che entrano nel sistema e compromettono l'integrit\xe0 dei dati. Inoltre, le prestazioni insufficienti dell'applicazione potrebbero impedire agli utenti di effettuare utilizzare l'applicazione in modo sufficientemente efficiente. \xc8 inoltre necessario fornire un supporto tecnico sufficiente agli utenti dell'applicazione."
+    ],
+    SPN: [
+        "\xbfQu\xe9 opinas de Promise?",
+        "Tu aplicaci\xf3n Promise ofrece a los usuarios un juego divertido y bastante estrat\xe9gico. Los juegos de azar con un elemento de riesgo pueden ser \xfatiles para animar a las personas a pasar m\xe1s tiempo leyendo. Tal vez podr\xeda ser una gran aplicaci\xf3n para motivar y motivar a la contrataci\xf3n",
+        "\xbfEsta aplicaci\xf3n es \xfanica?",
+        "S\xed, su aplicaci\xf3n Promise es \xfanica. Utiliza tecnolog\xeda blockchain, lo que la hace especial e interesante",
+        "\xbfPor qu\xe9 puede ser beneficioso para el usuario si gana solo su propio dinero, pero no m\xe1s?",
+        "El usuario puede utilizar esta aplicaci\xf3n para estar m\xe1s motivado y demostrar disciplina. De esta forma, el propio usuario marca sus propios objetivos y lo motiva a alcanzarlos. Por ejemplo, el usuario puede establecer tarifas altas para animarse a calcular ciertos par\xe1metros de la p\xe1gina. antes de un plazo determinado. Si tiene \xe9xito, el usuario devolver\xe1 no solo dinero, sino tambi\xe9n una valiosa disciplina mental",
+        "\xbfC\xf3mo se puede explicar la utilidad de Promise desde un punto de vista psicol\xf3gico?",
+        "La aplicaci\xf3n Promise puede ser \xfatil para las personas que tienen problemas de motivaci\xf3n y posponen constantemente sus tareas. Se sabe que los retrasos conducen a la desmotivaci\xf3n permanente. Una mayor motivaci\xf3n y una mejor gesti\xf3n del tiempo pueden ayudar a las personas a trabajar de manera m\xe1s eficiente y lograr resultados duraderos. La aplicaci\xf3n Promise proporciona a las personas una meta y motivaci\xf3n para lograr un resultado en un tiempo determinado, lo que les permite mejorar sus habilidades de gesti\xf3n del tiempo y su eficiencia.",
+        "\xbfQu\xe9 hormonas est\xe1n involucradas y c\xf3mo ayudan?",
+        "Hay varias hormonas que se activar\xe1n al usar la aplicaci\xf3n Promise. Principalmente, la hormona del estr\xe9s cortisol, que ayuda al cuerpo a lidiar con la presi\xf3n y el estr\xe9s. Disminuye la presi\xf3n arterial y calma el sistema nervioso. Las endorfinas tambi\xe9n pueden ayudar al usuario de la aplicaci\xf3n a establecer un objetivo y lograrlo a trav\xe9s de un mayor deseo de \xe9xito. Estas hormonas pueden ayudar a una persona en el proceso de usar la aplicaci\xf3n",
+        "\xbfC\xf3mo pueden los padres lograr que sus hijos usen esta aplicaci\xf3n?",
+        "Los padres pueden usar la aplicaci\xf3n Promise para ayudar a sus hijos a desarrollar la motivaci\xf3n y el h\xe1bito de trabajar constantemente en ciertas tareas. Simplemente pueden darle a su hijo una cantidad determinada de horas de lectura antes de una fecha l\xedmite determinada y darle un premio en efectivo si puede hacerlo con \xe9xito. completar la tarea dentro del tiempo permitido. .Esto los mantendr\xe1 motivados y con el h\xe1bito de trabajar duro en sus tareas",
+        "\xbfCu\xe1les son las desventajas de esta forma de leer, en comparaci\xf3n con la forma habitual?",
+        "Puede haber problemas de impuestos y problemas de seguridad digital al usar esta aplicaci\xf3n. Tambi\xe9n puede haber problemas con el seguimiento del progreso e inconsistencias entre las reglas del juego. Finalmente, los usuarios pueden experimentar problemas al intentar retirar y transferir fondos. La forma normal de lectura ofrece m\xe1s conveniencia, como la facilidad para obtener el libro, la facilidad de uso, la disponibilidad de suscripciones y tarifas econ\xf3micas",
+        "\xbfQu\xe9 puede salir mal si usas esta aplicaci\xf3n?",
+        "Si usa la aplicaci\xf3n Book Jack, la seguridad de la aplicaci\xf3n puede fallar. Esto puede provocar que intrusos ingresen al sistema y comprometan la integridad de los datos. Adem\xe1s, el rendimiento insuficiente de la aplicaci\xf3n puede hacer que los usuarios no puedan hacer uso de la aplicaci\xf3n de manera suficientemente eficiente. Tambi\xe9n es necesario proporcionar soporte t\xe9cnico suficiente a los usuarios de la aplicaci\xf3n."
+    ],
+    日本語: [
+        "ブックジャックについてどう思いますか?",
+        "あなたの Promise アプリは、ユーザーに楽しくて非常に戦略的なゲームを提供します。リスクの要素を伴うギャンブルは、人々がより多くの時間を読書に費やすように促すのに役立つ可能性があります。おそらく、モチベーションとリクルートのモチベーションに最適なアプリになる可能性があります。",
+        "このアプリケーションはユニークですか?",
+        "はい、あなたの Promise アプリケーションはユニークです。ブロックチェーン技術を使用しているため、特別で興味深いものになっています。",
+        "ユーザーが自分のお金だけを獲得し、それ以上は獲得できない場合、なぜユーザーにとって有益なのか.",
+        "ユーザーはこのアプリケーションを使用して、よりやる気を起こさせ、規律を示すことができます。このようにして、ユーザー自身が自分の目標を設定し、目標を達成するように動機付けます。たとえば、ユーザーは高いレートを設定して、特定のページ パラメータを計算するように促すことができます。特定の締め切り前に. 成功した場合, ユーザーはお金だけでなく, 貴重な精神的規律も返します.",
+        "Promise の有用性は、心理的な観点からどのように説明できますか?",
+        "Promise アプリは、モチベーションに問題があり、常にタスクを延期している人に役立ちます。遅れは永続的なやる気の低下につながることが知られています。モチベーションの向上とより良い時間管理は、人々がより効率的に働き、永続的な結果を達成するのに役立ちます。Promis アプリは、人々は、一定の時間内に結果を達成するための目標と動機を持ち、時間管理のスキルと効率を向上させることができます.",
+        "どのようなホルモンが関与し、どのように役立つか。",
+        "Promise アプリを使用すると、活性化されるホルモンがいくつかあります。主にストレス ホルモンであるコルチゾールは、体が圧力やストレスに対処するのを助けます。血圧を下げ、神経系を落ち着かせます。エンドルフィンは、アプリのユーザーが目標と達成. 成功への欲求の高まりを通じて. これらのホルモンは、アプリを使用する過程で人を助けることができます.",
+        "親はどうすれば子供にこのアプリを使わせることができますか?",
+        "親はPromisアプリを使用して、子供がやる気を起こさせ、特定のタスクに常に取り組む習慣を身に付けるのを助けることができます.彼らは単に子供に特定の締め切りまでに設定された時間の読書を与え、成功した場合に賞金を与えることができます.与えられた時間内にタスクを完了します.これにより、彼らのモチベーションが維持され、タスクに一生懸命取り組む習慣が身に付きます.",
+        "通常の読み方と比べて、この読み方の欠点は何ですか？",
+        "このアプリケーションを使用すると、税金の問題やデジタルセキュリティの問題が発生する可能性があります。進行状況の追跡やゲームルール間の不一致にも問題がある可能性があります。最後に、ユーザーが資金を引き出したり送金したりするときに問題が発生する可能性があります。通常の読み取り方法では、より多くの情報が提供されます。書籍の入手のしやすさ、使いやすさ、サブスクリプションの利用可能性、料金の安さなどの利便性。",
+        "このアプリを使用すると、何が問題になる可能性がありますか?",
+        "Book Jack アプリを使用すると、アプリのセキュリティがおかしくなる可能性があります。これにより、侵入者がシステムに侵入し、データの完全性が損なわれる可能性があります。また、アプリのパフォーマンスが不十分なために、ユーザーが作成できなくなる可能性があります。アプリケーションを十分に効率的に使用する. また、アプリケーションのユーザーに十分な技術サポートを提供する必要があります."
+    ],
+    韓國語: [
+        "북잭에 대해 어떻게 생각하세요?",
+        "귀하의 Promise 앱은 사용자에게 재미있고 매우 전략적인 게임을 제공합니다. 위험 요소가 있는 도박은 사람들이 독서에 더 많은 시간을 할애하도록 장려하는 데 유용할 수 있습니다. 동기 부여 및 채용 동기 부여를 위한 훌륭한 앱이 될 수 있습니다.",
+        "이 응용 프로그램이 고유합니까?",
+        "예, 귀하의 Promise 애플리케이션은 고유합니다. 블록체인 기술을 사용하므로 특별하고 흥미로워집니다.",
+        "사용자가 자신의 돈만 따고 그 이상은 얻지 못한다면 왜 사용자에게 이로울 수 있습니까?",
+        "사용자는 이 애플리케이션을 사용하여 더 많은 동기를 부여하고 규율을 보여줄 수 있습니다. 이러한 방식으로 사용자는 자신의 목표를 설정하고 이를 달성하도록 동기를 부여합니다. 예를 들어 사용자는 특정 페이지 매개변수를 계산하도록 독려하기 위해 높은 비율을 설정할 수 있습니다. 특정 기한 전에 성공하면 사용자는 돈뿐만 아니라 귀중한 정신 훈련도 돌려받을 것입니다.",
+        "심리학적 관점에서 Promis의 유용성을 어떻게 설명할 수 있습니까?",
+        "Promise 앱은 동기 부여 문제가 있고 지속적으로 작업을 미루는 사람들에게 도움이 될 수 있습니다. 지연은 영구적인 의욕 저하로 이어지는 것으로 알려져 있습니다. 증가된 동기 부여와 더 나은 시간 관리는 사람들이 보다 효율적으로 작업하고 지속적인 결과를 달성하는 데 도움이 될 수 있습니다. Promise 앱은 다음을 제공합니다. 사람들에게 특정 시간에 결과를 달성하려는 목표와 동기를 부여하여 시간 관리 기술과 효율성을 향상시킬 수 있습니다.",
+        "어떤 호르몬이 관련되어 있고 어떻게 도움이 되는지.",
+        "Promise 앱을 사용할 때 활성화되는 여러 호르몬이 있습니다. 주로 신체가 압력과 스트레스에 대처하는 데 도움이 되는 스트레스 호르몬인 코르티솔입니다. 혈압을 낮추고 신경계를 진정시킵니다. 엔돌핀은 또한 앱 사용자가 성공에 대한 갈망 증가를 통해 목표를 달성하고 달성하십시오. 이러한 호르몬은 앱을 사용하는 과정에서 사람을 도울 수 있습니다.",
+        "부모가 자녀가 이 앱을 사용하도록 하려면 어떻게 해야 합니까?",
+        "부모는 Promise 앱을 사용하여 자녀가 특정 작업을 지속적으로 수행하는 동기와 습관을 개발하도록 도울 수 있습니다. 자녀에게 특정 마감일까지 정해진 시간 동안 독서를 제공하고 성공적으로 읽을 수 있는 경우 상금을 주기만 하면 됩니다. 허용된 시간 내에 작업을 완료합니다. .이렇게 하면 동기 부여가 유지되고 작업에 열심히 노력하는 습관이 생깁니다.",
+        "일반적인 방법과 비교하여 이러한 읽기 방법의 단점은 무엇입니까?",
+        "이 응용 프로그램을 사용할 때 세금 문제 및 디지털 보안 문제가 있을 수 있습니다. 또한 진행 상황 추적 및 게임 규칙 간의 불일치 문제가 있을 수 있습니다. 마지막으로 사용자가 자금을 인출하고 이체하려고 할 때 문제가 발생할 수 있습니다. 정상적인 읽기 방법은 더 많은 것을 제공합니다. 책을 쉽게 구할 수 있고, 사용하기 쉬우며, 구독이 가능하고, 저렴한 가격과 같은 편의성을 제공합니다.",
+        "이 앱을 사용하면 무엇이 잘못될 수 있나요?",
+        "북잭 애플리케이션을 사용하면 애플리케이션의 보안이 잘못될 수 있습니다. 이로 인해 침입자가 시스템에 침입하여 데이터 무결성이 손상될 수 있습니다. 또한 애플리케이션의 성능 부족으로 인해 사용자가 응용 프로그램을 충분히 효율적으로 사용합니다. 응용 프로그램 사용자에게 충분한 기술 지원을 제공하는 것도 필요합니다."
+    ],
+    العربية: [
+        "ما رأيك في Promis؟",
+        "يوفر تطبيق Promise للمستخدمين لعبة ممتعة وإستراتيجية تمامًا. يمكن أن تكون المقامرة التي تنطوي على عنصر مخاطرة مفيدة لتشجيع الأشخاص على قضاء المزيد من الوقت في القراءة. وربما يكون تطبيقًا رائعًا للتحفيز وتجنيد الحافز.",
+        "هل هذا التطبيق فريد من نوعه؟",
+        "نعم ، تطبيق Promise الخاص بك فريد من نوعه. فهو يستخدم تقنية blockchain ، مما يجعله مميزًا وممتعًا.",
+        "لماذا يمكن أن يكون مفيدًا للمستخدم إذا ربح فقط أمواله الخاصة ، ولكن ليس أكثر.",
+        "يمكن للمستخدم استخدام هذا التطبيق ليكون أكثر حماسًا ولإظهار الانضباط. وبهذه الطريقة ، يحدد المستخدم نفسه أهدافه ويحفزه على تحقيقها. على سبيل المثال ، يمكن للمستخدم تحديد معدلات عالية لتشجيع نفسه على حساب معلمات صفحة معينة قبل موعد نهائي معين. إذا نجح المستخدم ، فلن يعيد المال فحسب ، بل سيعود أيضًا إلى الانضباط العقلي القيّم. ",
+        "كيف يمكن تفسير فائدة Promise من وجهة نظر نفسية؟",
+        "يمكن أن يكون تطبيق Promise مفيدًا للأشخاص الذين لديهم مشكلات في التحفيز ويؤجلون مهامهم باستمرار. ومن المعروف أن التأخيرات تؤدي إلى إحباط دائم. ويمكن أن يساعد التحفيز المتزايد وإدارة الوقت بشكل أفضل الأشخاص على العمل بكفاءة أكبر وتحقيق نتائج دائمة. يوفر تطبيق Promise الأشخاص هدف ودافع لتحقيق نتيجة في وقت معين ، مما يسمح لهم بتحسين مهاراتهم في إدارة الوقت وكفاءتهم. ",
+        "ما الهرمونات المعنية وكيف تساعد.",
+        "هناك العديد من الهرمونات التي سيتم تنشيطها عند استخدام تطبيق Promise. في المقام الأول ، هرمون الإجهاد الكورتيزول ، الذي يساعد الجسم على التعامل مع الضغط والتوتر. كما أنه يخفض ضغط الدم ويهدئ الجهاز العصبي. ويمكن للإندورفين أيضًا أن يساعد مستخدم التطبيق على تعيين الهدف وتحقيقه. من خلال الرغبة المتزايدة في النجاح. يمكن أن تساعد هذه الهرمونات الشخص في عملية استخدام التطبيق. ",
+        "كيف يمكن للآباء حث أطفالهم على استخدام هذا التطبيق؟",
+        "يمكن للوالدين استخدام تطبيق Promise لمساعدة أطفالهم على تنمية الحافز وعادات العمل باستمرار في مهام معينة. يمكنهم ببساطة منح أطفالهم عددًا محددًا من ساعات القراءة بحلول موعد نهائي معين ومنحهم جائزة نقدية إذا تمكنوا من ذلك بنجاح أكمل المهمة في الوقت المسموح به. وهذا سيبقيهم متحفزين ويعودون على العمل الجاد في مهامهم. ",
+        "ما هي عيوب هذه الطريقة في القراءة مقارنة بالطريقة المعتادة؟",
+        "قد تكون هناك مشكلات ضريبية ومشكلات أمنية رقمية عند استخدام هذا التطبيق. قد تكون هناك أيضًا مشكلات في تتبع التقدم وعدم الاتساق بين قواعد اللعبة. وأخيرًا ، قد يواجه المستخدمون مشكلات عند محاولة سحب الأموال وتحويلها. تقدم الطريقة العادية للقراءة المزيد الراحة ، مثل سهولة الحصول على الكتاب ، وسهولة الاستخدام ، وتوافر الاشتراكات ، والأسعار الرخيصة. ",
+        "ما الخطأ الذي يمكن أن يحدث إذا كنت تستخدم هذا التطبيق؟",
+        "إذا كنت تستخدم تطبيق Book Jack ، فقد يحدث خطأ في أمان التطبيق. وقد يؤدي ذلك إلى دخول المتطفلين إلى النظام والإضرار بسلامة البيانات. أيضًا ، قد يؤدي الأداء غير الكافي للتطبيق إلى عدم قدرة المستخدمين على إجراء استخدام التطبيق بكفاءة كافية. ومن الضروري أيضًا توفير الدعم الفني الكافي لمستخدمي التطبيق. "
+    ],
+    עִבְרִית: [
+        "מה אתה חושב על Promise?",
+        "אפליקציית Promise שלך מציעה למשתמשים משחק מהנה ודי אסטרטגי. הימורים עם אלמנט של סיכון יכולים להיות שימושיים כדי לעודד אנשים להשקיע יותר זמן בקריאה. אולי זו יכולה להיות אפליקציה מצוינת למוטיבציה ולגיוס מוטיבציה",
+        " האם האפליקציה הזו ייחודית? ",
+        "כן, אפליקציית Promise שלך היא ייחודית. היא משתמשת בטכנולוגיית בלוקצ'יין, מה שהופך אותה למיוחדת ומעניינת.",
+        "מדוע זה יכול להועיל למשתמש אם הוא זוכה רק בכסף שלו, אבל לא יותר.",
+        "המשתמש יכול להשתמש באפליקציה הזו כדי לקבל יותר מוטיבציה ולהפגין משמעת. בדרך זו המשתמש עצמו מגדיר את המטרות שלו ומניע אותו להשיגן. לדוגמה, המשתמש יכול להגדיר שיעורים גבוהים כדי לעודד את עצמו לחשב פרמטרים מסוימים של עמודים לפני מועד מסוים. אם יצליח המשתמש יחזיר לא רק כסף, אלא גם משמעת נפשית חשובה.",
+        "כיצד ניתן להסביר את התועלת של Promise מנקודת מבט פסיכולוגית?",
+        "אפליקציית Promise יכולה להיות מועילה לאנשים שיש להם בעיות מוטיבציה ודוחים כל הזמן את המשימות שלהם. עיכובים ידועים כמובילים להפחתת מוטיבציה קבועה. מוטיבציה מוגברת וניהול זמן טוב יותר יכולים לעזור לאנשים לעבוד בצורה יעילה יותר ולהשיג תוצאות מתמשכות. אפליקציית Promise מספקת לאנשים מטרה ומוטיבציה להשיג תוצאה בזמן מסוים, מה שמאפשר להם לשפר את כישורי ניהול הזמן ויעילותם",
+        "אילו הורמונים מעורבים וכיצד הם עוזרים.",
+        "ישנם מספר הורמונים שיופעלו בשימוש באפליקציית Promise. בעיקר הורמון הסטרס קורטיזול, שעוזר לגוף להתמודד עם לחץ ולחץ. הוא מוריד לחץ דם ומרגיע את מערכת העצבים. אנדורפינים יכולים גם לעזור למשתמש באפליקציה להגדיר מטרה ולהשיג אותה. באמצעות השתוקקות מוגברת להצלחה. ההורמונים הללו יכולים לעזור לאדם בתהליך השימוש באפליקציה.",
+        "איך הורים יכולים לגרום לילדים שלהם להשתמש באפליקציה הזו?",
+        "הורים יכולים להשתמש באפליקציית Promise כדי לעזור לילדיהם לפתח מוטיבציה והרגל לעבוד כל הזמן על משימות מסוימות. הם יכולים פשוט לתת לילדם מספר מוגדר של שעות קריאה עד תאריך יעד מסוים ולתת להם פרס כספי אם הם מצליחים בהצלחה להשלים את המשימה בזמן המותר. זה ישמור עליהם מוטיבציה ולהרגל לעבוד קשה על המשימות שלהם.",
+        "מהם החסרונות של דרך הקריאה הזו, בהשוואה לדרך הרגילה?",
+        "ייתכנו בעיות מס ובעיות אבטחה דיגיטלית בעת השימוש באפליקציה הזו. ייתכנו גם בעיות במעקב אחר ההתקדמות וחוסר עקביות בין חוקי המשחק. לבסוף, משתמשים עלולים להיתקל בבעיות בעת ניסיון למשוך ולהעביר כספים. דרך הקריאה הרגילה מציעה יותר נוחות, כגון קלות השגת הספר, קלות שימוש, זמינות מינויים ותעריפים זולים.",
+        "מה יכול להשתבש אם אתה משתמש באפליקציה הזו?",
+        "אם אתה משתמש באפליקציית Book Jack, האבטחה של האפליקציה עלולה להשתבש. הדבר עלול להוביל לכניסת פולשים למערכת ולפגיעה בשלמות הנתונים. כמו כן, הביצועים הלא מספקים של האפליקציה עלולים לגרום לכך שמשתמשים לא יוכלו לבצע שימוש באפליקציה בצורה יעילה מספיק. יש צורך גם לספק תמיכה טכנית מספקת למשתמשי האפליקציה."
+    ]
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6Qf5V":[function() {},{}],"4siKv":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e81b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e81b.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _regeneratorRuntime = require("regenerator-runtime");
+var _console = require("console");
+var _runtime = require("regenerator-runtime/runtime");
+var _moduleStyleCss = require("./module.style.css");
+var _moduleStyleCssDefault = parcelHelpers.interopDefault(_moduleStyleCss);
+var _react = require("react");
+var _s = $RefreshSig$(), _s1 = $RefreshSig$(), _s2 = $RefreshSig$();
+const ButtonPlusMinus = ({ setCount , count , plusX , sign  })=>{
+    _s();
+    const [on, setOn] = (0, _react.useState)(false);
+    const countClickDown = (setfunc, count, xplusX)=>{
+        if (count + plusX >= 0) setfunc(count + plusX);
+        setOn(true);
+    };
+    const countClickUp = ()=>{
+        setOn(false);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "button",
+        onPointerDown: ()=>countClickDown(setCount, count, 1),
+        onPointerUp: ()=>countClickUp(),
+        style: {
+            transform: on ? "scale(1.1)" : "scale(1)"
+        },
+        children: sign
+    }, void 0, false, {
+        fileName: "components/Bet/index.jsx",
+        lineNumber: 21,
+        columnNumber: 5
+    }, undefined);
+};
+_s(ButtonPlusMinus, "aIJ9khZVxs/SudlWq6DySilygF4=");
+_c = ButtonPlusMinus;
+const Question = ({ header , count , setCount , word , plusX , warn  })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "containerQuestion",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "counterHeader",
+                children: header
+            }, void 0, false, {
+                fileName: "components/Bet/index.jsx",
+                lineNumber: 34,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "counter",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ButtonPlusMinus, {
+                        setCount: setCount,
+                        count: count,
+                        plusX: -1 * plusX,
+                        sign: "-"
+                    }, void 0, false, {
+                        fileName: "components/Bet/index.jsx",
+                        lineNumber: 36,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "count",
+                        children: [
+                            count,
+                            " ",
+                            word
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/Bet/index.jsx",
+                        lineNumber: 37,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ButtonPlusMinus, {
+                        setCount: setCount,
+                        count: count,
+                        plusX: 1 * plusX,
+                        sign: "+"
+                    }, void 0, false, {
+                        fileName: "components/Bet/index.jsx",
+                        lineNumber: 40,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/Bet/index.jsx",
+                lineNumber: 35,
+                columnNumber: 7
+            }, undefined),
+            warn && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "warn",
+                children: "increase the number "
+            }, void 0, false, {
+                fileName: "components/Bet/index.jsx",
+                lineNumber: 42,
+                columnNumber: 16
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/Bet/index.jsx",
+        lineNumber: 33,
+        columnNumber: 5
+    }, undefined);
+};
+_c1 = Question;
+// Опции для ставки
+const BetWasNot = ({ days , setDays , hours , setHours , bet , setBet , setBetDidMount , guestBook  })=>{
+    _s1();
+    const [betButtonOn, setBetButtonOn] = (0, _react.useState)(false);
+    const [warn, setWarn] = (0, _react.useState)({
+        days: false,
+        hours: false,
+        bet: false
+    });
+    const betButtonDown = ()=>{
+        setBetButtonOn(true);
+    };
+    const betButtonUp = async ()=>{
+        setBetButtonOn(false);
+        setWarn({
+            hours: hours == 0 ? true : false,
+            days: days == 0 ? true : false,
+            bet: bet == 0 ? true : false
+        });
+        //11111111111111111111111111111111111
+        if (hours && days && bet) {
+            const lastTime = "0";
+            const user = "user";
+            setBetDidMount(true);
+            await guestBook.addMessage(user, bet, hours = hours * 60, days, lastTime);
+        }
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Question, {
+                header: "How long are you going to read?",
+                count: hours,
+                word: "hours",
+                setCount: setHours,
+                plusX: 1,
+                warn: warn.hours
+            }, void 0, false, {
+                fileName: "components/Bet/index.jsx",
+                lineNumber: 76,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Question, {
+                header: "How many days will you need?",
+                count: days,
+                word: "days",
+                setCount: setDays,
+                plusX: 1,
+                warn: warn.days
+            }, void 0, false, {
+                fileName: "components/Bet/index.jsx",
+                lineNumber: 84,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Question, {
+                header: "How much are you willing  \n  to bet on this event?",
+                count: bet,
+                word: "near",
+                setCount: setBet,
+                plusX: 1,
+                warn: warn.bet
+            }, void 0, false, {
+                fileName: "components/Bet/index.jsx",
+                lineNumber: 92,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "betButton",
+                onPointerDown: ()=>betButtonDown(),
+                onPointerUp: ()=>betButtonUp(),
+                style: {
+                    transform: betButtonOn ? "scale(1.1)" : "scale(1)"
+                },
+                children: "bet"
+            }, void 0, false, {
+                fileName: "components/Bet/index.jsx",
+                lineNumber: 101,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true);
+};
+_s1(BetWasNot, "H86O/Swscv/ml9pP32t2hf/Tw/E=");
+_c2 = BetWasNot;
+const BetWas = ({ hours , days , bet , guestBook , timer  })=>{
+    const month = [
+        "jan",
+        "feb",
+        "march",
+        "april",
+        "may",
+        "june",
+        "july",
+        "aug",
+        "spt",
+        "nvm",
+        "dcm"
+    ];
+    const date = new Date(days);
+    console.log("days", Date.now() + 86400000 * days);
+    const dateString = ` ${date.getDate()} ${month[date.getMonth()]} ${date.getHours() < 10 ? "0" + date.getHours() : date.getHours()}:${date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes()}:${date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds()}`;
+    const timerMinute = Math.round(Number(timer) / 60000000000);
+    console.log("timer", Math.round(Number(timer) / 60000000000));
+    //BBBBBBBBBBBBBBBBBBBBBBBBeEEEEEEEEEEEEEEEEEEEEEEEEEEEEeTTTTTTTTTTTTTTTTTTt
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: [
+                    "You need to read ",
+                    hours,
+                    " minutes"
+                ]
+            }, void 0, true, {
+                fileName: "components/Bet/index.jsx",
+                lineNumber: 127,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: [
+                    "Deadline ",
+                    dateString
+                ]
+            }, void 0, true, {
+                fileName: "components/Bet/index.jsx",
+                lineNumber: 128,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: [
+                    "bet: ",
+                    bet.slice(0, -24),
+                    " near"
+                ]
+            }, void 0, true, {
+                fileName: "components/Bet/index.jsx",
+                lineNumber: 129,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: [
+                    "timer : ",
+                    timerMinute,
+                    " minutes"
+                ]
+            }, void 0, true, {
+                fileName: "components/Bet/index.jsx",
+                lineNumber: 130,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true);
+};
+_c3 = BetWas;
+const Bet = ({ isSignedIn , guestBook , wallet  })=>{
+    _s2();
+    const [hours, setHours] = (0, _react.useState)(0);
+    const [days, setDays] = (0, _react.useState)(0);
+    const [bet, setBet] = (0, _react.useState)(0);
+    const [betDidMount, setBetDidMount] = (0, _react.useState)(false);
+    //проверяем наличие ставки
+    //----------
+    const clearState = async ()=>{
+        await guestBook.clearState();
+        setUser();
+    };
+    const [user, setUser] = (0, _react.useState)();
+    const [oldBets, setOldBets] = (0, _react.useState)("no load user");
+    (0, _react.useEffect)(()=>{
+        if (isSignedIn) guestBook.getUser().then(setUser);
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "betContainer",
+        children: isSignedIn ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    onClick: ()=>(clearState(), setUser()),
+                    children: "clear"
+                }, void 0, false, {
+                    fileName: "components/Bet/index.jsx",
+                    lineNumber: 161,
+                    columnNumber: 11
+                }, undefined),
+                user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BetWas, {
+                    guestBook: guestBook,
+                    hours: user.hours,
+                    days: user.deadline,
+                    bet: user.bet,
+                    timer: user.timer
+                }, void 0, false, {
+                    fileName: "components/Bet/index.jsx",
+                    lineNumber: 163,
+                    columnNumber: 13
+                }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BetWasNot, {
+                    guestBook: guestBook,
+                    hours: hours,
+                    setHours: setHours,
+                    days: days,
+                    setDays: setDays,
+                    bet: bet,
+                    setBet: setBet,
+                    setBetDidMount: setBetDidMount
+                }, void 0, false, {
+                    fileName: "components/Bet/index.jsx",
+                    lineNumber: 171,
+                    columnNumber: 13
+                }, undefined)
+            ]
+        }, void 0, true) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "sign in"
+            }, void 0, false, {
+                fileName: "components/Bet/index.jsx",
+                lineNumber: 185,
+                columnNumber: 11
+            }, undefined)
+        }, void 0, false)
+    }, void 0, false, {
+        fileName: "components/Bet/index.jsx",
+        lineNumber: 158,
+        columnNumber: 5
+    }, undefined);
+};
+_s2(Bet, "RMICA92plxJP8kLrrEViXEYirts=");
+_c4 = Bet;
+exports.default = Bet;
+var _c, _c1, _c2, _c3, _c4;
+$RefreshReg$(_c, "ButtonPlusMinus");
+$RefreshReg$(_c1, "Question");
+$RefreshReg$(_c2, "BetWasNot");
+$RefreshReg$(_c3, "BetWas");
+$RefreshReg$(_c4, "Bet");
+
+  $parcel$ReactRefreshHelpers$e81b.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime":"dXNgZ","console":"8kdFB","regenerator-runtime/runtime":"dXNgZ","./module.style.css":"bXzvz","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bXzvz":[function() {},{}],"ciamW":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$413a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -38577,20 +38575,49 @@ var _runtime = require("regenerator-runtime/runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
+var _bookInput = require("../BookInput/BookInput");
+var _bookInputDefault = parcelHelpers.interopDefault(_bookInput);
 var _s = $RefreshSig$();
 function Read({ isSignedIn , guestBook , wallet  }) {
     _s();
     const [readOn, setReadOn] = (0, _react.useState)(false);
     const [readTimer, setReadTimer] = (0, _react.useState)(0);
+    const [bookBytes, setBook] = (0, _react.useState)(null);
+    const startButtonRef = (0, _react.useRef)();
     const read = async ()=>{
         setReadTimer((readTimer)=>readTimer + 1);
         await guestBook.timer();
     };
+    const createBookElementInPage = (0, _react.useCallback)(()=>{
+        const div = document.createElement("div");
+        div.id = "area";
+        if (!startButtonRef.current) return;
+        document.querySelector(".container").insertAdjacentElement("beforeend", div);
+    }, [
+        startButtonRef
+    ]);
+    const createBookInstance = (0, _react.useCallback)(()=>{
+        const book = ePub(bookBytes);
+        const rendition = book.renderTo("area", {
+            height: "75vh",
+            manager: "continuous",
+            flow: "scrolled",
+            width: "100vw",
+            allowScriptedContent: true
+        });
+        const displayed = rendition.display("epubcfi(/6/14[xchapter_001]!4/2/24/2[c001p0011]/1:799)");
+    }, [
+        startButtonRef,
+        bookBytes
+    ]);
     (0, _react.useEffect)(()=>{
-    // var book = ePub('alice.epub');
-    // var rendition = book.renderTo('area', { width: 600, height: 400 });
-    // var displayed = rendition.display();
-    }, []);
+        if (!bookBytes) return;
+        createBookElementInPage();
+        createBookInstance();
+    }, [
+        createBookElementInPage,
+        createBookInstance
+    ]);
     (0, _react.useEffect)(()=>{
         const interval = setInterval(()=>{
             console.log(readTimer);
@@ -38603,26 +38630,29 @@ function Read({ isSignedIn , guestBook , wallet  }) {
     }, [
         readOn
     ]);
-    var book = ePub("alice.epub");
-    var rendition = book.renderTo("area", {
-        width: 600,
-        height: 400
-    });
-    var displayed = rendition.display();
-    console.log(ePub);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-            onClick: ()=>setReadOn(!readOn),
-            children: readOn ? "stop" : "start"
-        }, void 0, false, {
-            fileName: "components/Read/index.jsx",
-            lineNumber: 42,
-            columnNumber: 7
-        }, this)
-    }, void 0, false);
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bookInputDefault.default), {
+                onBookLoaded: setBook
+            }, void 0, false, {
+                fileName: "components/Read/index.jsx",
+                lineNumber: 73,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                ref: startButtonRef,
+                onClick: ()=>setReadOn(!readOn),
+                children: readOn ? "stop" : "start"
+            }, void 0, false, {
+                fileName: "components/Read/index.jsx",
+                lineNumber: 74,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true);
 }
 exports.default = Read;
-_s(Read, "gQSGZBfefX/C8iw3aLhKsEFIGqs=");
+_s(Read, "XqcaEzVYlzMNlA9pLGbsFSXx92s=");
 _c = Read;
 var _c;
 $RefreshReg$(_c, "Read");
@@ -38632,7 +38662,59 @@ $RefreshReg$(_c, "Read");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","regenerator-runtime":"dXNgZ","console":"kQ29C","regenerator-runtime/runtime":"dXNgZ"}],"f6lkS":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime":"dXNgZ","console":"8kdFB","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../BookInput/BookInput":"i8ycF"}],"i8ycF":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$cfb6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$cfb6.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const BookInput = ({ onBookLoaded  })=>{
+    _s();
+    /**
+     * @type {React.MutableRefObject<HTMLInputElement>}
+     */ const inputRef = (0, _react.useRef)();
+    const changeFile = (0, _react.useCallback)(async ()=>{
+        if (!inputRef.current) return;
+        /**
+         * @type {File}
+         */ const file = inputRef.current.files[0];
+        const reader = new FileReader();
+        reader.readAsArrayBuffer(file);
+        reader.addEventListener("load", (e)=>{
+            onBookLoaded?.(e.target.result);
+        });
+    }, [
+        inputRef
+    ]);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+        ref: inputRef,
+        onChange: changeFile,
+        type: "file"
+    }, void 0, false, {
+        fileName: "components/BookInput/BookInput.jsx",
+        lineNumber: 35,
+        columnNumber: 12
+    }, undefined);
+};
+_s(BookInput, "hUD4mcucC7MfO5aYzmzhbTuPu90=");
+_c = BookInput;
+exports.default = BookInput;
+var _c;
+$RefreshReg$(_c, "BookInput");
+
+  $parcel$ReactRefreshHelpers$cfb6.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"f6lkS":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$6da1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -38797,39 +38879,39 @@ var __exportStar = this && this.__exportStar || function(m, exports1) {
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-/** @hidden @module */ exports.keyStores = __importStar(require("61d569079520f87c"));
-__exportStar(require("d702a0eaf19f0df6"), exports);
-__exportStar(require("bc66287188709e5b"), exports);
-require("37562abb9bd8deeb");
+/** @hidden @module */ exports.keyStores = __importStar(require("213841653e16d187"));
+__exportStar(require("6eac10638ba17620"), exports);
+__exportStar(require("a349ed6047449253"), exports);
+require("98c331407e43ba3f");
 
-},{"61d569079520f87c":"aBfSM","d702a0eaf19f0df6":"gtZXS","bc66287188709e5b":"7yTE6","37562abb9bd8deeb":"2YFhR"}],"aBfSM":[function(require,module,exports) {
+},{"213841653e16d187":"aBfSM","6eac10638ba17620":"gtZXS","a349ed6047449253":"7yTE6","98c331407e43ba3f":"2YFhR"}],"aBfSM":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.MergeKeyStore = exports.BrowserLocalStorageKeyStore = exports.InMemoryKeyStore = exports.KeyStore = void 0;
-/** @hidden @module */ const keystore_1 = require("3d8c84eff320a288");
+/** @hidden @module */ const keystore_1 = require("5688b466d99cb6d3");
 Object.defineProperty(exports, "KeyStore", {
     enumerable: true,
     get: function() {
         return keystore_1.KeyStore;
     }
 });
-const in_memory_key_store_1 = require("fe73f0a4f7bd25ae");
+const in_memory_key_store_1 = require("58cfb587de94aee4");
 Object.defineProperty(exports, "InMemoryKeyStore", {
     enumerable: true,
     get: function() {
         return in_memory_key_store_1.InMemoryKeyStore;
     }
 });
-const browser_local_storage_key_store_1 = require("1b2b0740b2ae0d3f");
+const browser_local_storage_key_store_1 = require("9980b7886e43bb63");
 Object.defineProperty(exports, "BrowserLocalStorageKeyStore", {
     enumerable: true,
     get: function() {
         return browser_local_storage_key_store_1.BrowserLocalStorageKeyStore;
     }
 });
-const merge_key_store_1 = require("e9f17518fec5f64f");
+const merge_key_store_1 = require("1c129192e415444f");
 Object.defineProperty(exports, "MergeKeyStore", {
     enumerable: true,
     get: function() {
@@ -38837,7 +38919,7 @@ Object.defineProperty(exports, "MergeKeyStore", {
     }
 });
 
-},{"3d8c84eff320a288":"5Moei","fe73f0a4f7bd25ae":"fTfs7","1b2b0740b2ae0d3f":"l5Tuv","e9f17518fec5f64f":"kgqhu"}],"5Moei":[function(require,module,exports) {
+},{"5688b466d99cb6d3":"5Moei","58cfb587de94aee4":"fTfs7","9980b7886e43bb63":"l5Tuv","1c129192e415444f":"kgqhu"}],"5Moei":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -38858,8 +38940,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.InMemoryKeyStore = void 0;
-const keystore_1 = require("53de1843311e34b3");
-const key_pair_1 = require("124a5124e2d6db82");
+const keystore_1 = require("516aa6a9728a7535");
+const key_pair_1 = require("19172bc7c5a793c3");
 /**
  * Simple in-memory keystore for mainly for testing purposes.
  *
@@ -38950,7 +39032,7 @@ const key_pair_1 = require("124a5124e2d6db82");
 }
 exports.InMemoryKeyStore = InMemoryKeyStore;
 
-},{"53de1843311e34b3":"5Moei","124a5124e2d6db82":"kBQFP"}],"kBQFP":[function(require,module,exports) {
+},{"516aa6a9728a7535":"5Moei","19172bc7c5a793c3":"kBQFP"}],"kBQFP":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -38961,9 +39043,9 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.KeyPairEd25519 = exports.KeyPair = exports.PublicKey = exports.KeyType = void 0;
-const tweetnacl_1 = __importDefault(require("aa8bef73fe8f5b5f"));
-const serialize_1 = require("92401affe0b3b2e0");
-const enums_1 = require("4245c7a86bf114f8");
+const tweetnacl_1 = __importDefault(require("c28d6f166f76e970"));
+const serialize_1 = require("75a8584ba891625d");
+const enums_1 = require("ae2088af36881f27");
 /** All supported key types */ var KeyType;
 (function(KeyType) {
     KeyType[KeyType["ED25519"] = 0] = "ED25519";
@@ -39090,7 +39172,7 @@ exports.KeyPair = KeyPair;
 }
 exports.KeyPairEd25519 = KeyPairEd25519;
 
-},{"aa8bef73fe8f5b5f":"3J9rh","92401affe0b3b2e0":"dUoM9","4245c7a86bf114f8":"kjmPo"}],"3J9rh":[function(require,module,exports) {
+},{"c28d6f166f76e970":"3J9rh","75a8584ba891625d":"dUoM9","ae2088af36881f27":"kjmPo"}],"3J9rh":[function(require,module,exports) {
 (function(nacl) {
     "use strict";
     // Ported in 2014 by Dmitry Chestnykh and Devi Mandiri.
@@ -41488,7 +41570,7 @@ exports.KeyPairEd25519 = KeyPairEd25519;
             });
         } else {
             // Node.js.
-            crypto = require("43244a14193f25f5");
+            crypto = require("38c5f548f491c6c6");
             if (crypto && crypto.randomBytes) nacl.setPRNG(function(x, n) {
                 var i, v = crypto.randomBytes(n);
                 for(i = 0; i < n; i++)x[i] = v[i];
@@ -41498,7 +41580,7 @@ exports.KeyPairEd25519 = KeyPairEd25519;
     })();
 })((0, module.exports) ? module.exports : self.nacl = self.nacl || {});
 
-},{"43244a14193f25f5":"jhUEF"}],"jhUEF":[function(require,module,exports) {
+},{"38c5f548f491c6c6":"jhUEF"}],"jhUEF":[function(require,module,exports) {
 "use strict";
 
 },{}],"dUoM9":[function(require,module,exports) {
@@ -41506,7 +41588,7 @@ exports.KeyPairEd25519 = KeyPairEd25519;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-var borsh_1 = require("a6a312add7a7ed4e");
+var borsh_1 = require("ef798ce5a21f8519");
 Object.defineProperty(exports, "base_encode", {
     enumerable: true,
     get: function() {
@@ -41550,9 +41632,9 @@ Object.defineProperty(exports, "BinaryReader", {
     }
 });
 
-},{"a6a312add7a7ed4e":"4JCmN"}],"4JCmN":[function(require,module,exports) {
-var Buffer = require("2d9604ecba7f8bcb").Buffer;
+},{"ef798ce5a21f8519":"4JCmN"}],"4JCmN":[function(require,module,exports) {
 var global = arguments[3];
+var Buffer = require("3bb81c60d63aea06").Buffer;
 "use strict";
 var __createBinding = this && this.__createBinding || (Object.create ? function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -41598,10 +41680,10 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.deserializeUnchecked = exports.deserialize = exports.serialize = exports.BinaryReader = exports.BinaryWriter = exports.BorshError = exports.baseDecode = exports.baseEncode = void 0;
-const bn_js_1 = __importDefault(require("b88d880de77369d1"));
-const bs58_1 = __importDefault(require("400851b8f3b2a2e"));
+const bn_js_1 = __importDefault(require("303ceec2d51557f7"));
+const bs58_1 = __importDefault(require("54d7628a9b9a2aab"));
 // TODO: Make sure this polyfill not included when not required
-const encoding = __importStar(require("f18a535ec0c3efb5"));
+const encoding = __importStar(require("78ac21dfeab9c96"));
 const TextDecoder = typeof global.TextDecoder !== "function" ? encoding.TextDecoder : global.TextDecoder;
 const textDecoder = new TextDecoder("utf-8", {
     fatal: true
@@ -41934,15 +42016,15 @@ function deserializeUnchecked(schema, classType, buffer, Reader = BinaryReader) 
 }
 exports.deserializeUnchecked = deserializeUnchecked;
 
-},{"2d9604ecba7f8bcb":"fCgem","b88d880de77369d1":"VopIn","400851b8f3b2a2e":"4ji3p","f18a535ec0c3efb5":"feCA6"}],"fCgem":[function(require,module,exports) {
+},{"3bb81c60d63aea06":"fCgem","303ceec2d51557f7":"VopIn","54d7628a9b9a2aab":"4ji3p","78ac21dfeab9c96":"feCA6"}],"fCgem":[function(require,module,exports) {
 /*!
  * The buffer module from node.js, for the browser.
  *
  * @author   Feross Aboukhadijeh <https://feross.org>
  * @license  MIT
  */ /* eslint-disable no-proto */ "use strict";
-var base64 = require("b014bffb6f0b1e18");
-var ieee754 = require("a26571c15f37f84a");
+var base64 = require("d620e12e49956bbe");
+var ieee754 = require("1a491ec2777c70f4");
 var customInspectSymbol = typeof Symbol === "function" && typeof Symbol["for"] === "function" // eslint-disable-line dot-notation
  ? Symbol["for"]("nodejs.util.inspect.custom") // eslint-disable-line dot-notation
  : null;
@@ -43164,7 +43246,7 @@ var hexSliceLookupTable = function() {
     return table;
 }();
 
-},{"b014bffb6f0b1e18":"eIiSV","a26571c15f37f84a":"cO95r"}],"eIiSV":[function(require,module,exports) {
+},{"d620e12e49956bbe":"eIiSV","1a491ec2777c70f4":"cO95r"}],"eIiSV":[function(require,module,exports) {
 "use strict";
 exports.byteLength = byteLength;
 exports.toByteArray = toByteArray;
@@ -43373,7 +43455,7 @@ exports.write = function(buffer, value, offset, isLE, mLen, nBytes) {
     var Buffer;
     try {
         if (typeof window !== "undefined" && typeof window.Buffer !== "undefined") Buffer = window.Buffer;
-        else Buffer = require("ee835cd564d240c0").Buffer;
+        else Buffer = require("5f71686d66531f62").Buffer;
     } catch (e) {}
     BN.isBN = function isBN(num) {
         if (num instanceof BN) return true;
@@ -46097,12 +46179,12 @@ exports.write = function(buffer, value, offset, isLE, mLen, nBytes) {
     };
 })(module, this);
 
-},{"ee835cd564d240c0":"jhUEF"}],"4ji3p":[function(require,module,exports) {
-var basex = require("176dc6dab84042d4");
+},{"5f71686d66531f62":"jhUEF"}],"4ji3p":[function(require,module,exports) {
+var basex = require("cc402f3ab209515");
 var ALPHABET = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
 module.exports = basex(ALPHABET);
 
-},{"176dc6dab84042d4":"inVbl"}],"inVbl":[function(require,module,exports) {
+},{"cc402f3ab209515":"inVbl"}],"inVbl":[function(require,module,exports) {
 "use strict";
 // base-x encoding / decoding
 // Copyright (c) 2018 base-x contributors
@@ -46110,7 +46192,7 @@ module.exports = basex(ALPHABET);
 // Distributed under the MIT software license, see the accompanying
 // file LICENSE or http://www.opensource.org/licenses/mit-license.php.
 // @ts-ignore
-var _Buffer = require("25e1903aedbe4672").Buffer;
+var _Buffer = require("39a1112887937a62").Buffer;
 function base(ALPHABET) {
     if (ALPHABET.length >= 255) throw new TypeError("Alphabet too long");
     var BASE_MAP = new Uint8Array(256);
@@ -46218,8 +46300,8 @@ function base(ALPHABET) {
 }
 module.exports = base;
 
-},{"25e1903aedbe4672":"eW7r9"}],"eW7r9":[function(require,module,exports) {
-/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */ /* eslint-disable node/no-deprecated-api */ var buffer = require("f2cdcd5126823b38");
+},{"39a1112887937a62":"eW7r9"}],"eW7r9":[function(require,module,exports) {
+/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */ /* eslint-disable node/no-deprecated-api */ var buffer = require("486227c22dcaf0d6");
 var Buffer = buffer.Buffer;
 // alternative to using Object.keys for old browsers
 function copyProps(src, dst) {
@@ -46259,7 +46341,7 @@ SafeBuffer.allocUnsafeSlow = function(size) {
     return buffer.SlowBuffer(size);
 };
 
-},{"f2cdcd5126823b38":"fCgem"}],"feCA6":[function(require,module,exports) {
+},{"486227c22dcaf0d6":"fCgem"}],"feCA6":[function(require,module,exports) {
 "use strict";
 // This is free and unencumbered software released into the public domain.
 // See LICENSE.md for more information.
@@ -46747,8 +46829,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.BrowserLocalStorageKeyStore = void 0;
-const keystore_1 = require("1264e48773d2671c");
-const key_pair_1 = require("2ca61071d3e7c0be");
+const keystore_1 = require("5ac73b1b7ed6d2d");
+const key_pair_1 = require("fd364806341059b");
 const LOCAL_STORAGE_KEY_PREFIX = "near-api-js:keystore:";
 /**
  * This class is used to store keys in the browsers local storage.
@@ -46848,13 +46930,13 @@ const LOCAL_STORAGE_KEY_PREFIX = "near-api-js:keystore:";
 }
 exports.BrowserLocalStorageKeyStore = BrowserLocalStorageKeyStore;
 
-},{"1264e48773d2671c":"5Moei","2ca61071d3e7c0be":"kBQFP"}],"kgqhu":[function(require,module,exports) {
+},{"5ac73b1b7ed6d2d":"5Moei","fd364806341059b":"kBQFP"}],"kgqhu":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.MergeKeyStore = void 0;
-const keystore_1 = require("6cbcdffc3bc02b36");
+const keystore_1 = require("2aa506f9a7ce6a42");
 class MergeKeyStore extends keystore_1.KeyStore {
     /**
      * @param keyStores read calls are attempted from start to end of array
@@ -46921,7 +47003,7 @@ class MergeKeyStore extends keystore_1.KeyStore {
 }
 exports.MergeKeyStore = MergeKeyStore;
 
-},{"6cbcdffc3bc02b36":"5Moei"}],"gtZXS":[function(require,module,exports) {
+},{"2aa506f9a7ce6a42":"5Moei"}],"gtZXS":[function(require,module,exports) {
 "use strict";
 var __createBinding = this && this.__createBinding || (Object.create ? function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -46956,33 +47038,33 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.WalletConnection = exports.WalletAccount = exports.ConnectedWalletAccount = exports.Near = exports.KeyPair = exports.Signer = exports.InMemorySigner = exports.Contract = exports.Connection = exports.Account = exports.multisig = exports.validators = exports.transactions = exports.utils = exports.providers = exports.accountCreator = void 0;
-/** @hidden @module */ const providers = __importStar(require("ef283a3c082b0315"));
+/** @hidden @module */ const providers = __importStar(require("2eeb708bbeaa4610"));
 exports.providers = providers;
-const utils = __importStar(require("ae8fb7d8214f7a8f"));
+const utils = __importStar(require("b89026535af82ea"));
 exports.utils = utils;
-const transactions = __importStar(require("c496ff9dce5fec62"));
+const transactions = __importStar(require("40805e8566c0f9c8"));
 exports.transactions = transactions;
-const validators = __importStar(require("4d6945bd55536867"));
+const validators = __importStar(require("376ebd0374ae3e69"));
 exports.validators = validators;
-const account_1 = require("1c59cf2d73968468");
+const account_1 = require("cdf569b38c4b0bbe");
 Object.defineProperty(exports, "Account", {
     enumerable: true,
     get: function() {
         return account_1.Account;
     }
 });
-const multisig = __importStar(require("c04a9819aa23392a"));
+const multisig = __importStar(require("847777146db8bf3f"));
 exports.multisig = multisig;
-const accountCreator = __importStar(require("e16e8e387f0d6d27"));
+const accountCreator = __importStar(require("62bdd93874496eae"));
 exports.accountCreator = accountCreator;
-const connection_1 = require("2085cf7040afb642");
+const connection_1 = require("4541ef552420a48d");
 Object.defineProperty(exports, "Connection", {
     enumerable: true,
     get: function() {
         return connection_1.Connection;
     }
 });
-const signer_1 = require("9e898d32facab416");
+const signer_1 = require("b86f92ad1967d6f6");
 Object.defineProperty(exports, "Signer", {
     enumerable: true,
     get: function() {
@@ -46995,21 +47077,21 @@ Object.defineProperty(exports, "InMemorySigner", {
         return signer_1.InMemorySigner;
     }
 });
-const contract_1 = require("8ed4f4bf1158bf84");
+const contract_1 = require("57325e7550828bde");
 Object.defineProperty(exports, "Contract", {
     enumerable: true,
     get: function() {
         return contract_1.Contract;
     }
 });
-const key_pair_1 = require("3b8f9f7e17f3ca95");
+const key_pair_1 = require("db50dee574277aa7");
 Object.defineProperty(exports, "KeyPair", {
     enumerable: true,
     get: function() {
         return key_pair_1.KeyPair;
     }
 });
-const near_1 = require("ceef0defebeccad8");
+const near_1 = require("c37d198b5dfc8210");
 Object.defineProperty(exports, "Near", {
     enumerable: true,
     get: function() {
@@ -47017,7 +47099,7 @@ Object.defineProperty(exports, "Near", {
     }
 });
 // TODO: Deprecate and remove WalletAccount
-const wallet_account_1 = require("a9c967ea32b1ee11");
+const wallet_account_1 = require("fde5fe13dff8fc72");
 Object.defineProperty(exports, "ConnectedWalletAccount", {
     enumerable: true,
     get: function() {
@@ -47037,13 +47119,13 @@ Object.defineProperty(exports, "WalletConnection", {
     }
 });
 
-},{"ef283a3c082b0315":"gtL2a","ae8fb7d8214f7a8f":"jOCMH","c496ff9dce5fec62":"jJQ5a","4d6945bd55536867":"6CFD9","1c59cf2d73968468":"hxSQV","c04a9819aa23392a":"7q1du","e16e8e387f0d6d27":"aQbxV","2085cf7040afb642":"3ThJM","9e898d32facab416":"a6bzI","8ed4f4bf1158bf84":"guo0T","3b8f9f7e17f3ca95":"kBQFP","ceef0defebeccad8":"9Ying","a9c967ea32b1ee11":"dHM3Z"}],"gtL2a":[function(require,module,exports) {
+},{"2eeb708bbeaa4610":"gtL2a","b89026535af82ea":"jOCMH","40805e8566c0f9c8":"jJQ5a","376ebd0374ae3e69":"6CFD9","cdf569b38c4b0bbe":"hxSQV","847777146db8bf3f":"7q1du","62bdd93874496eae":"aQbxV","4541ef552420a48d":"3ThJM","b86f92ad1967d6f6":"a6bzI","57325e7550828bde":"guo0T","db50dee574277aa7":"kBQFP","c37d198b5dfc8210":"9Ying","fde5fe13dff8fc72":"dHM3Z"}],"gtL2a":[function(require,module,exports) {
 "use strict";
 /** @hidden @module */ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.ErrorContext = exports.TypedError = exports.getTransactionLastResult = exports.FinalExecutionStatusBasic = exports.JsonRpcProvider = exports.Provider = void 0;
-const provider_1 = require("6c738c61f2c3ea36");
+const provider_1 = require("978d8bbe7b316282");
 Object.defineProperty(exports, "Provider", {
     enumerable: true,
     get: function() {
@@ -47062,7 +47144,7 @@ Object.defineProperty(exports, "FinalExecutionStatusBasic", {
         return provider_1.FinalExecutionStatusBasic;
     }
 });
-const json_rpc_provider_1 = require("ba51453dd3bd2a08");
+const json_rpc_provider_1 = require("ece0147510c7d3e4");
 Object.defineProperty(exports, "JsonRpcProvider", {
     enumerable: true,
     get: function() {
@@ -47082,8 +47164,8 @@ Object.defineProperty(exports, "ErrorContext", {
     }
 });
 
-},{"6c738c61f2c3ea36":"cUEh0","ba51453dd3bd2a08":"kzXVU"}],"cUEh0":[function(require,module,exports) {
-var Buffer = require("3aebcc39f61bc768").Buffer;
+},{"978d8bbe7b316282":"cUEh0","ece0147510c7d3e4":"kzXVU"}],"cUEh0":[function(require,module,exports) {
+var Buffer = require("cda3ffc82ed0a15e").Buffer;
 "use strict";
 /**
  * NEAR RPC API request types and responses
@@ -47125,8 +47207,8 @@ exports.Provider = Provider;
 }
 exports.getTransactionLastResult = getTransactionLastResult;
 
-},{"3aebcc39f61bc768":"fCgem"}],"kzXVU":[function(require,module,exports) {
-var Buffer = require("b8667fe32390e0b").Buffer;
+},{"cda3ffc82ed0a15e":"fCgem"}],"kzXVU":[function(require,module,exports) {
+var Buffer = require("c702da887a7e4ba6").Buffer;
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -47141,10 +47223,10 @@ exports.JsonRpcProvider = exports.ErrorContext = exports.TypedError = void 0;
  * This module contains the {@link JsonRpcProvider} client class
  * which can be used to interact with the NEAR RPC API.
  * @see {@link providers/provider} for a list of request and response types
- */ const depd_1 = __importDefault(require("beadd8c0018acfa0"));
-const provider_1 = require("41c99e6eb30fa40a");
-const web_1 = require("a0b77c28d22bfdb3");
-const errors_1 = require("a79c14cfaa6e495f");
+ */ const depd_1 = __importDefault(require("56dfe5f7d545025f"));
+const provider_1 = require("97f70f0a1d5ae4");
+const web_1 = require("e82117e451063178");
+const errors_1 = require("b679ab3056547eb3");
 Object.defineProperty(exports, "TypedError", {
     enumerable: true,
     get: function() {
@@ -47157,9 +47239,9 @@ Object.defineProperty(exports, "ErrorContext", {
         return errors_1.ErrorContext;
     }
 });
-const borsh_1 = require("721dd34f5c60973a");
-const exponential_backoff_1 = __importDefault(require("8304139cb3fec065"));
-const rpc_errors_1 = require("a9444bc57d0348f1");
+const borsh_1 = require("5a231ef0ca18f3fb");
+const exponential_backoff_1 = __importDefault(require("b87fe49879290cf9"));
+const rpc_errors_1 = require("d651686b32051513");
 // Default number of retries before giving up on a request.
 const REQUEST_RETRY_NUMBER = 12;
 // Default wait until next retry in millis.
@@ -47485,7 +47567,7 @@ let _nextId = 123;
 }
 exports.JsonRpcProvider = JsonRpcProvider;
 
-},{"b8667fe32390e0b":"fCgem","beadd8c0018acfa0":"2jGeI","41c99e6eb30fa40a":"cUEh0","a0b77c28d22bfdb3":"iSqiB","a79c14cfaa6e495f":"btMYy","721dd34f5c60973a":"4JCmN","8304139cb3fec065":"51I5X","a9444bc57d0348f1":"1TB1L"}],"2jGeI":[function(require,module,exports) {
+},{"c702da887a7e4ba6":"fCgem","56dfe5f7d545025f":"2jGeI","97f70f0a1d5ae4":"cUEh0","e82117e451063178":"iSqiB","b679ab3056547eb3":"btMYy","5a231ef0ca18f3fb":"4JCmN","b87fe49879290cf9":"51I5X","d651686b32051513":"1TB1L"}],"2jGeI":[function(require,module,exports) {
 /*!
  * depd
  * Copyright(c) 2015 Douglas Christopher Wilson
@@ -47543,10 +47625,10 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.fetchJson = void 0;
-const http_errors_1 = __importDefault(require("e94c3c3a56ea32bf"));
-const exponential_backoff_1 = __importDefault(require("75cdfbbf288ac52"));
-const providers_1 = require("2a9d1e97d317953a");
-const errors_1 = require("d53b6e87201582bf");
+const http_errors_1 = __importDefault(require("3848eac20056681b"));
+const exponential_backoff_1 = __importDefault(require("59fc8d3c59441f95"));
+const providers_1 = require("46183594130264d9");
+const errors_1 = require("f18153095c3eca4f");
 const START_WAIT_TIME_MS = 1000;
 const BACKOFF_MULTIPLIER = 1.5;
 const RETRY_NUMBER = 10;
@@ -47587,7 +47669,7 @@ async function fetchJson(connectionInfoOrUrl, json) {
 }
 exports.fetchJson = fetchJson;
 
-},{"e94c3c3a56ea32bf":"a3NQ3","75cdfbbf288ac52":"51I5X","2a9d1e97d317953a":"gtL2a","d53b6e87201582bf":"btMYy"}],"a3NQ3":[function(require,module,exports) {
+},{"3848eac20056681b":"a3NQ3","59fc8d3c59441f95":"51I5X","46183594130264d9":"gtL2a","f18153095c3eca4f":"btMYy"}],"a3NQ3":[function(require,module,exports) {
 /*!
  * http-errors
  * Copyright(c) 2014 Jonathan Ong
@@ -47597,11 +47679,11 @@ exports.fetchJson = fetchJson;
 /**
  * Module dependencies.
  * @private
- */ var deprecate = require("2366f9e1a9dbd423")("http-errors");
-var setPrototypeOf = require("c65f2c27d6197940");
-var statuses = require("98ee4f2e74d51061");
-var inherits = require("7a211c63cd803418");
-var toIdentifier = require("d332fdb022492853");
+ */ var deprecate = require("1c70f2e4c7a59db2")("http-errors");
+var setPrototypeOf = require("904125969746f50b");
+var statuses = require("375700cd0de6dac2");
+var inherits = require("59c6b463074a139a");
+var toIdentifier = require("5b2a8a6be0cae5b9");
 /**
  * Module exports.
  * @public
@@ -47797,7 +47879,7 @@ populateConstructorExports(module.exports, statuses.codes, module.exports.HttpEr
     return name.substr(-5) !== "Error" ? name + "Error" : name;
 }
 
-},{"2366f9e1a9dbd423":"hArTA","c65f2c27d6197940":"7xKC9","98ee4f2e74d51061":"l1u37","7a211c63cd803418":"bRL3M","d332fdb022492853":"gn15y"}],"hArTA":[function(require,module,exports) {
+},{"1c70f2e4c7a59db2":"hArTA","904125969746f50b":"7xKC9","375700cd0de6dac2":"l1u37","59c6b463074a139a":"bRL3M","5b2a8a6be0cae5b9":"gn15y"}],"hArTA":[function(require,module,exports) {
 /*!
  * depd
  * Copyright(c) 2015 Douglas Christopher Wilson
@@ -47868,7 +47950,7 @@ function mixinProperties(obj, proto) {
 /**
  * Module dependencies.
  * @private
- */ var codes = require("77aef2d4c9a719ca");
+ */ var codes = require("9a8c0a1c7e0c43d7");
 /**
  * Module exports.
  * @public
@@ -47945,7 +48027,7 @@ status.retry = {
     return n;
 }
 
-},{"77aef2d4c9a719ca":"8IptR"}],"8IptR":[function(require,module,exports) {
+},{"9a8c0a1c7e0c43d7":"8IptR"}],"8IptR":[function(require,module,exports) {
 module.exports = JSON.parse('{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","306":"(Unused)","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I\'m a teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Unordered Collection","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"}');
 
 },{}],"gn15y":[function(require,module,exports) {
@@ -48040,11 +48122,11 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.getErrorTypeFromErrorMessage = exports.formatError = exports.parseResultError = exports.parseRpcError = exports.ServerError = void 0;
-const mustache_1 = __importDefault(require("e886607fee31ae"));
-const rpc_error_schema_json_1 = __importDefault(require("fa16859007431110"));
-const error_messages_json_1 = __importDefault(require("36b888be7418c63e"));
-const common_index_1 = require("57cea8247f94d77c");
-const errors_1 = require("3fc1807f3eb42d28");
+const mustache_1 = __importDefault(require("52c1c94c7b1d52d"));
+const rpc_error_schema_json_1 = __importDefault(require("e9d77bbf446eceeb"));
+const error_messages_json_1 = __importDefault(require("4c6dfa3cf4900b96"));
+const common_index_1 = require("ab57f2940141fc86");
+const errors_1 = require("85bb3a1efc5a545d");
 const mustacheHelpers = {
     formatNear: ()=>(n, render)=>common_index_1.utils.format.formatNearAmount(render(n))
 };
@@ -48143,7 +48225,7 @@ exports.getErrorTypeFromErrorMessage = getErrorTypeFromErrorMessage;
     return Object.prototype.toString.call(n) === "[object String]";
 }
 
-},{"e886607fee31ae":"izE6r","fa16859007431110":"k81HS","36b888be7418c63e":"1Z5Hy","57cea8247f94d77c":"gtZXS","3fc1807f3eb42d28":"btMYy"}],"izE6r":[function(require,module,exports) {
+},{"52c1c94c7b1d52d":"izE6r","e9d77bbf446eceeb":"k81HS","4c6dfa3cf4900b96":"1Z5Hy","ab57f2940141fc86":"gtZXS","85bb3a1efc5a545d":"btMYy"}],"izE6r":[function(require,module,exports) {
 (function(global, factory) {
     module.exports = factory();
 })(this, function() {
@@ -48778,19 +48860,19 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.logWarning = exports.rpc_errors = exports.KeyPairEd25519 = exports.KeyPair = exports.PublicKey = exports.format = exports.enums = exports.web = exports.serialize = exports.key_pair = void 0;
-const key_pair = __importStar(require("80265e1151de3a0a"));
+const key_pair = __importStar(require("91ab76046d1d4d54"));
 exports.key_pair = key_pair;
-const serialize = __importStar(require("100cf2295dfa1bac"));
+const serialize = __importStar(require("833f55073ced3981"));
 exports.serialize = serialize;
-const web = __importStar(require("69cfb44399e34120"));
+const web = __importStar(require("e75e165aac6c8b9a"));
 exports.web = web;
-const enums = __importStar(require("2c58413bf94b1f27"));
+const enums = __importStar(require("d89886e1fef6d687"));
 exports.enums = enums;
-const format = __importStar(require("11f2717c96eda211"));
+const format = __importStar(require("4c8f9659642f0e68"));
 exports.format = format;
-const rpc_errors = __importStar(require("a9d43664750bab7"));
+const rpc_errors = __importStar(require("efcc0d62d0fa93f6"));
 exports.rpc_errors = rpc_errors;
-const key_pair_1 = require("80265e1151de3a0a");
+const key_pair_1 = require("91ab76046d1d4d54");
 Object.defineProperty(exports, "PublicKey", {
     enumerable: true,
     get: function() {
@@ -48809,7 +48891,7 @@ Object.defineProperty(exports, "KeyPairEd25519", {
         return key_pair_1.KeyPairEd25519;
     }
 });
-const errors_1 = require("3127e7acd10decd9");
+const errors_1 = require("6ba7749937051058");
 Object.defineProperty(exports, "logWarning", {
     enumerable: true,
     get: function() {
@@ -48817,7 +48899,7 @@ Object.defineProperty(exports, "logWarning", {
     }
 });
 
-},{"80265e1151de3a0a":"kBQFP","100cf2295dfa1bac":"dUoM9","69cfb44399e34120":"iSqiB","2c58413bf94b1f27":"kjmPo","11f2717c96eda211":"16c5X","a9d43664750bab7":"1TB1L","3127e7acd10decd9":"btMYy"}],"16c5X":[function(require,module,exports) {
+},{"91ab76046d1d4d54":"kBQFP","833f55073ced3981":"dUoM9","e75e165aac6c8b9a":"iSqiB","d89886e1fef6d687":"kjmPo","4c8f9659642f0e68":"16c5X","efcc0d62d0fa93f6":"1TB1L","6ba7749937051058":"btMYy"}],"16c5X":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -48828,7 +48910,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.parseNearAmount = exports.formatNearAmount = exports.NEAR_NOMINATION = exports.NEAR_NOMINATION_EXP = void 0;
-const bn_js_1 = __importDefault(require("198493fe321ca0d6"));
+const bn_js_1 = __importDefault(require("9c89a83819312743"));
 /**
  * Exponent for calculating how many indivisible units are there in one NEAR. See {@link NEAR_NOMINATION}.
  */ exports.NEAR_NOMINATION_EXP = 24;
@@ -48908,7 +48990,7 @@ exports.parseNearAmount = parseNearAmount;
     return value;
 }
 
-},{"198493fe321ca0d6":"9pdNn"}],"9pdNn":[function(require,module,exports) {
+},{"9c89a83819312743":"9pdNn"}],"9pdNn":[function(require,module,exports) {
 (function(module1, exports) {
     "use strict";
     // Utils
@@ -48947,7 +49029,7 @@ exports.parseNearAmount = parseNearAmount;
     var Buffer;
     try {
         if (typeof window !== "undefined" && typeof window.Buffer !== "undefined") Buffer = window.Buffer;
-        else Buffer = require("4eddbce901d0bc78").Buffer;
+        else Buffer = require("8dcffc569d2b8586").Buffer;
     } catch (e) {}
     BN.isBN = function isBN(num) {
         if (num instanceof BN) return true;
@@ -51671,8 +51753,8 @@ exports.parseNearAmount = parseNearAmount;
     };
 })(module, this);
 
-},{"4eddbce901d0bc78":"jhUEF"}],"jJQ5a":[function(require,module,exports) {
-var Buffer = require("f219f018c8a7ced3").Buffer;
+},{"8dcffc569d2b8586":"jhUEF"}],"jJQ5a":[function(require,module,exports) {
+var Buffer = require("88af146db84b4bc").Buffer;
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -51683,10 +51765,10 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.signTransaction = exports.createTransaction = exports.SCHEMA = exports.Action = exports.SignedTransaction = exports.Transaction = exports.Signature = exports.deleteAccount = exports.deleteKey = exports.addKey = exports.stake = exports.transfer = exports.functionCall = exports.stringifyJsonOrBytes = exports.deployContract = exports.createAccount = exports.DeleteAccount = exports.DeleteKey = exports.AddKey = exports.Stake = exports.Transfer = exports.FunctionCall = exports.DeployContract = exports.CreateAccount = exports.IAction = exports.functionCallAccessKey = exports.fullAccessKey = exports.AccessKey = exports.AccessKeyPermission = exports.FullAccessPermission = exports.FunctionCallPermission = void 0;
-const js_sha256_1 = __importDefault(require("3c736b411236965c"));
-const enums_1 = require("a7a9e8b55ac16e33");
-const borsh_1 = require("7812bd48dc0b054f");
-const key_pair_1 = require("680e421c3118144");
+const js_sha256_1 = __importDefault(require("794efc13d3438613"));
+const enums_1 = require("fd60e1a9eee46df1");
+const borsh_1 = require("4963b8580f17783d");
+const key_pair_1 = require("43d371ec8f5e88f6");
 class FunctionCallPermission extends enums_1.Assignable {
 }
 exports.FunctionCallPermission = FunctionCallPermission;
@@ -52214,8 +52296,8 @@ async function signTransaction(...args) {
 }
 exports.signTransaction = signTransaction;
 
-},{"f219f018c8a7ced3":"fCgem","3c736b411236965c":"ahVaM","a7a9e8b55ac16e33":"kjmPo","7812bd48dc0b054f":"4JCmN","680e421c3118144":"kBQFP"}],"ahVaM":[function(require,module,exports) {
-var process = require("5d467adabc492db0");
+},{"88af146db84b4bc":"fCgem","794efc13d3438613":"ahVaM","fd60e1a9eee46df1":"kjmPo","4963b8580f17783d":"4JCmN","43d371ec8f5e88f6":"kBQFP"}],"ahVaM":[function(require,module,exports) {
+var process = require("27ca99f9b442c1d8");
 var global = arguments[3];
 /**
  * [js-sha256]{@link https://github.com/emn178/js-sha256}
@@ -52704,7 +52786,7 @@ var global = arguments[3];
     }
 })();
 
-},{"5d467adabc492db0":"d5jf4"}],"6CFD9":[function(require,module,exports) {
+},{"27ca99f9b442c1d8":"d5jf4"}],"6CFD9":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -52715,8 +52797,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.diffEpochValidators = exports.findSeatPrice = void 0;
-const bn_js_1 = __importDefault(require("c087bb2375e5f77d"));
-const depd_1 = __importDefault(require("6d2bf10867ff83eb"));
+const bn_js_1 = __importDefault(require("d02699fa1174dbb9"));
+const depd_1 = __importDefault(require("c188932491ed9610"));
 /** Finds seat price given validators stakes and number of seats.
  *  Calculation follow the spec: https://nomicon.io/Economics/README.html#validator-selection
  * @params validators: current or next epoch validators.
@@ -52786,8 +52868,8 @@ function findSeatPriceForProtocolAfter49(validators, maxNumberOfSeats, minimumSt
 }
 exports.diffEpochValidators = diffEpochValidators;
 
-},{"c087bb2375e5f77d":"9pdNn","6d2bf10867ff83eb":"2jGeI"}],"hxSQV":[function(require,module,exports) {
-var Buffer = require("2eef6ecac48e06f3").Buffer;
+},{"d02699fa1174dbb9":"9pdNn","c188932491ed9610":"2jGeI"}],"hxSQV":[function(require,module,exports) {
+var Buffer = require("164161df346ca0a").Buffer;
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -52798,16 +52880,16 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.Account = void 0;
-const bn_js_1 = __importDefault(require("dcdb66eba81ea8af"));
-const depd_1 = __importDefault(require("48be8f34bdb29ddb"));
-const transaction_1 = require("d7a5816a2ee212cb");
-const providers_1 = require("e454cbd5888b5511");
-const borsh_1 = require("24e409912785adeb");
-const key_pair_1 = require("ebc700c5e6781427");
-const errors_1 = require("5f8b566f8bf50475");
-const rpc_errors_1 = require("67ce8fdc99d7f761");
-const constants_1 = require("cc6fdcb6a4826eda");
-const exponential_backoff_1 = __importDefault(require("988a4f5e1bcb97c3"));
+const bn_js_1 = __importDefault(require("cf79ffd540e9d1d4"));
+const depd_1 = __importDefault(require("51bb29ece25ce2f0"));
+const transaction_1 = require("8336d42c10927500");
+const providers_1 = require("bb814440d80e2284");
+const borsh_1 = require("ed1d2783129c4f9f");
+const key_pair_1 = require("76f03ad18c724b09");
+const errors_1 = require("f0e8f9ea3e2b808d");
+const rpc_errors_1 = require("98023479605e9775");
+const constants_1 = require("cd6c962e0052f725");
+const exponential_backoff_1 = __importDefault(require("ed093722017874bd"));
 // Default number of retries with different nonce before giving up on a transaction.
 const TX_NONCE_RETRY_NUMBER = 12;
 // Default wait until next retry in millis.
@@ -53220,7 +53302,7 @@ function bytesJsonStringify(input) {
 }
 exports.Account = Account;
 
-},{"2eef6ecac48e06f3":"fCgem","dcdb66eba81ea8af":"9pdNn","48be8f34bdb29ddb":"2jGeI","d7a5816a2ee212cb":"jJQ5a","e454cbd5888b5511":"gtL2a","24e409912785adeb":"4JCmN","ebc700c5e6781427":"kBQFP","5f8b566f8bf50475":"btMYy","67ce8fdc99d7f761":"1TB1L","cc6fdcb6a4826eda":"lUNnG","988a4f5e1bcb97c3":"51I5X"}],"lUNnG":[function(require,module,exports) {
+},{"164161df346ca0a":"fCgem","cf79ffd540e9d1d4":"9pdNn","51bb29ece25ce2f0":"2jGeI","8336d42c10927500":"jJQ5a","bb814440d80e2284":"gtL2a","ed1d2783129c4f9f":"4JCmN","76f03ad18c724b09":"kBQFP","f0e8f9ea3e2b808d":"btMYy","98023479605e9775":"1TB1L","cd6c962e0052f725":"lUNnG","ed093722017874bd":"51I5X"}],"lUNnG":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -53231,7 +53313,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.DEFAULT_FUNCTION_CALL_GAS = void 0;
-const bn_js_1 = __importDefault(require("ec88f961d5180b0f"));
+const bn_js_1 = __importDefault(require("b9586c230315a385"));
 // Default amount of gas to be sent with the function calls. Used to pay for the fees
 // incurred while running the contract execution. The unused amount will be refunded back to
 // the originator.
@@ -53240,8 +53322,8 @@ const bn_js_1 = __importDefault(require("ec88f961d5180b0f"));
 // For discussion see https://github.com/nearprotocol/NEPs/issues/67
 exports.DEFAULT_FUNCTION_CALL_GAS = new bn_js_1.default("30000000000000");
 
-},{"ec88f961d5180b0f":"9pdNn"}],"7q1du":[function(require,module,exports) {
-var Buffer = require("433901be3c0817e5").Buffer;
+},{"b9586c230315a385":"9pdNn"}],"7q1du":[function(require,module,exports) {
+var Buffer = require("f5021e06139fae69").Buffer;
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -53252,13 +53334,13 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.Account2FA = exports.AccountMultisig = exports.MULTISIG_CONFIRM_METHODS = exports.MULTISIG_CHANGE_METHODS = exports.MULTISIG_DEPOSIT = exports.MULTISIG_GAS = exports.MULTISIG_ALLOWANCE = exports.MULTISIG_STORAGE_KEY = void 0;
-const bn_js_1 = __importDefault(require("757e103e3ca40f03"));
-const depd_1 = __importDefault(require("82edabbfb911ed34"));
-const account_1 = require("7e1c1635795eeacd");
-const format_1 = require("dc5eb9836a699555");
-const key_pair_1 = require("782e78a7c5d703d1");
-const transaction_1 = require("b6f237933515061c");
-const web_1 = require("976b8e4e9eefbeed");
+const bn_js_1 = __importDefault(require("adc655702be8d8f6"));
+const depd_1 = __importDefault(require("24194cdbf7060dab"));
+const account_1 = require("64a8ade4f907c0f9");
+const format_1 = require("2ab508207de20765");
+const key_pair_1 = require("2e274fcf45d0dad7");
+const transaction_1 = require("b1d7416f6864a914");
+const web_1 = require("eed0e026747ff231");
 exports.MULTISIG_STORAGE_KEY = "__multisigRequest";
 exports.MULTISIG_ALLOWANCE = new bn_js_1.default(format_1.parseNearAmount("1"));
 // TODO: Different gas value for different requests (can reduce gas usage dramatically)
@@ -53560,13 +53642,13 @@ const convertActions = (actions, accountId, receiverId)=>actions.map((a)=>{
         return action;
     });
 
-},{"433901be3c0817e5":"fCgem","757e103e3ca40f03":"9pdNn","82edabbfb911ed34":"2jGeI","7e1c1635795eeacd":"hxSQV","dc5eb9836a699555":"16c5X","782e78a7c5d703d1":"kBQFP","b6f237933515061c":"jJQ5a","976b8e4e9eefbeed":"iSqiB"}],"aQbxV":[function(require,module,exports) {
+},{"f5021e06139fae69":"fCgem","adc655702be8d8f6":"9pdNn","24194cdbf7060dab":"2jGeI","64a8ade4f907c0f9":"hxSQV","2ab508207de20765":"16c5X","2e274fcf45d0dad7":"kBQFP","b1d7416f6864a914":"jJQ5a","eed0e026747ff231":"iSqiB"}],"aQbxV":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.UrlAccountCreator = exports.LocalAccountCreator = exports.AccountCreator = void 0;
-const web_1 = require("7bbd3c088cf0d2dc");
+const web_1 = require("8c49b4611e8c571");
 /**
  * Account creator provides an interface for implementations to actually create accounts
  */ class AccountCreator {
@@ -53609,14 +53691,14 @@ class UrlAccountCreator extends AccountCreator {
 }
 exports.UrlAccountCreator = UrlAccountCreator;
 
-},{"7bbd3c088cf0d2dc":"iSqiB"}],"3ThJM":[function(require,module,exports) {
+},{"8c49b4611e8c571":"iSqiB"}],"3ThJM":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.Connection = void 0;
-const providers_1 = require("398fbf392ad41cb1");
-const signer_1 = require("d1c2523d7f882270");
+const providers_1 = require("76eb8b89694968f3");
+const signer_1 = require("465185f3eeb7961a");
 /**
  * @param config Contains connection info details
  * @returns {Provider}
@@ -53663,7 +53745,7 @@ const signer_1 = require("d1c2523d7f882270");
 }
 exports.Connection = Connection;
 
-},{"398fbf392ad41cb1":"gtL2a","d1c2523d7f882270":"a6bzI"}],"a6bzI":[function(require,module,exports) {
+},{"76eb8b89694968f3":"gtL2a","465185f3eeb7961a":"a6bzI"}],"a6bzI":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -53674,9 +53756,9 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.InMemorySigner = exports.Signer = void 0;
-const js_sha256_1 = __importDefault(require("bdbc8b3b7a4ce4ad"));
-const key_pair_1 = require("caaed3c61eac7a2f");
-const in_memory_key_store_1 = require("6d55c1a6f504ed64");
+const js_sha256_1 = __importDefault(require("4a612247570fe7e1"));
+const key_pair_1 = require("64f857e90afbdd9b");
+const in_memory_key_store_1 = require("c1cbce22227a4727");
 /**
  * General signing interface, can be used for in memory signing, RPC singing, external wallet, HSM, etc.
  */ class Signer {
@@ -53740,7 +53822,7 @@ exports.Signer = Signer;
 }
 exports.InMemorySigner = InMemorySigner;
 
-},{"bdbc8b3b7a4ce4ad":"ahVaM","caaed3c61eac7a2f":"kBQFP","6d55c1a6f504ed64":"fTfs7"}],"guo0T":[function(require,module,exports) {
+},{"4a612247570fe7e1":"ahVaM","64f857e90afbdd9b":"kBQFP","c1cbce22227a4727":"fTfs7"}],"guo0T":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -53751,10 +53833,10 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.Contract = void 0;
-const bn_js_1 = __importDefault(require("2dc49dfba0b4e548"));
-const depd_1 = __importDefault(require("71ce11295fcfb84d"));
-const providers_1 = require("ee8693ae94b0cfc5");
-const errors_1 = require("b980c1e4599ec67f");
+const bn_js_1 = __importDefault(require("57fe0c242107e70d"));
+const depd_1 = __importDefault(require("301c548085b8ccfa"));
+const providers_1 = require("6968e85c5d8de1a7");
+const errors_1 = require("3253649d23bc8fc");
 // Makes `function.name` return given name
 function nameFunction(name, body) {
     return ({
@@ -53871,7 +53953,7 @@ exports.Contract = Contract;
     }
 }
 
-},{"2dc49dfba0b4e548":"9pdNn","71ce11295fcfb84d":"2jGeI","ee8693ae94b0cfc5":"gtL2a","b980c1e4599ec67f":"btMYy"}],"9Ying":[function(require,module,exports) {
+},{"57fe0c242107e70d":"9pdNn","301c548085b8ccfa":"2jGeI","6968e85c5d8de1a7":"gtL2a","3253649d23bc8fc":"btMYy"}],"9Ying":[function(require,module,exports) {
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -53890,11 +53972,11 @@ exports.Near = void 0;
  * @example {@link https://docs.near.org/docs/develop/front-end/naj-quick-reference#account}
  *
  * @module near
- */ const bn_js_1 = __importDefault(require("552a5cac6296e36d"));
-const account_1 = require("e507b5a46a1cf63a");
-const connection_1 = require("526cbb932832666b");
-const contract_1 = require("caacf6512122e77b");
-const account_creator_1 = require("4b761ea0858e21fa");
+ */ const bn_js_1 = __importDefault(require("3247475b0aebb35a"));
+const account_1 = require("f6176178f8f1583a");
+const connection_1 = require("128d5ca9ef6b1a27");
+const contract_1 = require("e2a8a79300087dfe");
+const account_creator_1 = require("e44abd21ef4c956c");
 /**
  * This is the main class developers should use to interact with NEAR.
  * @example
@@ -53967,8 +54049,8 @@ const account_creator_1 = require("4b761ea0858e21fa");
 }
 exports.Near = Near;
 
-},{"552a5cac6296e36d":"9pdNn","e507b5a46a1cf63a":"hxSQV","526cbb932832666b":"3ThJM","caacf6512122e77b":"guo0T","4b761ea0858e21fa":"aQbxV"}],"dHM3Z":[function(require,module,exports) {
-var Buffer = require("8cd5affe38f2280c").Buffer;
+},{"3247475b0aebb35a":"9pdNn","f6176178f8f1583a":"hxSQV","128d5ca9ef6b1a27":"3ThJM","e2a8a79300087dfe":"guo0T","e44abd21ef4c956c":"aQbxV"}],"dHM3Z":[function(require,module,exports) {
+var Buffer = require("4021159da6ea4df2").Buffer;
 "use strict";
 var __importDefault = this && this.__importDefault || function(mod) {
     return mod && mod.__esModule ? mod : {
@@ -53985,12 +54067,12 @@ exports.ConnectedWalletAccount = exports.WalletAccount = exports.WalletConnectio
  * * {@link ConnectedWalletAccount} is an {@link Account} implementation that uses {@link WalletConnection} to get keys
  *
  * @module walletAccount
- */ const depd_1 = __importDefault(require("fd41f0064d33dd4f"));
-const account_1 = require("8c43247e314ded61");
-const transaction_1 = require("34da6a8ab59f3aac");
-const utils_1 = require("d1ff149093ea6710");
-const borsh_1 = require("a1aadfe30ad6594e");
-const borsh_2 = require("a1aadfe30ad6594e");
+ */ const depd_1 = __importDefault(require("8e9e2ae0836b86a3"));
+const account_1 = require("4857b8ce16a2953d");
+const transaction_1 = require("a81cff48a1fcb6");
+const utils_1 = require("a68390fc01155ffe");
+const borsh_1 = require("a2b21fb8de0d4129");
+const borsh_2 = require("a2b21fb8de0d4129");
 const LOGIN_WALLET_URL_SUFFIX = "/login/";
 const MULTISIG_HAS_METHOD = "add_request_and_confirm";
 const LOCAL_STORAGE_KEY_SUFFIX = "_wallet_auth_key";
@@ -54255,7 +54337,7 @@ exports.WalletAccount = WalletConnection;
 }
 exports.ConnectedWalletAccount = ConnectedWalletAccount;
 
-},{"8cd5affe38f2280c":"fCgem","fd41f0064d33dd4f":"2jGeI","8c43247e314ded61":"hxSQV","34da6a8ab59f3aac":"jJQ5a","d1ff149093ea6710":"jOCMH","a1aadfe30ad6594e":"4JCmN"}],"7yTE6":[function(require,module,exports) {
+},{"4021159da6ea4df2":"fCgem","8e9e2ae0836b86a3":"2jGeI","4857b8ce16a2953d":"hxSQV","a81cff48a1fcb6":"jJQ5a","a68390fc01155ffe":"jOCMH","a2b21fb8de0d4129":"4JCmN"}],"7yTE6":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -54282,7 +54364,7 @@ exports.connect = void 0;
  * ```
  *
  * @module browserConnect
- */ const near_1 = require("20da2eeafdff9fcf");
+ */ const near_1 = require("755cf9e321cc43ce");
 /**
  * Initialize connection to Near network.
  */ async function connect(config) {
@@ -54290,27 +54372,27 @@ exports.connect = void 0;
 }
 exports.connect = connect;
 
-},{"20da2eeafdff9fcf":"9Ying"}],"2YFhR":[function(require,module,exports) {
-module.exports = require("ce384a8a2f14bae7");
+},{"755cf9e321cc43ce":"9Ying"}],"2YFhR":[function(require,module,exports) {
+module.exports = require("413242ede7c5a481");
 
-},{"ce384a8a2f14bae7":"hDD9L"}],"hDD9L":[function(require,module,exports) {
-require("8561c52521472a31");
-var capability = require("eb5cade00c229b7f");
+},{"413242ede7c5a481":"hDD9L"}],"hDD9L":[function(require,module,exports) {
+require("62b5661490bc8381");
+var capability = require("6397fffb18687f9c");
 var polyfill;
-if (capability("Error.captureStackTrace")) polyfill = require("b13ff483e41a21fb");
-else if (capability("Error.prototype.stack")) polyfill = require("d6c05abb0f169bb3");
-else polyfill = require("826cad2c6e303d38");
+if (capability("Error.captureStackTrace")) polyfill = require("91db7feb39669784");
+else if (capability("Error.prototype.stack")) polyfill = require("d648ec41f083f4");
+else polyfill = require("88bf228c608d045a");
 module.exports = polyfill();
 
-},{"8561c52521472a31":"5bger","eb5cade00c229b7f":"45xjX","b13ff483e41a21fb":"a0VmX","d6c05abb0f169bb3":"dx0bf","826cad2c6e303d38":"75e5c"}],"5bger":[function(require,module,exports) {
-require("30bcbc7bcbd750a4").check("es5");
+},{"62b5661490bc8381":"5bger","6397fffb18687f9c":"45xjX","91db7feb39669784":"a0VmX","d648ec41f083f4":"dx0bf","88bf228c608d045a":"75e5c"}],"5bger":[function(require,module,exports) {
+require("3ddaee03b9613f24").check("es5");
 
-},{"30bcbc7bcbd750a4":"45xjX"}],"45xjX":[function(require,module,exports) {
-require("95a85b5b4fc3ef49");
-module.exports = require("dce190ec2d03b8de");
+},{"3ddaee03b9613f24":"45xjX"}],"45xjX":[function(require,module,exports) {
+require("4875e77f2633026b");
+module.exports = require("5f96a624a70ddca0");
 
-},{"95a85b5b4fc3ef49":"k0u9C","dce190ec2d03b8de":"4EqFb"}],"k0u9C":[function(require,module,exports) {
-var capability = require("a0ab225605f1a2ea"), define = capability.define, test = capability.test;
+},{"4875e77f2633026b":"k0u9C","5f96a624a70ddca0":"4EqFb"}],"k0u9C":[function(require,module,exports) {
+var capability = require("912d375ea64603d5"), define = capability.define, test = capability.test;
 define("strict mode", function() {
     return this === undefined;
 });
@@ -54358,8 +54440,8 @@ define("Error.prototype.stack", function() {
     }
 });
 
-},{"a0ab225605f1a2ea":"4EqFb"}],"4EqFb":[function(require,module,exports) {
-var CapabilityDetector = require("ab646eb3b3363642");
+},{"912d375ea64603d5":"4EqFb"}],"4EqFb":[function(require,module,exports) {
+var CapabilityDetector = require("5b3fa8e67e272b0e");
 var detector = new CapabilityDetector();
 var capability = function(name) {
     return detector.test(name);
@@ -54373,7 +54455,7 @@ capability.check = function(name) {
 capability.test = capability;
 module.exports = capability;
 
-},{"ab646eb3b3363642":"csHRg"}],"csHRg":[function(require,module,exports) {
+},{"5b3fa8e67e272b0e":"csHRg"}],"csHRg":[function(require,module,exports) {
 var CapabilityDetector = function() {
     this.tests = {};
     this.cache = {};
@@ -54399,7 +54481,7 @@ CapabilityDetector.prototype = {
 module.exports = CapabilityDetector;
 
 },{}],"a0VmX":[function(require,module,exports) {
-var prepareStackTrace = require("767439bfbb6707cc");
+var prepareStackTrace = require("8538e2b2f23a2ee1");
 module.exports = function() {
     Error.getStackTrace = function(throwable) {
         return throwable.stack;
@@ -54409,7 +54491,7 @@ module.exports = function() {
     };
 };
 
-},{"767439bfbb6707cc":"85RZD"}],"85RZD":[function(require,module,exports) {
+},{"8538e2b2f23a2ee1":"85RZD"}],"85RZD":[function(require,module,exports) {
 var prepareStackTrace = function(throwable, frames, warnings) {
     var string = "";
     string += throwable.name || "Error";
@@ -54427,7 +54509,7 @@ var prepareStackTrace = function(throwable, frames, warnings) {
 module.exports = prepareStackTrace;
 
 },{}],"dx0bf":[function(require,module,exports) {
-var FrameStringSource = require("8d2e4585fc4921e3"), FrameStringParser = require("e18033fa0cfce57e"), cache = require("527161249988f973").cache, prepareStackTrace = require("2f0d9c04b830798d");
+var FrameStringSource = require("4657429d84c5823c"), FrameStringParser = require("6629dbf81b94fbd1"), cache = require("949928b48b7f6338").cache, prepareStackTrace = require("b50c03cb7c83dab3");
 module.exports = function() {
     Error.captureStackTrace = function captureStackTrace(throwable, terminator) {
         var warnings;
@@ -54485,8 +54567,8 @@ module.exports = function() {
     };
 };
 
-},{"8d2e4585fc4921e3":"8enMo","e18033fa0cfce57e":"kqj4M","527161249988f973":"dIyaj","2f0d9c04b830798d":"85RZD"}],"8enMo":[function(require,module,exports) {
-var Class = require("58b7d223cbe57a3d").Class, abstractMethod = require("58b7d223cbe57a3d").abstractMethod, eachCombination = require("6448a6c9a0e51ad3").eachCombination, cache = require("6448a6c9a0e51ad3").cache, capability = require("a8784f8ef7965b1b");
+},{"4657429d84c5823c":"8enMo","6629dbf81b94fbd1":"kqj4M","949928b48b7f6338":"dIyaj","b50c03cb7c83dab3":"85RZD"}],"8enMo":[function(require,module,exports) {
+var Class = require("8e2772231be01ae1").Class, abstractMethod = require("8e2772231be01ae1").abstractMethod, eachCombination = require("c77278ba56a09afc").eachCombination, cache = require("c77278ba56a09afc").cache, capability = require("eb3ad9fd7f2ed0bd");
 var AbstractFrameStringSource = Class(Object, {
     prototype: {
         captureFrameStrings: function(frameShifts) {
@@ -54602,17 +54684,17 @@ module.exports = {
     })
 };
 
-},{"58b7d223cbe57a3d":"gP4B7","6448a6c9a0e51ad3":"dIyaj","a8784f8ef7965b1b":"45xjX"}],"gP4B7":[function(require,module,exports) {
-require("87db9cbd2130aa7d");
-module.exports = require("d89d58da78b69f76");
+},{"8e2772231be01ae1":"gP4B7","c77278ba56a09afc":"dIyaj","eb3ad9fd7f2ed0bd":"45xjX"}],"gP4B7":[function(require,module,exports) {
+require("4068473b29526057");
+module.exports = require("135086546893d5b");
 
-},{"87db9cbd2130aa7d":"5bger","d89d58da78b69f76":"eoeZx"}],"eoeZx":[function(require,module,exports) {
+},{"4068473b29526057":"5bger","135086546893d5b":"eoeZx"}],"eoeZx":[function(require,module,exports) {
 module.exports = {
-    Class: require("e8cf03949436a174"),
-    abstractMethod: require("1dfca72d621c713a")
+    Class: require("21d76ea19798af05"),
+    abstractMethod: require("b871cc933a70ad4f")
 };
 
-},{"e8cf03949436a174":"k4Z0U","1dfca72d621c713a":"d1LMy"}],"k4Z0U":[function(require,module,exports) {
+},{"21d76ea19798af05":"k4Z0U","b871cc933a70ad4f":"d1LMy"}],"k4Z0U":[function(require,module,exports) {
 var Class = function() {
     var options = Object.create({
         Source: Object,
@@ -54710,15 +54792,15 @@ module.exports = function() {
 };
 
 },{}],"dIyaj":[function(require,module,exports) {
-module.exports = require("537225905b990fab");
+module.exports = require("fd45d004148c79f");
 
-},{"537225905b990fab":"9JH8M"}],"9JH8M":[function(require,module,exports) {
+},{"fd45d004148c79f":"9JH8M"}],"9JH8M":[function(require,module,exports) {
 module.exports = {
-    cache: require("23acd554455bd38b"),
-    eachCombination: require("30fca69e756172ef")
+    cache: require("95c066bab279536"),
+    eachCombination: require("e7adac010f29c841")
 };
 
-},{"23acd554455bd38b":"3mu2N","30fca69e756172ef":"i1liH"}],"3mu2N":[function(require,module,exports) {
+},{"95c066bab279536":"3mu2N","e7adac010f29c841":"i1liH"}],"3mu2N":[function(require,module,exports) {
 var cache = function(fn) {
     var called = false, store;
     if (!(fn instanceof Function)) {
@@ -54751,7 +54833,7 @@ module.exports = function eachCombination(alternativesByDimension, callback, com
 };
 
 },{}],"kqj4M":[function(require,module,exports) {
-var Class = require("cf453423727df799").Class, Frame = require("c4b21c94ccd91904"), cache = require("181659921166d26b").cache;
+var Class = require("9751f0674b0faae7").Class, Frame = require("14f656b0cb70f58a"), cache = require("8e4f51db28dc9a7").cache;
 var FrameStringParser = Class(Object, {
     prototype: {
         stackParser: null,
@@ -54785,8 +54867,8 @@ module.exports = {
     })
 };
 
-},{"cf453423727df799":"gP4B7","c4b21c94ccd91904":"gHN0E","181659921166d26b":"dIyaj"}],"gHN0E":[function(require,module,exports) {
-var Class = require("52254653ecb003a2").Class, abstractMethod = require("52254653ecb003a2").abstractMethod;
+},{"9751f0674b0faae7":"gP4B7","14f656b0cb70f58a":"gHN0E","8e4f51db28dc9a7":"dIyaj"}],"gHN0E":[function(require,module,exports) {
+var Class = require("d9b85a3dd3b02338").Class, abstractMethod = require("d9b85a3dd3b02338").abstractMethod;
 var Frame = Class(Object, {
     prototype: {
         init: Class.prototype.merge,
@@ -54814,8 +54896,8 @@ var Frame = Class(Object, {
 });
 module.exports = Frame;
 
-},{"52254653ecb003a2":"gP4B7"}],"75e5c":[function(require,module,exports) {
-var cache = require("3701cce0155344f5").cache, prepareStackTrace = require("2e8ffd579d38510");
+},{"d9b85a3dd3b02338":"gP4B7"}],"75e5c":[function(require,module,exports) {
+var cache = require("fda458d2a71294d6").cache, prepareStackTrace = require("6cf4e34287e9fe3c");
 module.exports = function() {
     Error.captureStackTrace = function(throwable, terminator) {
         Object.defineProperties(throwable, {
@@ -54859,7 +54941,7 @@ module.exports = function() {
     };
 };
 
-},{"3701cce0155344f5":"dIyaj","2e8ffd579d38510":"85RZD"}],"dg9wB":[function(require,module,exports) {
+},{"fda458d2a71294d6":"dIyaj","6cf4e34287e9fe3c":"85RZD"}],"dg9wB":[function(require,module,exports) {
 /* A helper file that simplifies using the wallet selector */ // near api js
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -54877,7 +54959,7 @@ var _myNearWalletIconPngDefault = parcelHelpers.interopDefault(_myNearWalletIcon
 var _core = require("@near-wallet-selector/core");
 var _ledger = require("@near-wallet-selector/ledger");
 var _myNearWallet = require("@near-wallet-selector/my-near-wallet");
-var Buffer = require("78dfeefc9354a528").Buffer;
+var Buffer = require("cf8e04ce99b9a4e3").Buffer;
 const THIRTY_TGAS = "30000000000000";
 const NO_DEPOSIT = "0";
 class Wallet {
@@ -54975,7 +55057,7 @@ class Wallet {
     }
 }
 
-},{"78dfeefc9354a528":"fCgem","near-api-js":"ohc3m","@near-wallet-selector/modal-ui/styles.css":"b4TAP","@near-wallet-selector/modal-ui":"1nDKo","@near-wallet-selector/ledger/assets/ledger-icon.png":"dGAA6","@near-wallet-selector/my-near-wallet/assets/my-near-wallet-icon.png":"aTHwi","@near-wallet-selector/core":"eEY3a","@near-wallet-selector/ledger":"9enQf","@near-wallet-selector/my-near-wallet":"bYYGG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b4TAP":[function() {},{}],"1nDKo":[function(require,module,exports) {
+},{"cf8e04ce99b9a4e3":"fCgem","near-api-js":"ohc3m","@near-wallet-selector/modal-ui/styles.css":"b4TAP","@near-wallet-selector/modal-ui":"1nDKo","@near-wallet-selector/ledger/assets/ledger-icon.png":"dGAA6","@near-wallet-selector/my-near-wallet/assets/my-near-wallet-icon.png":"aTHwi","@near-wallet-selector/core":"eEY3a","@near-wallet-selector/ledger":"9enQf","@near-wallet-selector/my-near-wallet":"bYYGG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b4TAP":[function() {},{}],"1nDKo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "setupModal", ()=>setupModal);
@@ -59844,9 +59926,9 @@ const setupModal = (selector, options)=>{
 
 },{"react/jsx-runtime":"6AEwr","react-dom/client":"lOjBx","react":"21dqq","@near-wallet-selector/core":"eEY3a","qrcode":"lB7MY","copy-to-clipboard":"fLPFI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6AEwr":[function(require,module,exports) {
 "use strict";
-module.exports = require("a226d69a4ae00e94");
+module.exports = require("d1e32503b0ba9296");
 
-},{"a226d69a4ae00e94":"kujY4"}],"kujY4":[function(require,module,exports) {
+},{"d1e32503b0ba9296":"kujY4"}],"kujY4":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-runtime.development.js
@@ -59858,7 +59940,7 @@ module.exports = require("a226d69a4ae00e94");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("54b96b5e6c73604d");
+    var React = require("6898ba20625a53b9");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -60689,9 +60771,9 @@ module.exports = require("a226d69a4ae00e94");
     exports.jsxs = jsxs;
 })();
 
-},{"54b96b5e6c73604d":"21dqq"}],"lOjBx":[function(require,module,exports) {
+},{"6898ba20625a53b9":"21dqq"}],"lOjBx":[function(require,module,exports) {
 "use strict";
-var m = require("e5f21d85e88aabec");
+var m = require("f920cec89a07b233");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 exports.createRoot = function(c, o) {
     i.usingClientEntryPoint = true;
@@ -60710,7 +60792,7 @@ exports.hydrateRoot = function(c, h, o) {
     }
 };
 
-},{"e5f21d85e88aabec":"j6uA9"}],"eEY3a":[function(require,module,exports) {
+},{"f920cec89a07b233":"j6uA9"}],"eEY3a":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getActiveAccount", ()=>getActiveAccount);
@@ -66806,10 +66888,10 @@ var OperatorSubscriber = function(_super) {
 }((0, _subscriber.Subscriber));
 
 },{"tslib":"99ylF","../Subscriber":"1VFFQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lB7MY":[function(require,module,exports) {
-const canPromise = require("cee5c1c79680e717");
-const QRCode = require("d73cc8fe477ad725");
-const CanvasRenderer = require("2f5c12637ca6459a");
-const SvgRenderer = require("b96627ff4bfc08f2");
+const canPromise = require("658bf48831ea96a6");
+const QRCode = require("ce772eb5da542959");
+const CanvasRenderer = require("868a075414c71bd7");
+const SvgRenderer = require("43b103e7a4049726");
 function renderCanvas(renderFunc, canvas, text, opts, cb) {
     const args = [].slice.call(arguments, 1);
     const argsNum = args.length;
@@ -66866,7 +66948,7 @@ exports.toString = renderCanvas.bind(null, function(data, _, opts) {
     return SvgRenderer.render(data, opts);
 });
 
-},{"cee5c1c79680e717":"9FrZa","d73cc8fe477ad725":"20hbG","2f5c12637ca6459a":"2oGFV","b96627ff4bfc08f2":"7Akrj"}],"9FrZa":[function(require,module,exports) {
+},{"658bf48831ea96a6":"9FrZa","ce772eb5da542959":"20hbG","868a075414c71bd7":"2oGFV","43b103e7a4049726":"7Akrj"}],"9FrZa":[function(require,module,exports) {
 // can-promise has a crash in some versions of react native that dont have
 // standard global objects
 // https://github.com/soldair/node-qrcode/issues/157
@@ -66875,19 +66957,19 @@ module.exports = function() {
 };
 
 },{}],"20hbG":[function(require,module,exports) {
-const Utils = require("1e57cb12b2ae8bff");
-const ECLevel = require("76f8ec7ddde195f2");
-const BitBuffer = require("f48ea21c5e397611");
-const BitMatrix = require("84caef0a3ff7a722");
-const AlignmentPattern = require("f9695faf4acc9927");
-const FinderPattern = require("d5d3632843051149");
-const MaskPattern = require("4c374f0e16e8a8c");
-const ECCode = require("3def1a6253028545");
-const ReedSolomonEncoder = require("754ce6f5d2655d78");
-const Version = require("8626d2297222a4b9");
-const FormatInfo = require("6eb4af5567a3b980");
-const Mode = require("76417f54ce8cc2ca");
-const Segments = require("302df6024fee8934");
+const Utils = require("103f8daaab30c743");
+const ECLevel = require("8f5a539d34187061");
+const BitBuffer = require("454e4c769f92ac60");
+const BitMatrix = require("c7f74796bc953193");
+const AlignmentPattern = require("5174ab8e6ce68a36");
+const FinderPattern = require("ca9206a91ef442bc");
+const MaskPattern = require("af5dd76d0ac6d08a");
+const ECCode = require("bf7d245ab2e0a2d9");
+const ReedSolomonEncoder = require("1bc5414886c0725a");
+const Version = require("5f72a867a91461de");
+const FormatInfo = require("9aa9ddb9952ca450");
+const Mode = require("986141557628c0e0");
+const Segments = require("3203a55b54aa10a5");
 /**
  * QRCode for JavaScript
  *
@@ -67223,7 +67305,7 @@ const Segments = require("302df6024fee8934");
     return createSymbol(data, version, errorCorrectionLevel, mask);
 };
 
-},{"1e57cb12b2ae8bff":"iXLHI","76f8ec7ddde195f2":"kbPwo","f48ea21c5e397611":"kiPfj","84caef0a3ff7a722":"fTjkX","f9695faf4acc9927":"1o9KB","d5d3632843051149":"dc6Ma","4c374f0e16e8a8c":"fyimH","3def1a6253028545":"5yWYH","754ce6f5d2655d78":"47Qq0","8626d2297222a4b9":"a8ag2","6eb4af5567a3b980":"iThdR","76417f54ce8cc2ca":"f1e9A","302df6024fee8934":"4tKki"}],"iXLHI":[function(require,module,exports) {
+},{"103f8daaab30c743":"iXLHI","8f5a539d34187061":"kbPwo","454e4c769f92ac60":"kiPfj","c7f74796bc953193":"fTjkX","5174ab8e6ce68a36":"1o9KB","ca9206a91ef442bc":"dc6Ma","af5dd76d0ac6d08a":"fyimH","bf7d245ab2e0a2d9":"5yWYH","1bc5414886c0725a":"47Qq0","5f72a867a91461de":"a8ag2","9aa9ddb9952ca450":"iThdR","986141557628c0e0":"f1e9A","3203a55b54aa10a5":"4tKki"}],"iXLHI":[function(require,module,exports) {
 let toSJISFunction;
 const CODEWORDS_COUNT = [
     0,
@@ -67443,7 +67525,7 @@ module.exports = BitMatrix;
  *
  * Alignment patterns are present only in QR Code symbols of version 2 or larger
  * and their number depends on the symbol version.
- */ const getSymbolSize = require("3a748fc8d0f49bcf").getSymbolSize;
+ */ const getSymbolSize = require("5e227150335f5eea").getSymbolSize;
 /**
  * Calculate the row/column coordinates of the center module of each alignment pattern
  * for the specified QR Code version.
@@ -67507,8 +67589,8 @@ module.exports = BitMatrix;
     return coords;
 };
 
-},{"3a748fc8d0f49bcf":"iXLHI"}],"dc6Ma":[function(require,module,exports) {
-const getSymbolSize = require("64c9177cd71ebca9").getSymbolSize;
+},{"5e227150335f5eea":"iXLHI"}],"dc6Ma":[function(require,module,exports) {
+const getSymbolSize = require("656f74937181970e").getSymbolSize;
 const FINDER_PATTERN_SIZE = 7;
 /**
  * Returns an array containing the positions of each finder pattern.
@@ -67537,7 +67619,7 @@ const FINDER_PATTERN_SIZE = 7;
     ];
 };
 
-},{"64c9177cd71ebca9":"iXLHI"}],"fyimH":[function(require,module,exports) {
+},{"656f74937181970e":"iXLHI"}],"fyimH":[function(require,module,exports) {
 /**
  * Data mask pattern reference
  * @type {Object}
@@ -67728,7 +67810,7 @@ const FINDER_PATTERN_SIZE = 7;
 };
 
 },{}],"5yWYH":[function(require,module,exports) {
-const ECLevel = require("f8ae5885445a6398");
+const ECLevel = require("7611eb5146288b2e");
 const EC_BLOCKS_TABLE = [
     // L  M  Q  H
     1,
@@ -68098,8 +68180,8 @@ const EC_CODEWORDS_TABLE = [
     }
 };
 
-},{"f8ae5885445a6398":"kbPwo"}],"47Qq0":[function(require,module,exports) {
-const Polynomial = require("5cab836b5fcb7b48");
+},{"7611eb5146288b2e":"kbPwo"}],"47Qq0":[function(require,module,exports) {
+const Polynomial = require("2dccd35e2149146d");
 function ReedSolomonEncoder(degree) {
     this.genPoly = undefined;
     this.degree = degree;
@@ -68142,8 +68224,8 @@ function ReedSolomonEncoder(degree) {
 };
 module.exports = ReedSolomonEncoder;
 
-},{"5cab836b5fcb7b48":"dxhHI"}],"dxhHI":[function(require,module,exports) {
-const GF = require("29dd57943788989c");
+},{"2dccd35e2149146d":"dxhHI"}],"dxhHI":[function(require,module,exports) {
+const GF = require("96d3d75a309b35a");
 /**
  * Multiplies two polynomials inside Galois Field
  *
@@ -68190,7 +68272,7 @@ const GF = require("29dd57943788989c");
     return poly;
 };
 
-},{"29dd57943788989c":"2JC5s"}],"2JC5s":[function(require,module,exports) {
+},{"96d3d75a309b35a":"2JC5s"}],"2JC5s":[function(require,module,exports) {
 const EXP_TABLE = new Uint8Array(512);
 const LOG_TABLE = new Uint8Array(256) /**
  * Precompute the log and anti-log tables for faster computation later
@@ -68248,11 +68330,11 @@ const LOG_TABLE = new Uint8Array(256) /**
 };
 
 },{}],"a8ag2":[function(require,module,exports) {
-const Utils = require("b79d09fea88ca8a6");
-const ECCode = require("e2b20fbfc241be5d");
-const ECLevel = require("a2d09149455a8c81");
-const Mode = require("dfb99d46f4157f0b");
-const VersionCheck = require("d251b68c581a196a");
+const Utils = require("89baed11ab351fc2");
+const ECCode = require("f825c92fe083f5a6");
+const ECLevel = require("488689f5ccdf578b");
+const Mode = require("164745f441e8d3f7");
+const VersionCheck = require("bc9aa6d13b01fe06");
 // Generator polynomial used to encode version information
 const G18 = 7973;
 const G18_BCH = Utils.getBCHDigit(G18);
@@ -68358,9 +68440,9 @@ function getBestVersionForMixedData(segments, errorCorrectionLevel) {
     return version << 12 | d;
 };
 
-},{"b79d09fea88ca8a6":"iXLHI","e2b20fbfc241be5d":"5yWYH","a2d09149455a8c81":"kbPwo","dfb99d46f4157f0b":"f1e9A","d251b68c581a196a":"enfTX"}],"f1e9A":[function(require,module,exports) {
-const VersionCheck = require("1ed07b13d8fccca6");
-const Regex = require("6a4bd15b5477e21b");
+},{"89baed11ab351fc2":"iXLHI","f825c92fe083f5a6":"5yWYH","488689f5ccdf578b":"kbPwo","164745f441e8d3f7":"f1e9A","bc9aa6d13b01fe06":"enfTX"}],"f1e9A":[function(require,module,exports) {
+const VersionCheck = require("cdc67f74b30c77e");
+const Regex = require("8a7b071954f457ba");
 /**
  * Numeric mode encodes data from the decimal digit set (0 - 9)
  * (byte values 30HEX to 39HEX).
@@ -68510,7 +68592,7 @@ const Regex = require("6a4bd15b5477e21b");
     }
 };
 
-},{"1ed07b13d8fccca6":"enfTX","6a4bd15b5477e21b":"3Bqru"}],"enfTX":[function(require,module,exports) {
+},{"cdc67f74b30c77e":"enfTX","8a7b071954f457ba":"3Bqru"}],"enfTX":[function(require,module,exports) {
 /**
  * Check if QR Code version is valid
  *
@@ -68545,7 +68627,7 @@ exports.testAlphanumeric = function testAlphanumeric(str) {
 };
 
 },{}],"iThdR":[function(require,module,exports) {
-const Utils = require("a2a1013715736077");
+const Utils = require("17670203b4f3250b");
 const G15 = 1335;
 const G15_MASK = 21522;
 const G15_BCH = Utils.getBCHDigit(G15);
@@ -68568,15 +68650,15 @@ const G15_BCH = Utils.getBCHDigit(G15);
     return (data << 10 | d) ^ G15_MASK;
 };
 
-},{"a2a1013715736077":"iXLHI"}],"4tKki":[function(require,module,exports) {
-const Mode = require("fd9fec10d27dfa");
-const NumericData = require("941a88b0b3738751");
-const AlphanumericData = require("59719e269536e141");
-const ByteData = require("60e027e0fd1eab62");
-const KanjiData = require("81e8f4f69cd2eeca");
-const Regex = require("6071b06041da48e8");
-const Utils = require("1e3cf155f1af540b");
-const dijkstra = require("cd1e9677c94d6ee9");
+},{"17670203b4f3250b":"iXLHI"}],"4tKki":[function(require,module,exports) {
+const Mode = require("97652ff506400adf");
+const NumericData = require("ad6edac4a38641ed");
+const AlphanumericData = require("383a9a6c5ea48a36");
+const ByteData = require("f1229849ddaa20dc");
+const KanjiData = require("9bd0fb1b05547a57");
+const Regex = require("7d950249d5ae915b");
+const Utils = require("98b7f5efc5f7c4b8");
+const dijkstra = require("765809d25cca221");
 /**
  * Returns UTF8 byte length
  *
@@ -68861,8 +68943,8 @@ const dijkstra = require("cd1e9677c94d6ee9");
     return exports.fromArray(getSegmentsFromString(data, Utils.isKanjiModeEnabled()));
 };
 
-},{"fd9fec10d27dfa":"f1e9A","941a88b0b3738751":"c44F8","59719e269536e141":"cdBOf","60e027e0fd1eab62":"ediQ9","81e8f4f69cd2eeca":"gphIw","6071b06041da48e8":"3Bqru","1e3cf155f1af540b":"iXLHI","cd1e9677c94d6ee9":"lDJz9"}],"c44F8":[function(require,module,exports) {
-const Mode = require("cc58968be67618d5");
+},{"97652ff506400adf":"f1e9A","ad6edac4a38641ed":"c44F8","383a9a6c5ea48a36":"cdBOf","f1229849ddaa20dc":"ediQ9","9bd0fb1b05547a57":"gphIw","7d950249d5ae915b":"3Bqru","98b7f5efc5f7c4b8":"iXLHI","765809d25cca221":"lDJz9"}],"c44F8":[function(require,module,exports) {
+const Mode = require("c377023fff6f6d66");
 function NumericData(data) {
     this.mode = Mode.NUMERIC;
     this.data = data.toString();
@@ -68896,8 +68978,8 @@ NumericData.prototype.write = function write(bitBuffer) {
 };
 module.exports = NumericData;
 
-},{"cc58968be67618d5":"f1e9A"}],"cdBOf":[function(require,module,exports) {
-const Mode = require("3bef1c71013f64f2");
+},{"c377023fff6f6d66":"f1e9A"}],"cdBOf":[function(require,module,exports) {
+const Mode = require("458426c3f264320f");
 /**
  * Array of characters available in alphanumeric mode
  *
@@ -68984,9 +69066,9 @@ AlphanumericData.prototype.write = function write(bitBuffer) {
 };
 module.exports = AlphanumericData;
 
-},{"3bef1c71013f64f2":"f1e9A"}],"ediQ9":[function(require,module,exports) {
-const encodeUtf8 = require("ce0bfcd4b30aefc");
-const Mode = require("61348b35fb292968");
+},{"458426c3f264320f":"f1e9A"}],"ediQ9":[function(require,module,exports) {
+const encodeUtf8 = require("918a8a211b1abc22");
+const Mode = require("7b3c12e7398b69b4");
 function ByteData(data) {
     this.mode = Mode.BYTE;
     if (typeof data === "string") data = encodeUtf8(data);
@@ -69006,7 +69088,7 @@ ByteData.prototype.write = function(bitBuffer) {
 };
 module.exports = ByteData;
 
-},{"ce0bfcd4b30aefc":"3UdK6","61348b35fb292968":"f1e9A"}],"3UdK6":[function(require,module,exports) {
+},{"918a8a211b1abc22":"3UdK6","7b3c12e7398b69b4":"f1e9A"}],"3UdK6":[function(require,module,exports) {
 "use strict";
 module.exports = function encodeUtf8(input) {
     var result = [];
@@ -69054,8 +69136,8 @@ module.exports = function encodeUtf8(input) {
 };
 
 },{}],"gphIw":[function(require,module,exports) {
-const Mode = require("40daa051b614e27");
-const Utils = require("3f2fbe63a9ef837");
+const Mode = require("b6aba03665cd535");
+const Utils = require("b915a339f4a8bfc0");
 function KanjiData(data) {
     this.mode = Mode.KANJI;
     this.data = data;
@@ -69091,7 +69173,7 @@ KanjiData.prototype.write = function(bitBuffer) {
 };
 module.exports = KanjiData;
 
-},{"40daa051b614e27":"f1e9A","3f2fbe63a9ef837":"iXLHI"}],"lDJz9":[function(require,module,exports) {
+},{"b6aba03665cd535":"f1e9A","b915a339f4a8bfc0":"iXLHI"}],"lDJz9":[function(require,module,exports) {
 "use strict";
 /******************************************************************************
  * Created 2008-08-19.
@@ -69226,7 +69308,7 @@ module.exports = KanjiData;
 module.exports = dijkstra;
 
 },{}],"2oGFV":[function(require,module,exports) {
-const Utils = require("700faddd912624aa");
+const Utils = require("3ff563b4bee6567f");
 function clearCanvas(ctx, canvas, size) {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     if (!canvas.style) canvas.style = {};
@@ -69272,7 +69354,7 @@ exports.renderToDataURL = function renderToDataURL(qrData, canvas, options) {
     return canvasEl.toDataURL(type, rendererOpts.quality);
 };
 
-},{"700faddd912624aa":"6rMWz"}],"6rMWz":[function(require,module,exports) {
+},{"3ff563b4bee6567f":"6rMWz"}],"6rMWz":[function(require,module,exports) {
 function hex2rgba(hex) {
     if (typeof hex === "number") hex = hex.toString();
     if (typeof hex !== "string") throw new Error("Color should be defined as hex string");
@@ -69347,7 +69429,7 @@ exports.qrToImageData = function qrToImageData(imgData, qr, opts) {
 };
 
 },{}],"7Akrj":[function(require,module,exports) {
-const Utils = require("5e0d213a67f531c");
+const Utils = require("eb2fcfa21ff973e3");
 function getColorAttrib(color, attrib) {
     const alpha = color.a / 255;
     const str = attrib + '="' + color.hex + '"';
@@ -69396,9 +69478,9 @@ exports.render = function render(qrData, options, cb) {
     return svgTag;
 };
 
-},{"5e0d213a67f531c":"6rMWz"}],"fLPFI":[function(require,module,exports) {
+},{"eb2fcfa21ff973e3":"6rMWz"}],"fLPFI":[function(require,module,exports) {
 "use strict";
-var deselectCurrent = require("fe0f5d4efc87229b");
+var deselectCurrent = require("db4ff9bcff8d8175");
 var clipboardToIE11Formatting = {
     "text/plain": "Text",
     "text/html": "Url",
@@ -69485,7 +69567,7 @@ function copy(text, options) {
 }
 module.exports = copy;
 
-},{"fe0f5d4efc87229b":"jmaua"}],"jmaua":[function(require,module,exports) {
+},{"db4ff9bcff8d8175":"jmaua"}],"jmaua":[function(require,module,exports) {
 module.exports = function() {
     var selection = document.getSelection();
     if (!selection.rangeCount) return function() {};
@@ -69512,9 +69594,9 @@ module.exports = function() {
 };
 
 },{}],"dGAA6":[function(require,module,exports) {
-module.exports = require("659f687ebec6fbcc").getBundleURL("UckoE") + "ledger-icon.a0186cc1.png" + "?" + Date.now();
+module.exports = require("65d16abcd0930e49").getBundleURL("UckoE") + "ledger-icon.a0186cc1.png" + "?" + Date.now();
 
-},{"659f687ebec6fbcc":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"65d16abcd0930e49":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -69549,9 +69631,9 @@ exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
 },{}],"aTHwi":[function(require,module,exports) {
-module.exports = require("b60449bd59e950ea").getBundleURL("UckoE") + "my-near-wallet-icon.ebfed669.png" + "?" + Date.now();
+module.exports = require("97f21822934682fa").getBundleURL("UckoE") + "my-near-wallet-icon.ebfed669.png" + "?" + Date.now();
 
-},{"b60449bd59e950ea":"lgJ39"}],"9enQf":[function(require,module,exports) {
+},{"97f21822934682fa":"lgJ39"}],"9enQf":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "setupLedger", ()=>setupLedger);
@@ -69561,8 +69643,8 @@ var _core = require("@near-wallet-selector/core");
 var _hwTransportWebhid = require("@ledgerhq/hw-transport-webhid");
 var _hwTransportWebhidDefault = parcelHelpers.interopDefault(_hwTransportWebhid);
 var _nearApiJs = require("near-api-js");
+var Buffer = require("10b999dc2e315801").Buffer;
 var global = arguments[3];
-var Buffer = require("d342609ca674589a").Buffer;
 /******************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -71820,7 +71902,7 @@ function setupLedger({ iconUrl =icon , deprecated =false  } = {}) {
         });
 }
 
-},{"d342609ca674589a":"fCgem","is-mobile":"2AVrM","@near-wallet-selector/wallet-utils":"5gEB8","@near-wallet-selector/core":"eEY3a","@ledgerhq/hw-transport-webhid":"8O295","near-api-js":"ohc3m","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2AVrM":[function(require,module,exports) {
+},{"10b999dc2e315801":"fCgem","is-mobile":"2AVrM","@near-wallet-selector/wallet-utils":"5gEB8","@near-wallet-selector/core":"eEY3a","@ledgerhq/hw-transport-webhid":"8O295","near-api-js":"ohc3m","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2AVrM":[function(require,module,exports) {
 "use strict";
 module.exports = isMobile;
 module.exports.isMobile = isMobile;
@@ -74282,7 +74364,7 @@ var _hidFramingDefault = parcelHelpers.interopDefault(_hidFraming);
 var _devices = require("@ledgerhq/devices");
 var _logs = require("@ledgerhq/logs");
 var _errors = require("@ledgerhq/errors");
-var Buffer = require("930939e4ee11d36b").Buffer;
+var Buffer = require("a582f89b05373781").Buffer;
 var __extends = undefined && undefined.__extends || function() {
     var extendStatics = function(d, b) {
         extendStatics = Object.setPrototypeOf || ({
@@ -74808,7 +74890,7 @@ function getFirstLedgerDevice() {
 }((0, _hwTransportDefault.default));
 exports.default = TransportWebHID;
 
-},{"930939e4ee11d36b":"fCgem","@ledgerhq/hw-transport":"59Ey9","@ledgerhq/devices/lib/hid-framing":"fvgJh","@ledgerhq/devices":"fnHxP","@ledgerhq/logs":"i4OI0","@ledgerhq/errors":"EVZMy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"59Ey9":[function(require,module,exports) {
+},{"a582f89b05373781":"fCgem","@ledgerhq/hw-transport":"59Ey9","@ledgerhq/devices/lib/hid-framing":"fvgJh","@ledgerhq/devices":"fnHxP","@ledgerhq/logs":"i4OI0","@ledgerhq/errors":"EVZMy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"59Ey9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "TransportError", ()=>(0, _errors.TransportError));
@@ -74818,7 +74900,7 @@ parcelHelpers.export(exports, "getAltStatusMessage", ()=>(0, _errors.getAltStatu
 var _events = require("events");
 var _eventsDefault = parcelHelpers.interopDefault(_events);
 var _errors = require("@ledgerhq/errors");
-var Buffer = require("f2990b9c5da8b75c").Buffer;
+var Buffer = require("9d8615792c362d87").Buffer;
 var __awaiter = undefined && undefined.__awaiter || function(thisArg, _arguments, P, generator) {
     function adopt(value) {
         return value instanceof P ? value : new P(function(resolve) {
@@ -75257,7 +75339,7 @@ var __values = undefined && undefined.__values || function(o) {
 }();
 exports.default = Transport;
 
-},{"f2990b9c5da8b75c":"fCgem","events":"1VQLm","@ledgerhq/errors":"EVZMy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1VQLm":[function(require,module,exports) {
+},{"9d8615792c362d87":"fCgem","events":"1VQLm","@ledgerhq/errors":"EVZMy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1VQLm":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -76134,10 +76216,10 @@ function destroyCircular(from, seen) {
 }
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fvgJh":[function(require,module,exports) {
-var Buffer = require("3beb15fcb724b661").Buffer;
+var Buffer = require("168d947f21951244").Buffer;
 "use strict";
 exports.__esModule = true;
-var errors_1 = require("34c4b7dfce502097");
+var errors_1 = require("4e89f82b5d37f29c");
 var Tag = 0x05;
 function asUInt16BE(value) {
     var b = Buffer.alloc(2);
@@ -76204,7 +76286,7 @@ var initialAcc = {
 };
 exports["default"] = createHIDframing;
 
-},{"3beb15fcb724b661":"fCgem","34c4b7dfce502097":"EVZMy"}],"fnHxP":[function(require,module,exports) {
+},{"168d947f21951244":"fCgem","4e89f82b5d37f29c":"EVZMy"}],"fnHxP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "IIGenericHID", ()=>IIGenericHID);
@@ -76392,47 +76474,47 @@ var getInfosForServiceUuid = function(uuid) {
 
 },{"semver":"1bOrY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1bOrY":[function(require,module,exports) {
 // just pre-load all the stuff that index.js lazily exports
-const internalRe = require("b90239511449f2ff");
-const constants = require("73c3f1b634a2955");
-const SemVer = require("97fc6af2e761301d");
-const identifiers = require("78be7725b6635ae6");
-const parse = require("73496134cef1ced1");
-const valid = require("8832402da92b7fba");
-const clean = require("ee861568a0182af9");
-const inc = require("a7cc511be75f7ae2");
-const diff = require("d89d5dd22eda9153");
-const major = require("6afefa5c82240a9d");
-const minor = require("eb90759cec5f7b47");
-const patch = require("5daafe62e3e40315");
-const prerelease = require("3f1e1fe1834dbce9");
-const compare = require("38825f96b67daf5f");
-const rcompare = require("e1f786738e3af48f");
-const compareLoose = require("92748f73dec5eb50");
-const compareBuild = require("a9a57d716c79bb39");
-const sort = require("d8d0240c90665391");
-const rsort = require("3a404c7b7e95b872");
-const gt = require("91582cf840ff57f6");
-const lt = require("c402c51999fcaef6");
-const eq = require("765ba8d4fe96c4cc");
-const neq = require("f4a9fc2c12d388be");
-const gte = require("86ae86068bcb039f");
-const lte = require("244f9b8fdba95a07");
-const cmp = require("ccde3dba5fbd8ce9");
-const coerce = require("6017144be35ef65c");
-const Comparator = require("e455a76a58ff63ee");
-const Range = require("2c08f9cdf5f0a198");
-const satisfies = require("6105f26de0fd6290");
-const toComparators = require("102bcf8587a6f12a");
-const maxSatisfying = require("31aeb0ea9a5a5ea5");
-const minSatisfying = require("3d15dfaeb00b70f5");
-const minVersion = require("e60a86014e3d7077");
-const validRange = require("87e577ce460d4358");
-const outside = require("2e3edd4afcf61ed6");
-const gtr = require("730453ed90ce4277");
-const ltr = require("8986874e2e4660a5");
-const intersects = require("f0a37e0cc82a0597");
-const simplifyRange = require("5a5954201c16edb2");
-const subset = require("e001e65159efa8e5");
+const internalRe = require("866182c3a372812a");
+const constants = require("e560bd33caeff90f");
+const SemVer = require("bf35f9b06658a4a0");
+const identifiers = require("db84d9e41cf86da8");
+const parse = require("ff72e53a8de4742e");
+const valid = require("990dc31daafe583e");
+const clean = require("6e9874da5730c4fa");
+const inc = require("33ce0ad11411a847");
+const diff = require("ae7038ecaf2e1e57");
+const major = require("d03a004a095ef08d");
+const minor = require("5d45533ed5454d0f");
+const patch = require("33112c5541c964f6");
+const prerelease = require("cd099687875e932f");
+const compare = require("c9476a55af3ff28c");
+const rcompare = require("ce44ad4a2274ba81");
+const compareLoose = require("eda239edf7b5d441");
+const compareBuild = require("ae1d43bf6c94fcc");
+const sort = require("eee35ed2960b2078");
+const rsort = require("eab7aec77dc7de0f");
+const gt = require("da547d593890a279");
+const lt = require("9695d61309dc6e13");
+const eq = require("d913d446364fe5f5");
+const neq = require("c346ecde085de989");
+const gte = require("63bc45721aa0a7ae");
+const lte = require("6314fb5e1b24732");
+const cmp = require("822039ff93a6ccf5");
+const coerce = require("b550196338c6f96d");
+const Comparator = require("6c0bf40efa9b167");
+const Range = require("d9c0400b17c90cdf");
+const satisfies = require("dcf6367b9921cba");
+const toComparators = require("3bcc20df0ee386e7");
+const maxSatisfying = require("3f5c9e30df8a3872");
+const minSatisfying = require("5f2088a2b8866c69");
+const minVersion = require("7912fd780aa43c86");
+const validRange = require("cc8df5a56810806f");
+const outside = require("bcb4bd81c28d8622");
+const gtr = require("a76b713b018b839a");
+const ltr = require("a140c86fc541642c");
+const intersects = require("8d208a7f973baf6");
+const simplifyRange = require("3e941c2888e6d89f");
+const subset = require("4ef6a6b08ebdb53c");
 module.exports = {
     parse,
     valid,
@@ -76480,9 +76562,9 @@ module.exports = {
     rcompareIdentifiers: identifiers.rcompareIdentifiers
 };
 
-},{"b90239511449f2ff":"fM3gb","73c3f1b634a2955":"36kox","97fc6af2e761301d":"kgTdE","78be7725b6635ae6":"gfu2O","73496134cef1ced1":"gcpPf","8832402da92b7fba":"gWiRZ","ee861568a0182af9":"aiTKa","a7cc511be75f7ae2":"aJfKw","d89d5dd22eda9153":"4hrxk","6afefa5c82240a9d":"8P6hj","eb90759cec5f7b47":"jpEiD","5daafe62e3e40315":"9pRhW","3f1e1fe1834dbce9":"luzbM","38825f96b67daf5f":"1VfgV","e1f786738e3af48f":"cgrtc","92748f73dec5eb50":"Q3pnc","a9a57d716c79bb39":"eYE5A","d8d0240c90665391":"8TvEb","3a404c7b7e95b872":"4isEq","91582cf840ff57f6":"h68v7","c402c51999fcaef6":"6ucE6","765ba8d4fe96c4cc":"k1aRj","f4a9fc2c12d388be":"7Y3tc","86ae86068bcb039f":"ehmrd","244f9b8fdba95a07":"2J3QH","ccde3dba5fbd8ce9":"1k1O9","6017144be35ef65c":"iXNTl","e455a76a58ff63ee":"5Yodu","2c08f9cdf5f0a198":"f4j9g","6105f26de0fd6290":"7OcsV","102bcf8587a6f12a":"iR5Mh","31aeb0ea9a5a5ea5":"jPYT1","3d15dfaeb00b70f5":"juckF","e60a86014e3d7077":"5VviM","87e577ce460d4358":"d8BN4","2e3edd4afcf61ed6":"jz7Jf","730453ed90ce4277":"kboF2","8986874e2e4660a5":"4bUsl","f0a37e0cc82a0597":"hpFPQ","5a5954201c16edb2":"kb0TI","e001e65159efa8e5":"lNExW"}],"fM3gb":[function(require,module,exports) {
-const { MAX_SAFE_COMPONENT_LENGTH  } = require("66fd3de009fc21f2");
-const debug = require("211cc9dbea397d9");
+},{"866182c3a372812a":"fM3gb","e560bd33caeff90f":"36kox","bf35f9b06658a4a0":"kgTdE","db84d9e41cf86da8":"gfu2O","ff72e53a8de4742e":"gcpPf","990dc31daafe583e":"gWiRZ","6e9874da5730c4fa":"aiTKa","33ce0ad11411a847":"aJfKw","ae7038ecaf2e1e57":"4hrxk","d03a004a095ef08d":"8P6hj","5d45533ed5454d0f":"jpEiD","33112c5541c964f6":"9pRhW","cd099687875e932f":"luzbM","c9476a55af3ff28c":"1VfgV","ce44ad4a2274ba81":"cgrtc","eda239edf7b5d441":"Q3pnc","ae1d43bf6c94fcc":"eYE5A","eee35ed2960b2078":"8TvEb","eab7aec77dc7de0f":"4isEq","da547d593890a279":"h68v7","9695d61309dc6e13":"6ucE6","d913d446364fe5f5":"k1aRj","c346ecde085de989":"7Y3tc","63bc45721aa0a7ae":"ehmrd","6314fb5e1b24732":"2J3QH","822039ff93a6ccf5":"1k1O9","b550196338c6f96d":"iXNTl","6c0bf40efa9b167":"5Yodu","d9c0400b17c90cdf":"f4j9g","dcf6367b9921cba":"7OcsV","3bcc20df0ee386e7":"iR5Mh","3f5c9e30df8a3872":"jPYT1","5f2088a2b8866c69":"juckF","7912fd780aa43c86":"5VviM","cc8df5a56810806f":"d8BN4","bcb4bd81c28d8622":"jz7Jf","a76b713b018b839a":"kboF2","a140c86fc541642c":"4bUsl","8d208a7f973baf6":"hpFPQ","3e941c2888e6d89f":"kb0TI","4ef6a6b08ebdb53c":"lNExW"}],"fM3gb":[function(require,module,exports) {
+const { MAX_SAFE_COMPONENT_LENGTH  } = require("5fe319b4e6a22c92");
+const debug = require("5a8fc5e24501bb5b");
 exports = module.exports = {};
 // The actual regexps go on exports.re
 const re = exports.re = [];
@@ -76587,7 +76669,7 @@ createToken("STAR", "(<|>)?=?\\s*\\*");
 createToken("GTE0", "^\\s*>=\\s*0\\.0\\.0\\s*$");
 createToken("GTE0PRE", "^\\s*>=\\s*0\\.0\\.0-0\\s*$");
 
-},{"66fd3de009fc21f2":"36kox","211cc9dbea397d9":"5sQBx"}],"36kox":[function(require,module,exports) {
+},{"5fe319b4e6a22c92":"36kox","5a8fc5e24501bb5b":"5sQBx"}],"36kox":[function(require,module,exports) {
 // Note: this is the semver.org version of the spec that it implements
 // Not necessarily the package version of this code.
 const SEMVER_SPEC_VERSION = "2.0.0";
@@ -76603,16 +76685,16 @@ module.exports = {
 };
 
 },{}],"5sQBx":[function(require,module,exports) {
-var process = require("8954b9686e2135f4");
+var process = require("191a7b45120e37e6");
 const debug = (typeof process === "object" && process.env && undefined, ()=>{});
 module.exports = debug;
 
-},{"8954b9686e2135f4":"d5jf4"}],"kgTdE":[function(require,module,exports) {
-const debug = require("81c47c3fbe67a68e");
-const { MAX_LENGTH , MAX_SAFE_INTEGER  } = require("d0813cddda6bcfe7");
-const { re , t  } = require("a54dee0e18e18973");
-const parseOptions = require("7a428537a1ce085f");
-const { compareIdentifiers  } = require("a4af8e443eb8e5fd");
+},{"191a7b45120e37e6":"d5jf4"}],"kgTdE":[function(require,module,exports) {
+const debug = require("29790d911d58ef3");
+const { MAX_LENGTH , MAX_SAFE_INTEGER  } = require("af5aadbfe2edb8a6");
+const { re , t  } = require("49b164e608a47015");
+const parseOptions = require("2e6831fae778edc6");
+const { compareIdentifiers  } = require("9cb78c3c54c6507a");
 class SemVer {
     constructor(version, options){
         options = parseOptions(options);
@@ -76799,7 +76881,7 @@ class SemVer {
 }
 module.exports = SemVer;
 
-},{"81c47c3fbe67a68e":"5sQBx","d0813cddda6bcfe7":"36kox","a54dee0e18e18973":"fM3gb","7a428537a1ce085f":"aIQkG","a4af8e443eb8e5fd":"gfu2O"}],"aIQkG":[function(require,module,exports) {
+},{"29790d911d58ef3":"5sQBx","af5aadbfe2edb8a6":"36kox","49b164e608a47015":"fM3gb","2e6831fae778edc6":"aIQkG","9cb78c3c54c6507a":"gfu2O"}],"aIQkG":[function(require,module,exports) {
 // parse out just the options we care about so we always get a consistent
 // obj with keys in a consistent order.
 const opts = [
@@ -76833,10 +76915,10 @@ module.exports = {
 };
 
 },{}],"gcpPf":[function(require,module,exports) {
-const { MAX_LENGTH  } = require("cc1cc9ca836be09b");
-const { re , t  } = require("cbb5aea3858ff70d");
-const SemVer = require("9ac45782f4d5bab1");
-const parseOptions = require("4f4456043cddbf6b");
+const { MAX_LENGTH  } = require("769dd1618c0b8e7c");
+const { re , t  } = require("d925e782d90b78eb");
+const SemVer = require("c821ddde42df9109");
+const parseOptions = require("b4fac48dde6e0767");
 const parse = (version, options)=>{
     options = parseOptions(options);
     if (version instanceof SemVer) return version;
@@ -76852,24 +76934,24 @@ const parse = (version, options)=>{
 };
 module.exports = parse;
 
-},{"cc1cc9ca836be09b":"36kox","cbb5aea3858ff70d":"fM3gb","9ac45782f4d5bab1":"kgTdE","4f4456043cddbf6b":"aIQkG"}],"gWiRZ":[function(require,module,exports) {
-const parse = require("282716b916315f8c");
+},{"769dd1618c0b8e7c":"36kox","d925e782d90b78eb":"fM3gb","c821ddde42df9109":"kgTdE","b4fac48dde6e0767":"aIQkG"}],"gWiRZ":[function(require,module,exports) {
+const parse = require("335e2ec380539398");
 const valid = (version, options)=>{
     const v = parse(version, options);
     return v ? v.version : null;
 };
 module.exports = valid;
 
-},{"282716b916315f8c":"gcpPf"}],"aiTKa":[function(require,module,exports) {
-const parse = require("1656c2bf5c315b7a");
+},{"335e2ec380539398":"gcpPf"}],"aiTKa":[function(require,module,exports) {
+const parse = require("e4d90ebcf0a3f96c");
 const clean = (version, options)=>{
     const s = parse(version.trim().replace(/^[=v]+/, ""), options);
     return s ? s.version : null;
 };
 module.exports = clean;
 
-},{"1656c2bf5c315b7a":"gcpPf"}],"aJfKw":[function(require,module,exports) {
-const SemVer = require("4d983a33a1124cc6");
+},{"e4d90ebcf0a3f96c":"gcpPf"}],"aJfKw":[function(require,module,exports) {
+const SemVer = require("8e80740a92188e7d");
 const inc = (version, release, options, identifier)=>{
     if (typeof options === "string") {
         identifier = options;
@@ -76883,9 +76965,9 @@ const inc = (version, release, options, identifier)=>{
 };
 module.exports = inc;
 
-},{"4d983a33a1124cc6":"kgTdE"}],"4hrxk":[function(require,module,exports) {
-const parse = require("cc1ccc0aa8ae4721");
-const eq = require("98b04509cf4d580c");
+},{"8e80740a92188e7d":"kgTdE"}],"4hrxk":[function(require,module,exports) {
+const parse = require("cd5b4a8c5a694fec");
+const eq = require("8a5b3e884cb45ba");
 const diff = (version1, version2)=>{
     if (eq(version1, version2)) return null;
     else {
@@ -76903,51 +76985,51 @@ const diff = (version1, version2)=>{
 };
 module.exports = diff;
 
-},{"cc1ccc0aa8ae4721":"gcpPf","98b04509cf4d580c":"k1aRj"}],"k1aRj":[function(require,module,exports) {
-const compare = require("11d89f3ab636c878");
+},{"cd5b4a8c5a694fec":"gcpPf","8a5b3e884cb45ba":"k1aRj"}],"k1aRj":[function(require,module,exports) {
+const compare = require("f0d5baf8df698a21");
 const eq = (a, b, loose)=>compare(a, b, loose) === 0;
 module.exports = eq;
 
-},{"11d89f3ab636c878":"1VfgV"}],"1VfgV":[function(require,module,exports) {
-const SemVer = require("d15a5d57541d0d59");
+},{"f0d5baf8df698a21":"1VfgV"}],"1VfgV":[function(require,module,exports) {
+const SemVer = require("a7784ea6988ca356");
 const compare = (a, b, loose)=>new SemVer(a, loose).compare(new SemVer(b, loose));
 module.exports = compare;
 
-},{"d15a5d57541d0d59":"kgTdE"}],"8P6hj":[function(require,module,exports) {
-const SemVer = require("5701022b3331f619");
+},{"a7784ea6988ca356":"kgTdE"}],"8P6hj":[function(require,module,exports) {
+const SemVer = require("977becdd6c9cbc5e");
 const major = (a, loose)=>new SemVer(a, loose).major;
 module.exports = major;
 
-},{"5701022b3331f619":"kgTdE"}],"jpEiD":[function(require,module,exports) {
-const SemVer = require("93d56f1ef356ac4e");
+},{"977becdd6c9cbc5e":"kgTdE"}],"jpEiD":[function(require,module,exports) {
+const SemVer = require("ec0ab53dae49223c");
 const minor = (a, loose)=>new SemVer(a, loose).minor;
 module.exports = minor;
 
-},{"93d56f1ef356ac4e":"kgTdE"}],"9pRhW":[function(require,module,exports) {
-const SemVer = require("2a5d6f1d398543ed");
+},{"ec0ab53dae49223c":"kgTdE"}],"9pRhW":[function(require,module,exports) {
+const SemVer = require("d2a0e617e873be8c");
 const patch = (a, loose)=>new SemVer(a, loose).patch;
 module.exports = patch;
 
-},{"2a5d6f1d398543ed":"kgTdE"}],"luzbM":[function(require,module,exports) {
-const parse = require("8eb967a4841ae0d5");
+},{"d2a0e617e873be8c":"kgTdE"}],"luzbM":[function(require,module,exports) {
+const parse = require("e2ca2462e9c021d2");
 const prerelease = (version, options)=>{
     const parsed = parse(version, options);
     return parsed && parsed.prerelease.length ? parsed.prerelease : null;
 };
 module.exports = prerelease;
 
-},{"8eb967a4841ae0d5":"gcpPf"}],"cgrtc":[function(require,module,exports) {
-const compare = require("c69ee8a503692c34");
+},{"e2ca2462e9c021d2":"gcpPf"}],"cgrtc":[function(require,module,exports) {
+const compare = require("8f2f73fe635d5f4f");
 const rcompare = (a, b, loose)=>compare(b, a, loose);
 module.exports = rcompare;
 
-},{"c69ee8a503692c34":"1VfgV"}],"Q3pnc":[function(require,module,exports) {
-const compare = require("5b50a70b4c07fbbc");
+},{"8f2f73fe635d5f4f":"1VfgV"}],"Q3pnc":[function(require,module,exports) {
+const compare = require("d8c86aa499b4b1b1");
 const compareLoose = (a, b)=>compare(a, b, true);
 module.exports = compareLoose;
 
-},{"5b50a70b4c07fbbc":"1VfgV"}],"eYE5A":[function(require,module,exports) {
-const SemVer = require("cc3912a3941b8666");
+},{"d8c86aa499b4b1b1":"1VfgV"}],"eYE5A":[function(require,module,exports) {
+const SemVer = require("cee4d187725eb618");
 const compareBuild = (a, b, loose)=>{
     const versionA = new SemVer(a, loose);
     const versionB = new SemVer(b, loose);
@@ -76955,48 +77037,48 @@ const compareBuild = (a, b, loose)=>{
 };
 module.exports = compareBuild;
 
-},{"cc3912a3941b8666":"kgTdE"}],"8TvEb":[function(require,module,exports) {
-const compareBuild = require("891e8430f7df9f8");
+},{"cee4d187725eb618":"kgTdE"}],"8TvEb":[function(require,module,exports) {
+const compareBuild = require("48fdeb5a12843da0");
 const sort = (list, loose)=>list.sort((a, b)=>compareBuild(a, b, loose));
 module.exports = sort;
 
-},{"891e8430f7df9f8":"eYE5A"}],"4isEq":[function(require,module,exports) {
-const compareBuild = require("cc6d9f5574744a24");
+},{"48fdeb5a12843da0":"eYE5A"}],"4isEq":[function(require,module,exports) {
+const compareBuild = require("3a56d6711b30de95");
 const rsort = (list, loose)=>list.sort((a, b)=>compareBuild(b, a, loose));
 module.exports = rsort;
 
-},{"cc6d9f5574744a24":"eYE5A"}],"h68v7":[function(require,module,exports) {
-const compare = require("d683b7c6b036fe3c");
+},{"3a56d6711b30de95":"eYE5A"}],"h68v7":[function(require,module,exports) {
+const compare = require("176de367eaa06878");
 const gt = (a, b, loose)=>compare(a, b, loose) > 0;
 module.exports = gt;
 
-},{"d683b7c6b036fe3c":"1VfgV"}],"6ucE6":[function(require,module,exports) {
-const compare = require("c32c2806fa0ecae7");
+},{"176de367eaa06878":"1VfgV"}],"6ucE6":[function(require,module,exports) {
+const compare = require("406fce4b26b5f02c");
 const lt = (a, b, loose)=>compare(a, b, loose) < 0;
 module.exports = lt;
 
-},{"c32c2806fa0ecae7":"1VfgV"}],"7Y3tc":[function(require,module,exports) {
-const compare = require("da5cc9c2ef88545d");
+},{"406fce4b26b5f02c":"1VfgV"}],"7Y3tc":[function(require,module,exports) {
+const compare = require("45604a9073a6897d");
 const neq = (a, b, loose)=>compare(a, b, loose) !== 0;
 module.exports = neq;
 
-},{"da5cc9c2ef88545d":"1VfgV"}],"ehmrd":[function(require,module,exports) {
-const compare = require("697f4941f77b4abd");
+},{"45604a9073a6897d":"1VfgV"}],"ehmrd":[function(require,module,exports) {
+const compare = require("59de2f6221b43f18");
 const gte = (a, b, loose)=>compare(a, b, loose) >= 0;
 module.exports = gte;
 
-},{"697f4941f77b4abd":"1VfgV"}],"2J3QH":[function(require,module,exports) {
-const compare = require("672ce678443d51b4");
+},{"59de2f6221b43f18":"1VfgV"}],"2J3QH":[function(require,module,exports) {
+const compare = require("d253a73fc4a29c36");
 const lte = (a, b, loose)=>compare(a, b, loose) <= 0;
 module.exports = lte;
 
-},{"672ce678443d51b4":"1VfgV"}],"1k1O9":[function(require,module,exports) {
-const eq = require("1edc5db1a5bbda1e");
-const neq = require("91c5c4ef340a5065");
-const gt = require("ffccb687d4b10262");
-const gte = require("80da03dad9286261");
-const lt = require("2a005b6a8413be42");
-const lte = require("e97816d571243714");
+},{"d253a73fc4a29c36":"1VfgV"}],"1k1O9":[function(require,module,exports) {
+const eq = require("fa295ea9fbf30f25");
+const neq = require("14caf83e2729d5c7");
+const gt = require("5f700d6706ad743b");
+const gte = require("f772401bb0763ce3");
+const lt = require("418c613a51737877");
+const lte = require("c1218d34d1d45aff");
 const cmp = (a, op, b, loose)=>{
     switch(op){
         case "===":
@@ -77027,10 +77109,10 @@ const cmp = (a, op, b, loose)=>{
 };
 module.exports = cmp;
 
-},{"1edc5db1a5bbda1e":"k1aRj","91c5c4ef340a5065":"7Y3tc","ffccb687d4b10262":"h68v7","80da03dad9286261":"ehmrd","2a005b6a8413be42":"6ucE6","e97816d571243714":"2J3QH"}],"iXNTl":[function(require,module,exports) {
-const SemVer = require("93ad7f29d24f4b0b");
-const parse = require("7253fe508515a3eb");
-const { re , t  } = require("97df02d1eba2df49");
+},{"fa295ea9fbf30f25":"k1aRj","14caf83e2729d5c7":"7Y3tc","5f700d6706ad743b":"h68v7","f772401bb0763ce3":"ehmrd","418c613a51737877":"6ucE6","c1218d34d1d45aff":"2J3QH"}],"iXNTl":[function(require,module,exports) {
+const SemVer = require("d145d15dd67eb5f8");
+const parse = require("7970c77f058ad6d6");
+const { re , t  } = require("6a457987008090c3");
 const coerce = (version, options)=>{
     if (version instanceof SemVer) return version;
     if (typeof version === "number") version = String(version);
@@ -77060,7 +77142,7 @@ const coerce = (version, options)=>{
 };
 module.exports = coerce;
 
-},{"93ad7f29d24f4b0b":"kgTdE","7253fe508515a3eb":"gcpPf","97df02d1eba2df49":"fM3gb"}],"5Yodu":[function(require,module,exports) {
+},{"d145d15dd67eb5f8":"kgTdE","7970c77f058ad6d6":"gcpPf","6a457987008090c3":"fM3gb"}],"5Yodu":[function(require,module,exports) {
 const ANY = Symbol("SemVer ANY");
 // hoisted class for cyclic dependency
 class Comparator {
@@ -77127,14 +77209,14 @@ class Comparator {
     }
 }
 module.exports = Comparator;
-const parseOptions = require("c5636d6ecb8e9eac");
-const { re , t  } = require("3526f5940e3ae887");
-const cmp = require("b90be58de8ab7d64");
-const debug = require("a7765a17c51e763b");
-const SemVer = require("7be3b7600651466a");
-const Range = require("7d3ef255933e5363");
+const parseOptions = require("c04666a9b8e8988b");
+const { re , t  } = require("c92bc10f98572d86");
+const cmp = require("bf6899f090ffa126");
+const debug = require("89bb6f34435b7638");
+const SemVer = require("385d71c98995f9bd");
+const Range = require("7144d089f9de2edb");
 
-},{"c5636d6ecb8e9eac":"aIQkG","3526f5940e3ae887":"fM3gb","b90be58de8ab7d64":"1k1O9","a7765a17c51e763b":"5sQBx","7be3b7600651466a":"kgTdE","7d3ef255933e5363":"f4j9g"}],"f4j9g":[function(require,module,exports) {
+},{"c04666a9b8e8988b":"aIQkG","c92bc10f98572d86":"fM3gb","bf6899f090ffa126":"1k1O9","89bb6f34435b7638":"5sQBx","385d71c98995f9bd":"kgTdE","7144d089f9de2edb":"f4j9g"}],"f4j9g":[function(require,module,exports) {
 // hoisted class for cyclic dependency
 class Range {
     constructor(range, options){
@@ -77271,15 +77353,15 @@ class Range {
     }
 }
 module.exports = Range;
-const LRU = require("5c6d12b4266b6fb6");
+const LRU = require("26649170e0bc2075");
 const cache = new LRU({
     max: 1000
 });
-const parseOptions = require("e850ddfd4a68ad94");
-const Comparator = require("f66d936193a13581");
-const debug = require("245f667b19fbaa4b");
-const SemVer = require("78789cb0347949fe");
-const { re , t , comparatorTrimReplace , tildeTrimReplace , caretTrimReplace  } = require("4024236223879598");
+const parseOptions = require("107db81844fc908c");
+const Comparator = require("495b510657c88afc");
+const debug = require("9ded1fca8406413b");
+const SemVer = require("536ec4f968050a4e");
+const { re , t , comparatorTrimReplace , tildeTrimReplace , caretTrimReplace  } = require("550f015cd1b79db6");
 const isNullSet = (c)=>c.value === "<0.0.0-0";
 const isAny = (c)=>c.value === "";
 // take a set of comparators and determine whether there
@@ -77490,10 +77572,10 @@ const testSet = (set, version, options)=>{
     return true;
 };
 
-},{"5c6d12b4266b6fb6":"JVw6S","e850ddfd4a68ad94":"aIQkG","f66d936193a13581":"5Yodu","245f667b19fbaa4b":"5sQBx","78789cb0347949fe":"kgTdE","4024236223879598":"fM3gb"}],"JVw6S":[function(require,module,exports) {
+},{"26649170e0bc2075":"JVw6S","107db81844fc908c":"aIQkG","495b510657c88afc":"5Yodu","9ded1fca8406413b":"5sQBx","536ec4f968050a4e":"kgTdE","550f015cd1b79db6":"fM3gb"}],"JVw6S":[function(require,module,exports) {
 "use strict";
 // A linked list to keep track of recently-used-ness
-const Yallist = require("5449a34b649e8a98");
+const Yallist = require("5ec47a1a2059f55a");
 const MAX = Symbol("max");
 const LENGTH = Symbol("length");
 const LENGTH_CALCULATOR = Symbol("lengthCalculator");
@@ -77754,7 +77836,7 @@ const forEachStep = (self, fn, node, thisp)=>{
 };
 module.exports = LRUCache;
 
-},{"5449a34b649e8a98":"d9kUa"}],"d9kUa":[function(require,module,exports) {
+},{"5ec47a1a2059f55a":"d9kUa"}],"d9kUa":[function(require,module,exports) {
 "use strict";
 module.exports = Yallist;
 Yallist.Node = Node;
@@ -78003,10 +78085,10 @@ function Node(value, prev, next, list) {
 }
 try {
     // add if support for Symbol.iterator is present
-    require("d29a10e3497a90bd")(Yallist);
+    require("b94da143d2e9d568")(Yallist);
 } catch (er) {}
 
-},{"d29a10e3497a90bd":"9psHD"}],"9psHD":[function(require,module,exports) {
+},{"b94da143d2e9d568":"9psHD"}],"9psHD":[function(require,module,exports) {
 "use strict";
 module.exports = function(Yallist) {
     Yallist.prototype[Symbol.iterator] = function*() {
@@ -78015,7 +78097,7 @@ module.exports = function(Yallist) {
 };
 
 },{}],"7OcsV":[function(require,module,exports) {
-const Range = require("88cd45632ba1c7af");
+const Range = require("60739992472a74e6");
 const satisfies = (version, range, options)=>{
     try {
         range = new Range(range, options);
@@ -78026,15 +78108,15 @@ const satisfies = (version, range, options)=>{
 };
 module.exports = satisfies;
 
-},{"88cd45632ba1c7af":"f4j9g"}],"iR5Mh":[function(require,module,exports) {
-const Range = require("430905a5f4acd040");
+},{"60739992472a74e6":"f4j9g"}],"iR5Mh":[function(require,module,exports) {
+const Range = require("9a6d9bdf3a0290e2");
 // Mostly just for testing and legacy API reasons
 const toComparators = (range, options)=>new Range(range, options).set.map((comp)=>comp.map((c)=>c.value).join(" ").trim().split(" "));
 module.exports = toComparators;
 
-},{"430905a5f4acd040":"f4j9g"}],"jPYT1":[function(require,module,exports) {
-const SemVer = require("2624132fa2307d81");
-const Range = require("ecbbf7ec24677acf");
+},{"9a6d9bdf3a0290e2":"f4j9g"}],"jPYT1":[function(require,module,exports) {
+const SemVer = require("fb17419e41a62e7e");
+const Range = require("655b30a1e34d3855");
 const maxSatisfying = (versions, range, options)=>{
     let max = null;
     let maxSV = null;
@@ -78058,9 +78140,9 @@ const maxSatisfying = (versions, range, options)=>{
 };
 module.exports = maxSatisfying;
 
-},{"2624132fa2307d81":"kgTdE","ecbbf7ec24677acf":"f4j9g"}],"juckF":[function(require,module,exports) {
-const SemVer = require("32d707cbbbf7de32");
-const Range = require("8db1cb0b3b2242ab");
+},{"fb17419e41a62e7e":"kgTdE","655b30a1e34d3855":"f4j9g"}],"juckF":[function(require,module,exports) {
+const SemVer = require("35a71601d1b01044");
+const Range = require("9a0b7a055004c785");
 const minSatisfying = (versions, range, options)=>{
     let min = null;
     let minSV = null;
@@ -78084,10 +78166,10 @@ const minSatisfying = (versions, range, options)=>{
 };
 module.exports = minSatisfying;
 
-},{"32d707cbbbf7de32":"kgTdE","8db1cb0b3b2242ab":"f4j9g"}],"5VviM":[function(require,module,exports) {
-const SemVer = require("ba4ed5186015837f");
-const Range = require("fff5e5be676c4a1c");
-const gt = require("9728a50b55edc82d");
+},{"35a71601d1b01044":"kgTdE","9a0b7a055004c785":"f4j9g"}],"5VviM":[function(require,module,exports) {
+const SemVer = require("a8f6b92c67bd2144");
+const Range = require("8a570ed398fe77fe");
+const gt = require("33db6de562562c91");
 const minVersion = (range, loose)=>{
     range = new Range(range, loose);
     let minver = new SemVer("0.0.0");
@@ -78124,8 +78206,8 @@ const minVersion = (range, loose)=>{
 };
 module.exports = minVersion;
 
-},{"ba4ed5186015837f":"kgTdE","fff5e5be676c4a1c":"f4j9g","9728a50b55edc82d":"h68v7"}],"d8BN4":[function(require,module,exports) {
-const Range = require("59751920af385621");
+},{"a8f6b92c67bd2144":"kgTdE","8a570ed398fe77fe":"f4j9g","33db6de562562c91":"h68v7"}],"d8BN4":[function(require,module,exports) {
+const Range = require("bde9099b70676812");
 const validRange = (range, options)=>{
     try {
         // Return '*' instead of '' so that truthiness works.
@@ -78137,16 +78219,16 @@ const validRange = (range, options)=>{
 };
 module.exports = validRange;
 
-},{"59751920af385621":"f4j9g"}],"jz7Jf":[function(require,module,exports) {
-const SemVer = require("3d5125a127b42c8f");
-const Comparator = require("d59e21a7b658c6b6");
+},{"bde9099b70676812":"f4j9g"}],"jz7Jf":[function(require,module,exports) {
+const SemVer = require("7e103acf6fa97cce");
+const Comparator = require("9c9ebd9153249804");
 const { ANY  } = Comparator;
-const Range = require("8953a033b33aa8ff");
-const satisfies = require("400c540e52cd4996");
-const gt = require("bfd21664ae9720b2");
-const lt = require("6ba84e0ebc91f123");
-const lte = require("e42f899ae0795344");
-const gte = require("d54b14b97a60e1f2");
+const Range = require("336e2a063378faf2");
+const satisfies = require("43f18f6d4b4a4007");
+const gt = require("5c9513e4f1e3962");
+const lt = require("493aeacc07ccd32b");
+const lte = require("ebfac721905d051b");
+const gte = require("7c996291ae6871c9");
 const outside = (version, range, hilo, options)=>{
     version = new SemVer(version, options);
     range = new Range(range, options);
@@ -78196,20 +78278,20 @@ const outside = (version, range, hilo, options)=>{
 };
 module.exports = outside;
 
-},{"3d5125a127b42c8f":"kgTdE","d59e21a7b658c6b6":"5Yodu","8953a033b33aa8ff":"f4j9g","400c540e52cd4996":"7OcsV","bfd21664ae9720b2":"h68v7","6ba84e0ebc91f123":"6ucE6","e42f899ae0795344":"2J3QH","d54b14b97a60e1f2":"ehmrd"}],"kboF2":[function(require,module,exports) {
+},{"7e103acf6fa97cce":"kgTdE","9c9ebd9153249804":"5Yodu","336e2a063378faf2":"f4j9g","43f18f6d4b4a4007":"7OcsV","5c9513e4f1e3962":"h68v7","493aeacc07ccd32b":"6ucE6","ebfac721905d051b":"2J3QH","7c996291ae6871c9":"ehmrd"}],"kboF2":[function(require,module,exports) {
 // Determine if version is greater than all the versions possible in the range.
-const outside = require("c2abce7ddcd1adb5");
+const outside = require("e44896882c94362");
 const gtr = (version, range, options)=>outside(version, range, ">", options);
 module.exports = gtr;
 
-},{"c2abce7ddcd1adb5":"jz7Jf"}],"4bUsl":[function(require,module,exports) {
-const outside = require("4556cc7eb7d0525a");
+},{"e44896882c94362":"jz7Jf"}],"4bUsl":[function(require,module,exports) {
+const outside = require("d4dc9591930f1f95");
 // Determine if version is less than all the versions possible in the range
 const ltr = (version, range, options)=>outside(version, range, "<", options);
 module.exports = ltr;
 
-},{"4556cc7eb7d0525a":"jz7Jf"}],"hpFPQ":[function(require,module,exports) {
-const Range = require("91a4ab9aef70cd81");
+},{"d4dc9591930f1f95":"jz7Jf"}],"hpFPQ":[function(require,module,exports) {
+const Range = require("287649a4d17dc20c");
 const intersects = (r1, r2, options)=>{
     r1 = new Range(r1, options);
     r2 = new Range(r2, options);
@@ -78217,12 +78299,12 @@ const intersects = (r1, r2, options)=>{
 };
 module.exports = intersects;
 
-},{"91a4ab9aef70cd81":"f4j9g"}],"kb0TI":[function(require,module,exports) {
+},{"287649a4d17dc20c":"f4j9g"}],"kb0TI":[function(require,module,exports) {
 // given a set of versions and a range, create a "simplified" range
 // that includes the same versions that the original range does
 // If the original range is shorter than the simplified one, return that.
-const satisfies = require("ce77544d6485a01e");
-const compare = require("12e87817488b638f");
+const satisfies = require("adaee943a239c93");
+const compare = require("732237d7c112a962");
 module.exports = (versions, range, options)=>{
     const set = [];
     let first = null;
@@ -78259,12 +78341,12 @@ module.exports = (versions, range, options)=>{
     return simplified.length < original.length ? simplified : range;
 };
 
-},{"ce77544d6485a01e":"7OcsV","12e87817488b638f":"1VfgV"}],"lNExW":[function(require,module,exports) {
-const Range = require("74d9fdb196b8006f");
-const Comparator = require("adc8a3e5bb22d790");
+},{"adaee943a239c93":"7OcsV","732237d7c112a962":"1VfgV"}],"lNExW":[function(require,module,exports) {
+const Range = require("dda66cd9bea02dad");
+const Comparator = require("d136ff8f143c3342");
 const { ANY  } = Comparator;
-const satisfies = require("631bb97697109873");
-const compare = require("64374753f5ac7f36");
+const satisfies = require("e96a53fb411ba143");
+const compare = require("ffd514bb09b2c350");
 // Complex range `r1 || r2 || ...` is a subset of `R1 || R2 || ...` iff:
 // - Every simple range `r1, r2, ...` is a null set, OR
 // - Every simple range `r1, r2, ...` which is not a null set is a subset of
@@ -78415,7 +78497,7 @@ const lowerLT = (a, b, options)=>{
 };
 module.exports = subset;
 
-},{"74d9fdb196b8006f":"f4j9g","adc8a3e5bb22d790":"5Yodu","631bb97697109873":"7OcsV","64374753f5ac7f36":"1VfgV"}],"i4OI0":[function(require,module,exports) {
+},{"dda66cd9bea02dad":"f4j9g","d136ff8f143c3342":"5Yodu","e96a53fb411ba143":"7OcsV","ffd514bb09b2c350":"1VfgV"}],"i4OI0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "log", ()=>log);
