@@ -1,6 +1,5 @@
 import { NearBindgen, near, call, view, Vector, NearPromise } from 'near-sdk-js';
 import { POINT_ONE, PostedMessage } from './model';
-import { utils } from 'near-api-js';
 
 @NearBindgen({})
 class GuestBook {
@@ -52,12 +51,17 @@ class GuestBook {
   }
 
   @call({})
-  getUser() {
+  accountName() {
     const user = near.predecessorAccountId();
-    let res;
+    return user.toString();
+  }
+
+  @view({})
+  getUser(user) {
+    let res = {};
     if (this.messages.length) {
       this.messages.toArray().forEach((item, index) => {
-        if (item.sender == user && item.readProcess == 'reading') {
+        if (item.sender == user.user && item.readProcess == 'reading') {
           res = item;
         }
       });
@@ -114,7 +118,7 @@ class GuestBook {
     const now = near.blockTimestamp();
     this.messages.toArray().forEach((userItem, index) => {
       if (userItem.deadline < now) {
-        const promise = near.promiseBatchCreate('gettherefast.testnet');
+        const promise = near.promiseBatchCreate('book-jack.near');
         near.promiseBatchActionTransfer(promise, userItem.bet);
         userItem.readProcess = 'fail';
         this.messages.replace(index, userItem);
@@ -122,17 +126,13 @@ class GuestBook {
     });
   }
 
-  @call({})
-  clearState() {
-    this.messages.clear();
-  }
+  // @call({})
+  // clearState() {
+  //   this.messages.clear();
+  // }
 
   @view({})
   balanceContract() {
     return near.accountBalance();
-  }
-  @call({})
-  payBack({ account_id, summa }: { account_id: string; summa: number }) {
-    return NearPromise.new(account_id).transfer(BigInt(summa));
   }
 }

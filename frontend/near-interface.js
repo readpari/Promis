@@ -1,6 +1,6 @@
 /* Talking with a contract often involves transforming data, we recommend you to encapsulate that logic into a class */
 
-import { utils } from 'near-api-js';
+import { Near, utils } from 'near-api-js';
 
 export class GuestBook {
   constructor({ contractId, walletToUse }) {
@@ -16,14 +16,6 @@ export class GuestBook {
     const res = messages.map((item) => {
       item.bet = utils.format.formatNearAmount(item.bet);
     });
-
-    // const date = new Date(Number(messages[0].deadline));
-    // const simple = new Date();
-    // console.log(simple.getTime());
-    // console.log(simple.getTime() + 3 * 86_400_000);
-
-    // console.log(messages[0].deadline.slice(0, -6));
-    // console.log(messages[0].deadline);
 
     return messages;
   }
@@ -64,22 +56,26 @@ export class GuestBook {
     });
     return balance;
   }
-  async getUser() {
-    const user = await this.wallet.callMethod({
+  async accountName() {
+    const res = await this.wallet.callMethod({
+      contractId: this.contractId,
+      method: 'accountName',
+    });
+
+    return res;
+  }
+  async getUser(user) {
+    let res = await this.wallet.viewMethod({
       contractId: this.contractId,
       method: 'getUser',
+      args: { user },
     });
-    // const date = new Date(Number(messages[0].deadline));
-    // const simple = new Date();
-    // console.log(simple.getTime());
-    // console.log(simple.getTime() + 3 * 86_400_000);
-
-    // console.log(messages[0].deadline.slice(0, -6));
-    // console.log(messages[0].deadline);
-    if (user) {
-      user.deadline = Number(user.deadline.slice(0, -6));
+    if (Object.keys(res).length) {
+      res.deadline = Number(res.deadline.slice(0, -6));
+    } else {
+      res = '';
     }
-    return user;
+    return res;
   }
   async payBack(account, summa) {
     let deposit = utils.format.parseNearAmount(summa.toString());

@@ -1,0 +1,48 @@
+.inputBook {
+  width: 100px;
+  height: 30px;
+  background: green;
+}
+.bookClassArea {
+  position: absolute;
+  background-color: white;
+}
+
+.closeBookClass {
+  display: none;
+  opacity: 0;
+}
+.readHeader {
+  font-family: system-ui;
+  font-weight: normal;
+  margin-top: 100px;
+}
+
+.nextPage {
+  z-index: 1000;
+  position: absolute;
+  right: 0%;
+  width: 40vw;
+  height: 100vh;
+  /* background: aliceblue; */
+}
+
+.prevPage {
+  z-index: 1000;
+  position: absolute;
+  left: 0%;
+  width: 40vw;
+  height: 100vh;
+  /* background: aliceblue; */
+}
+
+.closeBook {
+  z-index: 1001;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  font-size: 21px;
+  cursor: pointer;
+}

@@ -3,8 +3,8 @@ import { clear } from 'console';
 import 'regenerator-runtime/runtime';
 
 import style from './module.style.css';
-import { useState, useEffect } from 'react';
-
+import { useState, useEffect, useContext } from 'react';
+import { Context } from '../../context';
 const ButtonPlusMinus = ({ setCount, count, plusX, sign }) => {
   const [on, setOn] = useState(false);
 
@@ -90,7 +90,7 @@ const BetWasNot = ({ days, setDays, hours, setHours, bet, setBet, setBetDidMount
         warn={warn.days}
       />
       <Question
-        header={'How much are you willing  \n  to bet on this event?'}
+        header={'How much are you willing to bet?'}
         count={bet}
         word={'near'}
         setCount={setBet}
@@ -109,10 +109,10 @@ const BetWasNot = ({ days, setDays, hours, setHours, bet, setBet, setBetDidMount
   );
 };
 
-const BetWas = ({ hours, days, bet, guestBook, timer }) => {
+const BetWas = ({ hours, deadline, bet, guestBook, timer }) => {
   const month = ['jan', 'feb', 'march', 'april', 'may', 'june', 'july', 'aug', 'spt', 'nvm', 'dcm'];
-  const date = new Date(days);
-  console.log('days', Date.now() + 86400000 * days);
+  const date = new Date(deadline);
+  console.log(deadline);
   const dateString = ` ${date.getDate()} ${month[date.getMonth()]} ${
     date.getHours() < 10 ? '0' + date.getHours() : date.getHours()
   }:${date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()}:${
@@ -120,14 +120,13 @@ const BetWas = ({ hours, days, bet, guestBook, timer }) => {
   }`;
   const timerMinute = Math.round(Number(timer) / 60_000_000_000);
   console.log('timer', Math.round(Number(timer) / 60_000_000_000));
-  //BBBBBBBBBBBBBBBBBBBBBBBBeEEEEEEEEEEEEEEEEEEEEEEEEEEEEeTTTTTTTTTTTTTTTTTTt
 
   return (
     <>
-      <h1>You need to read {hours} minutes</h1>
-      <h1>Deadline {dateString}</h1>
-      <h1>bet: {bet.slice(0, -24)} near</h1>
-      <h1>timer : {timerMinute} minutes</h1>
+      <h1 className="betWasH">You need to read {hours} minutes</h1>
+      <h1 className="betWasH">Deadline {dateString}</h1>
+      <h1 className="betWasH">bet: {bet.slice(0, -24)} near</h1>
+      <h1 className="betWasH">timer : {timerMinute} minutes</h1>
     </>
   );
 };
@@ -138,36 +137,41 @@ const Bet = ({ isSignedIn, guestBook, wallet }) => {
   const [bet, setBet] = useState(0);
   const [betDidMount, setBetDidMount] = useState(false);
   //проверяем наличие ставки
+  const [user, setUser, userName] = useContext(Context);
 
   //----------
   const clearState = async () => {
     await guestBook.clearState();
-    setUser();
+    setUser('');
   };
 
-  const [user, setUser] = useState();
-  const [oldBets, setOldBets] = useState('no load user');
+  // const [user, setUser] = useState();
+  const [oldBets, setOldBets] = useState('');
 
   useEffect(() => {
-    if (isSignedIn) {
-      guestBook.getUser().then(setUser);
+    if (user == '' && userName !== '') {
+      guestBook.getUser(userName).then(setUser);
     }
-  }, []);
+
+    return () => {
+      setUser('');
+    };
+  }, [userName]);
 
   return (
     <div className="betContainer">
       {isSignedIn ? (
         <>
-          <button onClick={() => (clearState(), setUser())}>clear</button>
+          {/* <button onClick={() => (clearState(), setUser())}>clear</button> */}
           {user ? (
             <BetWas
               guestBook={guestBook}
               hours={user.hours}
-              days={user.deadline}
+              deadline={user.deadline}
               bet={user.bet}
               timer={user.timer}
             />
-          ) : (
+          ) : userName ? (
             <BetWasNot
               guestBook={guestBook}
               hours={hours}
@@ -178,11 +182,13 @@ const Bet = ({ isSignedIn, guestBook, wallet }) => {
               setBet={setBet}
               setBetDidMount={setBetDidMount}
             />
+          ) : (
+            <h1>wait</h1>
           )}
         </>
       ) : (
         <>
-          <h1>sign in</h1>
+          <h1 className="signInHeader">sign in</h1>
         </>
       )}
     </div>

@@ -31,11 +31,11 @@ export default function About() {
           </p>
         ))}
 
-        <h1 className="chatHeader">ChatGPT</h1>
+        {/* <h1 className="chatHeader">ChatGPT</h1>
 
         {chatLang.map((item, index) => (
           <div key={index}>{index % 2 ? <p className="aboutText">{item}</p> : <h2>{item}</h2>}</div>
-        ))}
+        ))} */}
       </div>
     </>
   );

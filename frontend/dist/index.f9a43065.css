@@ -3,135 +3,47 @@
   box-sizing: border-box;
 }
 
-html {
-  --bg: #fff;
-  --fg: #25282a;
-  --gray: #888;
-  --royal: #0072ce;
-  --blue: #6ad1e3;
-  --primary: #93b0df;
-  --secondary: var(--royal);
-  --tertiary: #ff585d;
-  background-color: var(--bg);
-  color: var(--fg);
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-  font-size: calc(.65em + .7vw);
-  line-height: 1.3;
-}
-
-html ::selection {
-  background: var(--secondary);
-  color: var(--bg);
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    --bg: #25282a;
-    --fg: #fff;
-    --secondary: var(--blue);
-  }
-
-  html ::selection {
-    background: var(--secondary);
-    color: var(--fg);
-  }
-}
-
-body {
-  max-width: 40em;
-  margin: 0 auto;
-  padding: 0 1em;
-}
-
-fieldset {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
-.highlight {
-  width: 100%;
-  align-items: center;
-  margin-bottom: .5em;
-  display: flex;
-}
-
-.highlight label {
-  margin-right: .5em;
-}
-
-.highlight input {
-  caret-color: var(--secondary);
+input[type="file"] {
+  display: none;
 }
 
 label {
-  color: var(--gray);
-}
-
-button, .highlight {
-  border-color: var(--primary);
-  border: .1em solid var(--primary);
-  border-radius: 5px;
-  padding: .5em 1em;
-}
-
-button:hover, button:focus, button:focus-within, .highlight:hover, .highlight:focus, .highlight:focus-within {
-  border-color: var(--secondary);
-}
-
-input {
-  border: none;
-  flex: 1;
-}
-
-input:read-only {
-  color: var(--primary);
-}
-
-input[type="number"] {
-  text-align: center;
-  border-bottom: .1em solid var(--primary);
-  width: 4em;
-  margin: 0 1em;
-  padding-left: .5em;
-}
-
-input[type="number"]:hover, input[type="number"]:focus {
-  border-color: var(--secondary);
-}
-
-button, input {
-  color: inherit;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
-  font: inherit;
-  background: none;
-  outline: none;
-}
-
-button {
-  background: var(--primary);
-  transition: top 50ms;
+  background-color: #0000;
+  border: 3px solid #000;
+  border-radius: 10px;
+  display: block;
   position: relative;
 }
 
-button:hover, button:focus {
-  top: -1px;
+.line1 {
+  width: 20px;
+  height: 3px;
+  background-color: #000;
+  border-radius: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-button:active {
-  background: var(--secondary);
-  border-color: var(--secondary);
-  top: 1px;
+.line2 {
+  content: "";
+  width: 3px;
+  height: 21px;
+  background-color: #000;
+  border-radius: 100px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.is-premium {
-  border-left: .25em solid var(--secondary);
-  margin-left: -.5em;
-  padding-left: .25em;
-}
-
-table button {
-  margin-left: 1rem;
+body {
+  overflow: hidden;
 }
 
 .container {
@@ -150,11 +62,17 @@ table button {
   display: flex;
 }
 
+.enter {
+  width: 50px;
+  height: 50px;
+}
+
 .navMenu {
-  width: 100%;
+  width: 50%;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 50px;
+  font-family: sans-serif;
   display: flex;
 }
 
@@ -165,30 +83,44 @@ table button {
 }
 
 .bookJack {
-  color: #93b0df;
+  color: #6495ed;
   justify-content: center;
   align-items: center;
   margin: 50px;
+  font-family: sans-serif;
   font-size: 30px;
   display: flex;
 }
 
 .login {
-  border: 1px solid #000;
-  padding: 10px;
+  cursor: pointer;
   position: absolute;
   top: 5%;
   right: 5%;
 }
 
-.login:hover {
-  color: #fff;
-  background: #4b4b4b;
+@media screen and (max-width: 600px) {
+  .navMenu {
+    width: 100%;
+  }
+
+  .enter {
+    width: 30px;
+    height: 30px;
+  }
+
+  .login {
+    padding: 5px;
+    top: 3.5vh;
+    right: 3vh;
+  }
 }
 
 .textContainer {
+  width: 50%;
   margin-bottom: 20px;
   padding: 0 20px;
+  font-family: system-ui;
   overflow: scroll;
 }
 
@@ -214,7 +146,7 @@ table button {
 }
 
 .textContainer::-webkit-scrollbar {
-  width: 5px;
+  width: 1px;
 }
 
 .textContainer::-webkit-scrollbar-track {
@@ -225,6 +157,29 @@ table button {
   box-shadow: inset 0 0 6px #050505;
 }
 
+@media screen and (max-width: 600px) {
+  .languageButtons {
+    margin-bottom: 7px;
+    font-size: 13px;
+  }
+
+  .lang {
+    margin: 5px;
+  }
+
+  .navMenu {
+    margin-bottom: 20px;
+  }
+
+  .bookJack {
+    margin: 25px;
+  }
+
+  .textContainer {
+    width: 95%;
+  }
+}
+
 .betContainer {
   -webkit-user-select: text;
   user-select: text;
@@ -233,6 +188,11 @@ table button {
   margin-top: 20px;
   display: flex;
   overflow: visible;
+}
+
+.betWasH {
+  font-family: sans-serif;
+  font-weight: normal;
 }
 
 .containerQuestion {
@@ -254,6 +214,7 @@ table button {
   text-align: center;
   white-space: pre-wrap;
   margin: 25px;
+  font-family: system-ui;
   font-size: 25px;
 }
 
@@ -274,7 +235,12 @@ table button {
   width: 100px;
   justify-content: center;
   align-items: center;
+  font-family: system-ui;
   display: flex;
+}
+
+.signInHeader {
+  font-family: sans-serif;
 }
 
 .betButton {
@@ -295,6 +261,73 @@ table button {
 .warn {
   color: red;
   font-size: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .betWasH {
+    font-size: 25px;
+  }
+
+  .counterHeader {
+    font-size: 20px;
+  }
+
+  .containerQuestion {
+    margin: 0;
+  }
+
+  .betButton {
+    margin-top: 2 0px;
+  }
+}
+
+.inputBook {
+  width: 100px;
+  height: 30px;
+  background: green;
+}
+
+.bookClassArea {
+  background-color: #fff;
+  position: absolute;
+}
+
+.closeBookClass {
+  opacity: 0;
+  display: none;
+}
+
+.readHeader {
+  margin-top: 100px;
+  font-family: system-ui;
+  font-weight: normal;
+}
+
+.nextPage {
+  z-index: 1000;
+  width: 40vw;
+  height: 100vh;
+  position: absolute;
+  right: 0%;
+}
+
+.prevPage {
+  z-index: 1000;
+  width: 40vw;
+  height: 100vh;
+  position: absolute;
+  left: 0%;
+}
+
+.closeBook {
+  z-index: 1001;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  font-size: 21px;
+  position: absolute;
+  top: 1%;
+  right: 1%;
 }
 
 #near-wallet-selector-modal {

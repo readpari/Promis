@@ -1,5 +1,5 @@
 import 'regenerator-runtime/runtime';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import Form from './components/Form';
 import SignIn from './components/SignIn';
 import Messages from './components/Messages';
@@ -12,27 +12,39 @@ import About from './components/About';
 import Bet from './components/Bet';
 import Read from './components/Read';
 import NotFound from './components/NotFound';
+import { Context } from './context';
 
 const App = ({ isSignedIn, guestBook, wallet }) => {
+  const [user, setUser] = useState('');
+  const [userName, setUserName] = useState('');
+
+  useEffect(() => {
+    if (isSignedIn && userName == '') {
+      guestBook.accountName().then(setUserName);
+      // setUserName(1);
+    }
+  }, [userName]);
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route
-          path="/"
-          element={<Layout isSignedIn={isSignedIn} guestBook={guestBook} wallet={wallet} />}>
-          <Route index element={<About />} />
+    <Context.Provider value={[user, setUser, userName, setUserName]}>
+      <BrowserRouter>
+        <Routes>
           <Route
-            path="bet"
-            element={<Bet isSignedIn={isSignedIn} guestBook={guestBook} wallet={wallet} />}
-          />
-          <Route
-            path="read"
-            element={<Read isSignedIn={isSignedIn} guestBook={guestBook} wallet={wallet} />}
-          />
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+            path="/"
+            element={<Layout isSignedIn={isSignedIn} guestBook={guestBook} wallet={wallet} />}>
+            <Route index element={<About />} />
+            <Route
+              path="bet"
+              element={<Bet isSignedIn={isSignedIn} guestBook={guestBook} wallet={wallet} />}
+            />
+            <Route
+              path="read"
+              element={<Read isSignedIn={isSignedIn} guestBook={guestBook} wallet={wallet} />}
+            />
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </Context.Provider>
   );
 };
 
